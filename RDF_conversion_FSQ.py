@@ -39,6 +39,12 @@ root = 'json/'
 # dfYelp['Latitude']=[float("{0:.5f}".format(dfYelp['Latitude'][i])) for i in range(0,len(dfYelp))]
 # dfYelp['Longitude']=[float("{0:.5f}".format(dfYelp['Longitude'][i])) for i in range(0,len(dfYelp))]
 
+# Build dataframe Fsq
+dfFsq['Latitude']=[float("{0:.5f}".format(dfFsq['Latitude'][i])) for i in range(0,len(dfFsq))]
+dfFsq['Longitude']=[float("{0:.5f}".format(dfFsq['Longitude'][i])) for i in range(0,len(dfFsq))]
+
+print(dfFsq.columns.values.tolist())
+
 
 # for elem in venueIDs:
 for index, row in dfFsq.head(5).iterrows():
