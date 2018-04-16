@@ -30,7 +30,7 @@ root = 'json/'
 
 
 # for elem in venueIDs:
-for index, row in dfTripAdv.iterrows():
+for index, row in dfTripAdv.head(5).iterrows():
 	# response = requests.get(foursquare_api_link+elem,params=params).json()
 
 
