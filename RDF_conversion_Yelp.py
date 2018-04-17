@@ -48,7 +48,7 @@ def YELP_RDF(row_size):
 		g.add((venue_URI, YELP['city'], Literal(row['City'], lang='en')))
 
 
-		g.add((venue_URI, YELP['ratingYelp'], Literal(row['RatingYelp'], datatype=XSD.double)))
+		g.add((venue_URI, YELP['ratingYelp'], Literal(row['RatingYelp'], datatype=XSD.float)))
 
 
 		g.add((venue_URI, YELP['state'], Literal(row['State'])))
@@ -57,7 +57,7 @@ def YELP_RDF(row_size):
 		g.add((venue_URI, YELP['address'], Literal(row['Address'],lang='en')))
 		    
 
-		g.add((venue_URI, YELP['reviewCountYelp'], Literal(row['ReviewCountYelp'],datatype = XSD.integer)))
+		g.add((venue_URI, YELP['reviewCountYelp'], Literal(row['ReviewCountYelp'],datatype = XSD.float)))
 		    
 
 		g.add((venue_URI, YELP['postalCode'], Literal(row['PostalCode'])))

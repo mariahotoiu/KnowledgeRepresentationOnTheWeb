@@ -16,7 +16,7 @@ def TripAdv_RDF(row_size):
 	# create an RDF graph
 	TripAdv_graph = Graph()
 
-	dfTripAdv = pd.read_csv('tripadvisor_in-restaurant_sample.csv')
+	dfTripAdv = pd.read_csv('csv/tripadvisor_in-restaurant_sample.csv')
 
 	TripAdv = Namespace("http://TripAdv.com/")
 
@@ -43,7 +43,7 @@ def TripAdv_RDF(row_size):
 		TripAdv_graph.add((venueID, TripAdv['name'], Literal(row["Name"], lang='en')))
 		TripAdv_graph.add((venueID, TripAdv['city'], Literal(row["City"], lang='en')))
 		TripAdv_graph.add((venueID, TripAdv['state'], Literal(row["State"], lang='en')))
-		TripAdv_graph.add((venueID, TripAdv['rating'], Literal(row["Rating"], datatype = XSD.integer)))
+		TripAdv_graph.add((venueID, TripAdv['rating'], Literal(row["Rating"], datatype = XSD.float)))
 
 		TripAdv_graph.add((venueID, TripAdv['longitude'], Literal(float("{0:.5f}".format(row["Longitude"])), datatype=XSD.double)))
 		TripAdv_graph.add((venueID, TripAdv['latitude'], Literal(float("{0:.5f}".format(row["Latitude"])), datatype=XSD.double)))
@@ -82,7 +82,7 @@ def TripAdv_RDF(row_size):
 			for category in row['Cuisine'].split(','):
 				TripAdv_graph.add((venueID, TripAdv['CuisineType'], Literal(category, lang='en')))
 		
-		TripAdv_graph.add((venueID, TripAdv['reviewcount'], Literal(row["Total Review"],datatype = XSD.integer)))
+		TripAdv_graph.add((venueID, TripAdv['reviewcount'], Literal(row["Total Review"],datatype = XSD.float)))
 
 
 	return TripAdv_graph 

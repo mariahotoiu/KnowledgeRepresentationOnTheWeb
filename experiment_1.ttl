@@ -1,0 +1,182 @@
+@prefix TripAdv: <http://TripAdv.com/> .
+@prefix foursquare: <http://foursquare.com/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yelp: <http://yelp.com/> .
+
+<http://TripAdv.com/1345154> a TripAdv:venueID ;
+    TripAdv:CuisineType "NaN"^^xsd:double ;
+    TripAdv:address "Hintergasse 38"@en ;
+    TripAdv:city "Bad Nauheim"@en ;
+    TripAdv:country "Germany"@en ;
+    TripAdv:latitude 5.040037e+01 ;
+    TripAdv:longitude 8.74466e+00 ;
+    TripAdv:name "Gaststatte Gunter Jung"@en ;
+    TripAdv:postalcode " 61231 Bad Nauheim"@en ;
+    TripAdv:rating "NaN"^^xsd:float ;
+    TripAdv:reviewcount "1.0"^^xsd:float ;
+    TripAdv:state "Hesse"@en .
+
+<http://TripAdv.com/1848931> a TripAdv:venueID ;
+    TripAdv:CuisineType " French"@en,
+        " Mediterranean"@en,
+        " Wine Bar"@en,
+        "European"@en ;
+    TripAdv:address "Friedrich-Ebert-Str. 19"@en ;
+    TripAdv:city "Kronberg im Taunus"@en ;
+    TripAdv:country "Germany"@en ;
+    TripAdv:latitude 5.01797e+01 ;
+    TripAdv:longitude 8.50881e+00 ;
+    TripAdv:name "Zum Gruenen Wald"@en ;
+    TripAdv:postalcode " 61476  Kronberg im Taunus"@en ;
+    TripAdv:rating "NaN"^^xsd:float ;
+    TripAdv:reviewcount "28.0"^^xsd:float ;
+    TripAdv:state "Hesse"@en .
+
+<http://TripAdv.com/5818482> a TripAdv:venueID ;
+    TripAdv:CuisineType "NaN"^^xsd:double ;
+    TripAdv:address "Frankfurter Strasse 49"@en ;
+    TripAdv:city "Gelnhausen"@en ;
+    TripAdv:country "Germany"@en ;
+    TripAdv:latitude 5.020466e+01 ;
+    TripAdv:longitude 9.17811e+00 ;
+    TripAdv:name "TurQuaz Shisha Lounge & Thorizzio da Bambi Lieferservice"@en ;
+    TripAdv:postalcode " 63571 Gelnhausen"@en ;
+    TripAdv:rating "NaN"^^xsd:float ;
+    TripAdv:reviewcount "NaN"^^xsd:float ;
+    TripAdv:state "Hesse"@en .
+
+<http://TripAdv.com/5826288> a TripAdv:venueID ;
+    TripAdv:CuisineType "NaN"^^xsd:double ;
+    TripAdv:address "Wilhelm-Leuschner-Str. 19"@en ;
+    TripAdv:city "Lorsch"@en ;
+    TripAdv:country "Germany"@en ;
+    TripAdv:latitude 4.965184e+01 ;
+    TripAdv:longitude 8.56183e+00 ;
+    TripAdv:name "Zum Taubenschlag - \"Magda\" Fruher \"Poldi\""@en ;
+    TripAdv:postalcode " 64653 Lorsch"@en ;
+    TripAdv:rating "NaN"^^xsd:float ;
+    TripAdv:reviewcount "NaN"^^xsd:float ;
+    TripAdv:state "Hesse"@en .
+
+<http://TripAdv.com/959812> a TripAdv:venueID ;
+    TripAdv:CuisineType "NaN"^^xsd:double ;
+    TripAdv:address "Lampertheimer Str. 90"@en ;
+    TripAdv:city "Viernheim"@en ;
+    TripAdv:country "Germany"@en ;
+    TripAdv:latitude 4.953641e+01 ;
+    TripAdv:longitude 8.57142e+00 ;
+    TripAdv:name "Zum Schrebergarten"@en ;
+    TripAdv:postalcode " Viernheim"@en ;
+    TripAdv:rating "NaN"^^xsd:float ;
+    TripAdv:reviewcount "2.0"^^xsd:float ;
+    TripAdv:state "Hesse"@en .
+
+foursquare: a foursquare:UserIdFSQ ;
+    foursquare:checkin <http://foursquare.com/4a85b1b3f964a520eefe1fe3> ;
+    foursquare:checkintime "Thu May 03 16:20:48 +0000 2012"@en,
+        "Tue Apr 03 18:00:08 +0000 2012"@en,
+        "Tue Apr 24 22:53:57 +0000 2012"@en,
+        "Tue May 22 13:31:13 +0000 2012"@en,
+        "Wed May 09 23:09:45 +0000 2012"@en .
+
+<http://foursquare.com/3fd66200f964a52000e71ee3> a foursquare:venueID ;
+    foursquare:latitude -7.400314e+01 ;
+    foursquare:longitude -7.400314e+01 .
+
+<http://foursquare.com/3fd66200f964a52000e81ee3> a foursquare:venueID ;
+    foursquare:latitude -7.397573e+01 ;
+    foursquare:longitude -7.397573e+01 .
+
+<http://foursquare.com/3fd66200f964a52000ea1ee3> a foursquare:venueID ;
+    foursquare:latitude -7.400375e+01 ;
+    foursquare:longitude -7.400375e+01 .
+
+<http://foursquare.com/3fd66200f964a52000ec1ee3> a foursquare:venueID ;
+    foursquare:latitude -7.1087e+01 ;
+    foursquare:longitude -7.1087e+01 .
+
+<http://foursquare.com/3fd66200f964a52000ee1ee3> a foursquare:venueID ;
+    foursquare:latitude -7.515926e+01 ;
+    foursquare:longitude -7.515926e+01 .
+
+<http://yelp.com/8DShNS-LuFqpEWIp0HxijA> a yelp:venue ;
+    yelp:address "5000 Arizona Mills Cr, Ste 435"@en ;
+    yelp:categoryYelp "Shopping",
+        "Sporting Goods" ;
+    yelp:city "Tempe"@en ;
+    yelp:latitude 3.338315e+01 ;
+    yelp:longitude -1.119647e+02 ;
+    yelp:name "Sports Authority"@en ;
+    yelp:postalCode "85282" ;
+    yelp:ratingYelp "3.0"^^xsd:float ;
+    yelp:reviewCountYelp "9"^^xsd:float ;
+    yelp:state "AZ" .
+
+yelp:FYWN1wneV18bWNgQjJ2GNg a yelp:venue ;
+    yelp:address "4855 E Warner Rd, Ste B9"@en ;
+    yelp:categoryYelp "Cosmetic Dentists",
+        "Dentists",
+        "General Dentistry",
+        "Health & Medical",
+        "Oral Surgeons",
+        "Orthodontists" ;
+    yelp:city "Ahwatukee"@en ;
+    yelp:latitude 3.333069e+01 ;
+    yelp:longitude -1.119786e+02 ;
+    yelp:name "Dental by Design"@en ;
+    yelp:postalCode "85044" ;
+    yelp:ratingYelp "4.0"^^xsd:float ;
+    yelp:reviewCountYelp "22"^^xsd:float ;
+    yelp:state "AZ" .
+
+yelp:He-G7vWjzVUysIKrfNbPUQ a yelp:venue ;
+    yelp:address "3101 Washington Rd"@en ;
+    yelp:categoryYelp "Beauty & Spas",
+        "Blow Dry/Out Services",
+        "Hair Extensions",
+        "Hair Salons",
+        "Hair Stylists",
+        "Men's Hair Salons" ;
+    yelp:city "McMurray"@en ;
+    yelp:latitude 4.029169e+01 ;
+    yelp:longitude -8.01049e+01 ;
+    yelp:name "Stephen Szabo Salon"@en ;
+    yelp:postalCode "15317" ;
+    yelp:ratingYelp "3.0"^^xsd:float ;
+    yelp:reviewCountYelp "11"^^xsd:float ;
+    yelp:state "PA" .
+
+yelp:KQPW8lFf1y5BT2MxiSZ3QA a yelp:venue ;
+    yelp:address "6025 N 27th Ave, Ste 1"@en ;
+    yelp:categoryYelp "Departments of Motor Vehicles",
+        "Public Services & Government" ;
+    yelp:city "Phoenix"@en ;
+    yelp:latitude 3.35249e+01 ;
+    yelp:longitude -1.121153e+02 ;
+    yelp:name "Western Motor Vehicle"@en ;
+    yelp:postalCode "85017" ;
+    yelp:ratingYelp "1.5"^^xsd:float ;
+    yelp:reviewCountYelp "18"^^xsd:float ;
+    yelp:state "AZ" .
+
+yelp:PfOCPjBrlQAnz__NXj9h_w a yelp:venue ;
+    yelp:address "581 Howe Ave"@en ;
+    yelp:categoryYelp "American (New)",
+        "American (Traditional)",
+        "Bars",
+        "Burgers",
+        "Nightlife",
+        "Restaurants",
+        "Sandwiches" ;
+    yelp:city "Cuyahoga Falls"@en ;
+    yelp:latitude 4.111953e+01 ;
+    yelp:longitude -8.147569e+01 ;
+    yelp:name "Brick House Tavern + Tap"@en ;
+    yelp:postalCode "44221" ;
+    yelp:ratingYelp "3.5"^^xsd:float ;
+    yelp:reviewCountYelp "116"^^xsd:float ;
+    yelp:state "OH" .
+

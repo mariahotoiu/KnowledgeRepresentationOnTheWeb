@@ -45,7 +45,7 @@ def RDF_FSQ(row_size, call_api=False):
 	venue_val = 0
 
 	# for elem in venueIDs:
-	for index, row in dfFsq.head(1000).iterrows():
+	for index, row in dfFsq.head(row_size).iterrows():
 		if call_api:
 			response = requests.get(foursquare_api_link+row["BusinessIdFSQ"],params=params).json()
 			# response = requests.get(foursquare_api_link+elem,params=params).json()
@@ -73,7 +73,7 @@ def RDF_FSQ(row_size, call_api=False):
 			for category in json_check['response.venue.categories'].iloc[0]:
 				foursquare_graph.add((venueID, foursquare['categoryFSQ'], Literal(category["name"], lang='en')))
 			
-			foursquare_graph.add((venueID, foursquare['checkinsCountFSQ'], Literal(json_check['response.venue.stats.checkinsCount'].iloc[0],datatype = XSD.integer)))
+			foursquare_graph.add((venueID, foursquare['checkinsCountFSQ'], Literal(json_check['response.venue.stats.checkinsCount'].iloc[0],datatype = XSD.float)))
 		else:
 			if not(venue_val == row["BusinessIdFSQ"]):
 				venue_val = row["BusinessIdFSQ"]
@@ -111,26 +111,10 @@ def RDF_FSQ(row_size, call_api=False):
 
 		foursquare_graph.add((UserIdFSQ, foursquare['checkin'], venueID))
 
-		foursquare_graph.add((UserIdFSQ, foursquare['checkintime'], Literal(row["Time"], datatype=XSD.dateTime) ))
+		foursquare_graph.add((UserIdFSQ, foursquare['checkintime'], Literal(row["Time"], lang='en') ))
 
 
-
-
-
-
-
-
-	print(foursquare_graph.serialize(format='turtle'))
 
 	return foursquare_graph
 
-
-
-
-    
-
-    
-
-
-RDF_FSQ(0)
 
