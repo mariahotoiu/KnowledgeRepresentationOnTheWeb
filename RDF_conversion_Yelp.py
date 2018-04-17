@@ -9,60 +9,63 @@ import os
 import pandas as pd
 from rdflib import Graph, Namespace, URIRef, Literal, XSD, RDF
 
-root = 'D:\Cursuri Master\Knowledge Representation on the Web\Yelp'
 
-root = "json"
+def YELP_RDF(row_size):
+	root = 'D:\Cursuri Master\Knowledge Representation on the Web\Yelp'
 
-dfYelp = pd.read_json(os.path.join(root,'venuesYelp.json'))
+	root = "json"
 
-# create an RDF graph
-g = Graph()
+	dfYelp = pd.read_json(os.path.join(root,'venuesYelp.json'))
 
-YELP = Namespace("http://yelp.com/")
+	# create an RDF graph
+	g = Graph()
 
-g.bind('yelp',YELP)
+	YELP = Namespace("http://yelp.com/")
 
-for index, row in dfYelp.head(5).iterrows():
+	g.bind('yelp',YELP)
 
-	venue_URI = YELP[row['BusinessIdYelp']]
+	for index, row in dfYelp.head(row_size).iterrows():
 
-	print "Created {}".format(venue_URI)
+		venue_URI = YELP[row['BusinessIdYelp']]
 
-	# Every result we get is of type 'YELP:Movie'
-	g.add((venue_URI, RDF.type, YELP['venue']))
+		print "Created {}".format(venue_URI)
 
-
-	g.add((venue_URI, YELP['name'], Literal(row['Name'], lang='en')))
-
+		# Every result we get is of type 'YELP:Movie'
+		g.add((venue_URI, RDF.type, YELP['venue']))
 
 
-	categories = [a.strip() for a in row['CategoriesYelp'].split(',')]
+		g.add((venue_URI, YELP['name'], Literal(row['Name'], lang='en')))
 
 
-	for category in categories:
-	    g.add((venue_URI, YELP['categoryYelp'], Literal(category)))
-	    
 
-	g.add((venue_URI, YELP['city'], Literal(row['City'], lang='en')))
+		categories = [a.strip() for a in row['CategoriesYelp'].split(',')]
 
 
-	g.add((venue_URI, YELP['ratingYelp'], Literal(row['RatingYelp'], datatype=XSD.double)))
+		for category in categories:
+		    g.add((venue_URI, YELP['categoryYelp'], Literal(category)))
+		    
+
+		g.add((venue_URI, YELP['city'], Literal(row['City'], lang='en')))
 
 
-	g.add((venue_URI, YELP['state'], Literal(row['State'])))
-	    
-
-	g.add((venue_URI, YELP['address'], Literal(row['Address'],lang='en')))
-	    
-
-	g.add((venue_URI, YELP['reviewCountYelp'], Literal(row['ReviewCountYelp'],datatype = XSD.integer)))
-	    
-
-	g.add((venue_URI, YELP['postalCode'], Literal(row['PostalCode'])))
+		g.add((venue_URI, YELP['ratingYelp'], Literal(row['RatingYelp'], datatype=XSD.double)))
 
 
-	g.add((venue_URI, YELP['latitude'], Literal(row['Latitude'], datatype=XSD.double)))
+		g.add((venue_URI, YELP['state'], Literal(row['State'])))
+		    
+
+		g.add((venue_URI, YELP['address'], Literal(row['Address'],lang='en')))
+		    
+
+		g.add((venue_URI, YELP['reviewCountYelp'], Literal(row['ReviewCountYelp'],datatype = XSD.integer)))
+		    
+
+		g.add((venue_URI, YELP['postalCode'], Literal(row['PostalCode'])))
 
 
-	g.add((venue_URI, YELP['longitude'], Literal(row['Longitude'], datatype=XSD.double)))
-print g.serialize(format='turtle')
+		g.add((venue_URI, YELP['latitude'], Literal(row['Latitude'], datatype=XSD.double)))
+
+
+		g.add((venue_URI, YELP['longitude'], Literal(row['Longitude'], datatype=XSD.double)))
+
+	return g
