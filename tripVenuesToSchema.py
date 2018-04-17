@@ -20,10 +20,8 @@ import os
 
 # create an RDF graph
 TripAdv_graph = Graph()
-#root = 'D:\Cursuri Master\Knowledge Representation on the Web\Trpadvisor'
-#dfTripAdv = pd.read_csv(os.path.join(root,'tripadvisor_in-restaurant_sample.csv'))
-
-#TripAdv = Namespace("http://schema.org/")
+root = 'D:\Cursuri Master\Knowledge Representation on the Web\Trpadvisor'
+dfTripAdv = pd.read_csv(os.path.join(root,'tripadvisor_in-restaurant_sample.csv'))
 
 schema = Namespace("http://schema.org/")
 
@@ -88,6 +86,10 @@ for index, row in dfTripAdv.head(5).iterrows():
     if not isinstance(row['Cuisine'],float):
 		for category in row['Cuisine'].split(','):
 			TripAdv_graph.add((venue, schema.servesCuisine, Literal(category, lang='en')))
-	
+    identifier = BNode()
+    TripAdv_graph.add((venue, schema.identifier, identifier))
+    TripAdv_graph.add((identifier, RDF.type, schema.PropertyValue))
+    TripAdv_graph.add((identifier, schema.propertyID, Literal('BusinessIdTripAdvisor')))
+    TripAdv_graph.add((identifier, schema.value,Literal(row['Uniq Id'])))
    
 print(TripAdv_graph.serialize(format='turtle'))
