@@ -23,11 +23,14 @@ with open(os.path.join(root2,'schemaSubtypes.txt'), "r") as word_list:
 
 g = Graph()
 
-venue = BNode()
 
+yelp =  Namespace("http://yelp.com/")
 schema = Namespace("http://schema.org/")
 
 g.bind('schema',schema)
+g.bind('yelp',yelp)
+url = "biz/" + response[1]['Name'].replace(" ","-")  + "-" + response[1]['City']
+venue = URIRef(yelp + url)
 
 categories = [a.strip() for a in response[1]['CategoriesYelp'].split(',')]
 #
