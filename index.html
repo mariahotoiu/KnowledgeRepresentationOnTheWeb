@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="yasgui/yasgui.min.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1 class="header">Example Data Story</h1>
+    <p>This is where I tell my story.</p>
+	<div data-query data-query-endpoint="http://localhost:5820/myDB/query" data-query-output="leaflet" data-query-sparql="query1.rq"></div>
+    <script src="yasgui/yasgui.min.js?v=1"></script>
+    <script type="text/javascript">YASGUI.sparqlStories();</script>
+  </body>
+</html>
