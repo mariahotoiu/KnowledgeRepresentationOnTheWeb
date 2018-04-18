@@ -24,8 +24,9 @@ root = 'D:\Cursuri Master\Knowledge Representation on the Web\Trpadvisor'
 dfTripAdv = pd.read_csv(os.path.join(root,'tripadvisor_in-restaurant_sample.csv'))
 
 schema = Namespace("http://schema.org/")
-
+tripadvisor = Namespace("http://tripadvisor.com")
 TripAdv_graph.bind("schema",schema)
+TripAdv_graph.bind("tripAdvisor",tripadvisor)
 
 root = 'json/'
 
@@ -37,7 +38,8 @@ root = 'json/'
 
 # for elem in venueIDs:
 for index, row in dfTripAdv.head(5).iterrows():
-    venue = BNode()
+    url = row['Restaurant URL'][25:]
+    venue = URIRef(tripadvisor + url)
 	
     TripAdv_graph.add((venue, RDF.type, schema.Restaurant))
     TripAdv_graph.add((venue, schema['name'], Literal(row["Name"], lang='en')))
