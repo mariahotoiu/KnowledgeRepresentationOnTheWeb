@@ -37,7 +37,7 @@
     schema:name "AAA City Plumbing"@en ;
     owl:sameAs <https://foursquare.com/v/compound/4f4969cbe4b0156c2fb87673> .
 
-<http://yelp.com/biz/Alliant-Energy-Center-Madison> a schema:localBusiness ;
+<http://yelp.com/biz/Alliant-Energy-Center-Madison> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "EventPlanningAndService" ],
         [ schema:name "category" ;
@@ -266,7 +266,7 @@
     schema:name "Camp Bow Wow Bedford Heights"@en ;
     owl:sameAs <https://foursquare.com/v/camp-bow-wow-dog-day-care--overnight-boarding/4eeb374de3000c69e14312f8> .
 
-<http://yelp.com/biz/Cardinal-Heating-and-Cooling-Phoenix> a schema:localBusiness ;
+<http://yelp.com/biz/Cardinal-Heating-and-Cooling-Phoenix> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "HomeService" ],
         [ schema:name "category" ;
@@ -403,7 +403,7 @@
     schema:name "College Place"@en ;
     owl:sameAs <https://foursquare.com/v/wc-keluarga-1/5000ddfce4b0ed5448fb8ba0> .
 
-<http://yelp.com/biz/Cramond-Island-Cramond> a schema:localBusiness ;
+<http://yelp.com/biz/Cramond-Island-Cramond> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "LocalFlavor" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -498,7 +498,7 @@
     schema:name "Desi Village"@en ;
     owl:sameAs <https://foursquare.com/v/hoops/4b5660ddf964a520e20d28e3> .
 
-<http://yelp.com/biz/Duotherapy-Toronto> a schema:localBusiness ;
+<http://yelp.com/biz/Duotherapy-Toronto> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "HealthAndMedical" ],
         [ schema:name "category" ;
@@ -601,7 +601,7 @@
     schema:name "Floriri Village Investments"@en ;
     owl:sameAs <https://foursquare.com/v/doreens/509ee892e4b01b6886d40ddf> .
 
-<http://yelp.com/biz/Fotobot-Photo-Booth-Co.-Phoenix> a schema:localBusiness ;
+<http://yelp.com/biz/Fotobot-Photo-Booth-Co.-Phoenix> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "EventPhotography" ],
         [ schema:name "category" ;
@@ -661,7 +661,7 @@
     schema:name "French Quarter"@en ;
     owl:sameAs <https://foursquare.com/v/french-quarter/4b05863bf964a520735922e3> .
 
-<http://yelp.com/biz/Frontpoint-Home-Security-Phoenix> a schema:localBusiness ;
+<http://yelp.com/biz/Frontpoint-Home-Security-Phoenix> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "HomeService" ],
         [ schema:name "category" ;
@@ -684,7 +684,7 @@
     schema:name "Frontpoint Home Security"@en ;
     owl:sameAs <https://foursquare.com/v/the-chimney-sweep-motel/50e30309e4b0f3401b4d2d72> .
 
-<http://yelp.com/biz/Frontpoint-Home-Security-Pittsburgh> a schema:localBusiness ;
+<http://yelp.com/biz/Frontpoint-Home-Security-Pittsburgh> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "HomeService" ],
         [ schema:name "category" ;
@@ -707,7 +707,7 @@
     schema:name "Frontpoint Home Security"@en ;
     owl:sameAs <https://foursquare.com/v/119-quincy-street/4dc89ccbfa761aaccadca218> .
 
-<http://yelp.com/biz/Garage-Doors-America-Glendale> a schema:localBusiness ;
+<http://yelp.com/biz/Garage-Doors-America-Glendale> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "DoorSales/Installation" ],
         [ schema:name "category" ;
@@ -833,7 +833,7 @@
     schema:name "Ja Design and Photo"@en ;
     owl:sameAs <https://foursquare.com/v/grandmothers/4df5497052b100c2d800e61b> .
 
-<http://yelp.com/biz/Kera-Catering-Scarborough> a schema:localBusiness ;
+<http://yelp.com/biz/Kera-Catering-Scarborough> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "EventPlanningAndService" ],
         [ schema:name "category" ;
@@ -856,7 +856,7 @@
     schema:name "Kera Catering"@en ;
     owl:sameAs <https://foursquare.com/v/john-domojameson-home/4f14f4ade4b0fd2951ed5d5c> .
 
-<http://yelp.com/biz/Leith-Edinburgh> a schema:localBusiness ;
+<http://yelp.com/biz/Leith-Edinburgh> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "LocalFlavor" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -929,7 +929,7 @@
     schema:name "MR Bulgogi"@en ;
     owl:sameAs <https://foursquare.com/v/haus-of-koko--titters/4ebafeb95c5ce9d0de2d95c5> .
 
-<http://yelp.com/biz/Mark-Mobile-Notary-Pittsburgh> a schema:localBusiness ;
+<http://yelp.com/biz/Mark-Mobile-Notary-Pittsburgh> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "LocalService" ],
         [ schema:name "category" ;
@@ -996,7 +996,7 @@
     schema:name "Maui Wowi Hawaiian Coffees and Smoothies"@en ;
     owl:sameAs <https://foursquare.com/v/bosa-donuts/4dd80c0745ddced82096a377> .
 
-<http://yelp.com/biz/Mint-Skin-Care-Rocky-River> a schema:localBusiness ;
+<http://yelp.com/biz/Mint-Skin-Care-Rocky-River> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "SkinCare" ],
         [ schema:name "category" ;
@@ -1082,7 +1082,7 @@
     schema:name "Panini Del Sole Gourmet Food Truck"@en ;
     owl:sameAs <https://foursquare.com/v/casa-de-la-garza/4f1eafd7e4b0c7cc917f7700> .
 
-<http://yelp.com/biz/Payless-Plumber-Charlotte-Charlotte> a schema:localBusiness ;
+<http://yelp.com/biz/Payless-Plumber-Charlotte-Charlotte> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Plumbing" ],
         [ schema:name "category" ;
@@ -1130,7 +1130,7 @@
     schema:name "Phoenix Food Truck Festival"@en ;
     owl:sameAs <https://foursquare.com/v/phoenix-food-truck-festival/4ea31c9d7beb98c09ba15b3a> .
 
-<http://yelp.com/biz/Photography-by-Jake-Scottsdale> a schema:localBusiness ;
+<http://yelp.com/biz/Photography-by-Jake-Scottsdale> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Photographer" ],
         [ schema:name "category" ;
@@ -1182,7 +1182,7 @@
     schema:name "Pittsburgh Vehicle Pre-Purchase Inspections"@en ;
     owl:sameAs <https://foursquare.com/v/emerald-garden-bintaro/4faaa750e4b0557331659a05> .
 
-<http://yelp.com/biz/Prime-Moving-Center-Pittsburgh> a schema:localBusiness ;
+<http://yelp.com/biz/Prime-Moving-Center-Pittsburgh> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "HomeService" ],
         [ schema:name "category" ;
@@ -1259,7 +1259,7 @@
     schema:name "Rita Abdallah"@en ;
     owl:sameAs <https://foursquare.com/v/painters-loft/4aeb8354f964a520e5c221e3> .
 
-<http://yelp.com/biz/Roto-Rooter-Plumbing-and-Drain-Service-Tempe> a schema:localBusiness ;
+<http://yelp.com/biz/Roto-Rooter-Plumbing-and-Drain-Service-Tempe> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Plumbing" ],
         [ schema:name "category" ;
@@ -1282,7 +1282,7 @@
     schema:name "Roto-Rooter Plumbing & Drain Service"@en ;
     owl:sameAs <https://foursquare.com/v/sals-pizza-inc/51c2472a698f7f29fc898e82> .
 
-<http://yelp.com/biz/Roto-Rooter-Plumbing-and-Water-Cleanup-Cleveland> a schema:localBusiness ;
+<http://yelp.com/biz/Roto-Rooter-Plumbing-and-Water-Cleanup-Cleveland> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "DamageRestoration" ],
         [ schema:name "category" ;
@@ -1361,7 +1361,7 @@
     schema:name "Sears Parts & Repair Center"@en ;
     owl:sameAs <https://foursquare.com/v/sears/4b203a3ff964a520082f24e3> .
 
-<http://yelp.com/biz/Simper-Toronto> a schema:localBusiness ;
+<http://yelp.com/biz/Simper-Toronto> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "EventPlanningAndService" ],
         [ schema:name "category" ;
@@ -1515,7 +1515,7 @@
     schema:name "Taqueria El Fundador"@en ;
     owl:sameAs <https://foursquare.com/v/taqueria-el-fundador/4c9baa5ddb10b60cde689d6d> .
 
-<http://yelp.com/biz/The-Home-Pros-Pittsburgh> a schema:localBusiness ;
+<http://yelp.com/biz/The-Home-Pros-Pittsburgh> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "HomeService" ],
         [ schema:name "category" ;
@@ -1569,7 +1569,7 @@
     schema:name "The Produce Box"@en ;
     owl:sameAs <https://foursquare.com/v/colonial-grand-at-beverly-crest/4c858b4d47cc224bf958a29f> .
 
-<http://yelp.com/biz/Theatre-Charlotte-Charlotte> a schema:localBusiness ;
+<http://yelp.com/biz/Theatre-Charlotte-Charlotte> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "ArtsAndEntertainment" ],
         [ schema:name "category" ;
@@ -1721,7 +1721,7 @@
     schema:name "Ye Olde Orchard Pub & Grill"@en ;
     owl:sameAs <https://foursquare.com/v/ye-olde-orchard-pub--grill/4ad4c06bf964a52038f920e3> .
 
-<https://foursquare.com/v/119-quincy-street/4dc89ccbfa761aaccadca218> a schema:localBusiness ;
+<https://foursquare.com/v/119-quincy-street/4dc89ccbfa761aaccadca218> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1738,7 +1738,7 @@
     schema:name "Frontpoint Home Security"@en ;
     owl:sameAs <http://yelp.com/biz/Frontpoint-Home-Security-Pittsburgh> .
 
-<https://foursquare.com/v/20400-detroit-road-apt-7-rocky-river-ohio-44116/50b3ca23e4b0a6153e2b822f> a schema:localBusiness ;
+<https://foursquare.com/v/20400-detroit-road-apt-7-rocky-river-ohio-44116/50b3ca23e4b0a6153e2b822f> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1755,7 +1755,7 @@
     schema:name "Mint Skin Care"@en ;
     owl:sameAs <http://yelp.com/biz/Mint-Skin-Care-Rocky-River> .
 
-<https://foursquare.com/v/air-canada-flight-ac15/4cee58f313aea143f32f6d9f> a schema:localBusiness ;
+<https://foursquare.com/v/air-canada-flight-ac15/4cee58f313aea143f32f6d9f> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Plane" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1772,7 +1772,7 @@
     schema:name "British Airways Lounge"@en ;
     owl:sameAs <http://yelp.com/biz/British-Airways-Lounge-Mississauga> .
 
-<https://foursquare.com/v/bagels-on-fire/51e2a41f498ec07b5f39be58> a schema:localBusiness ;
+<https://foursquare.com/v/bagels-on-fire/51e2a41f498ec07b5f39be58> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "BagelShop" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1792,7 +1792,7 @@
     schema:name "Bagels On Fire"@en ;
     owl:sameAs <http://yelp.com/biz/Bagels-On-Fire-Toronto> .
 
-<https://foursquare.com/v/big-house-pizza/512830e4e4b066f69d3ba5f4> a schema:localBusiness ;
+<https://foursquare.com/v/big-house-pizza/512830e4e4b066f69d3ba5f4> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "PizzaPlace" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1812,7 +1812,7 @@
     schema:name "Big House Pizza"@en ;
     owl:sameAs <http://yelp.com/biz/Big-House-Pizza-Toronto> .
 
-<https://foursquare.com/v/bosa-donuts/4dd80c0745ddced82096a377> a schema:localBusiness ;
+<https://foursquare.com/v/bosa-donuts/4dd80c0745ddced82096a377> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "DonutShop" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1832,7 +1832,7 @@
     schema:name "Maui Wowi Hawaiian Coffees and Smoothies"@en ;
     owl:sameAs <http://yelp.com/biz/Maui-Wowi-Hawaiian-Coffees-and-Smoothies-Phoenix> .
 
-<https://foursquare.com/v/brighton-heights/4d1e949f8629224b87fd0387> a schema:localBusiness ;
+<https://foursquare.com/v/brighton-heights/4d1e949f8629224b87fd0387> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1852,7 +1852,7 @@
     schema:name "Wok of Life"@en ;
     owl:sameAs <http://yelp.com/biz/Wok-of-Life-Pittsburgh> .
 
-<https://foursquare.com/v/brookline-home/4cdde0d9f8a4a1433c23d3bc> a schema:localBusiness ;
+<https://foursquare.com/v/brookline-home/4cdde0d9f8a4a1433c23d3bc> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1869,7 +1869,7 @@
     schema:name "Boehmer Heating & Cooling"@en ;
     owl:sameAs <http://yelp.com/biz/Boehmer-Heating-and-Cooling-Pittsburgh> .
 
-<https://foursquare.com/v/camp-bow-wow-dog-day-care--overnight-boarding/4eeb374de3000c69e14312f8> a schema:localBusiness ;
+<https://foursquare.com/v/camp-bow-wow-dog-day-care--overnight-boarding/4eeb374de3000c69e14312f8> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Building" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1886,7 +1886,7 @@
     schema:name "Camp Bow Wow Bedford Heights"@en ;
     owl:sameAs <http://yelp.com/biz/Camp-Bow-Wow-Bedford-Heights-Bedford-Heights> .
 
-<https://foursquare.com/v/carlas-house/4fcd9fa9e4b093adbae0194e> a schema:localBusiness ;
+<https://foursquare.com/v/carlas-house/4fcd9fa9e4b093adbae0194e> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1921,7 +1921,7 @@
     schema:name "Carl's Jr 7081"@en ;
     owl:sameAs <http://yelp.com/biz/Carls-Jr-7081-Phoenix> .
 
-<https://foursquare.com/v/carpe-diem-restaurant--caterers/4b05863af964a520515922e3> a schema:localBusiness ;
+<https://foursquare.com/v/carpe-diem-restaurant--caterers/4b05863af964a520515922e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "NewAmericanRestaurant" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1941,7 +1941,7 @@
     schema:name "Elizabeth Creamery"@en ;
     owl:sameAs <http://yelp.com/biz/Elizabeth-Creamery-Charlotte> .
 
-<https://foursquare.com/v/casa-de-la-garza/4f1eafd7e4b0c7cc917f7700> a schema:localBusiness ;
+<https://foursquare.com/v/casa-de-la-garza/4f1eafd7e4b0c7cc917f7700> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1958,7 +1958,7 @@
     schema:name "Panini Del Sole Gourmet Food Truck"@en ;
     owl:sameAs <http://yelp.com/biz/Panini-Del-Sole-Gourmet-Food-Truck-Phoenix> .
 
-<https://foursquare.com/v/chez-gouser/4e9788fa5503ce3b7e534fb8> a schema:localBusiness ;
+<https://foursquare.com/v/chez-gouser/4e9788fa5503ce3b7e534fb8> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1975,7 +1975,7 @@
     schema:name "Tan On the Run"@en ;
     owl:sameAs <http://yelp.com/biz/Tan-On-the-Run-Toronto> .
 
-<https://foursquare.com/v/circle-k/4fe9f3f9f470bd11dc20591e> a schema:localBusiness ;
+<https://foursquare.com/v/circle-k/4fe9f3f9f470bd11dc20591e> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "GasStation/Garage" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -1995,7 +1995,7 @@
     schema:name "Circle K"@en ;
     owl:sameAs <http://yelp.com/biz/Circle-K-Scottsdale> .
 
-<https://foursquare.com/v/clerwood/4f554091e4b0674c65aea69b> a schema:localBusiness ;
+<https://foursquare.com/v/clerwood/4f554091e4b0674c65aea69b> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2012,7 +2012,7 @@
     schema:name "Cramond Island"@en ;
     owl:sameAs <http://yelp.com/biz/Cramond-Island-Cramond> .
 
-<https://foursquare.com/v/colonial-grand-at-beverly-crest/4c858b4d47cc224bf958a29f> a schema:localBusiness ;
+<https://foursquare.com/v/colonial-grand-at-beverly-crest/4c858b4d47cc224bf958a29f> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2029,7 +2029,7 @@
     schema:name "The Produce Box"@en ;
     owl:sameAs <http://yelp.com/biz/The-Produce-Box-Charlotte> .
 
-<https://foursquare.com/v/compound/4f4969cbe4b0156c2fb87673> a schema:localBusiness ;
+<https://foursquare.com/v/compound/4f4969cbe4b0156c2fb87673> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2046,7 +2046,7 @@
     schema:name "AAA City Plumbing"@en ;
     owl:sameAs <http://yelp.com/biz/AAA-City-Plumbing-Charlotte> .
 
-<https://foursquare.com/v/dane-country-fair/518c56105a23c97bf627be29> a schema:localBusiness ;
+<https://foursquare.com/v/dane-country-fair/518c56105a23c97bf627be29> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Fair" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2063,7 +2063,7 @@
     schema:name "Alliant Energy Center"@en ;
     owl:sameAs <http://yelp.com/biz/Alliant-Energy-Center-Madison> .
 
-<https://foursquare.com/v/dentistry-of-the-carolinas/4d657a5e7f84f04d4a8b01b5> a schema:localBusiness ;
+<https://foursquare.com/v/dentistry-of-the-carolinas/4d657a5e7f84f04d4a8b01b5> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Dentist'sOffice" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2095,7 +2095,7 @@
     schema:name "Desert Schools Federal Credit Union"@en ;
     owl:sameAs <http://yelp.com/biz/Desert-Schools-Federal-Credit-Union-Glendale> .
 
-<https://foursquare.com/v/dicks-sporting-goods/4b1183b4f964a5203d7e23e3> a schema:localBusiness ;
+<https://foursquare.com/v/dicks-sporting-goods/4b1183b4f964a5203d7e23e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "SportingGoodsShop" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2115,7 +2115,7 @@
     schema:name "DICK'S Sporting Goods"@en ;
     owl:sameAs <http://yelp.com/biz/DICKS-Sporting-Goods-Charlotte> .
 
-<https://foursquare.com/v/dicks-sporting-goods/4b2d216af964a5200ccf24e3> a schema:localBusiness ;
+<https://foursquare.com/v/dicks-sporting-goods/4b2d216af964a5200ccf24e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "SportingGoodsShop" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2135,7 +2135,7 @@
     schema:name "DICK'S Sporting Goods"@en ;
     owl:sameAs <http://yelp.com/biz/DICKS-Sporting-Goods-Charlotte> .
 
-<https://foursquare.com/v/doreens/509ee892e4b01b6886d40ddf> a schema:localBusiness ;
+<https://foursquare.com/v/doreens/509ee892e4b01b6886d40ddf> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2152,7 +2152,7 @@
     schema:name "Floriri Village Investments"@en ;
     owl:sameAs <http://yelp.com/biz/Floriri-Village-Investments-Toronto> .
 
-<https://foursquare.com/v/duckys-place/4f1a12a1e4b0c7ea66a05179> a schema:localBusiness ;
+<https://foursquare.com/v/duckys-place/4f1a12a1e4b0c7ea66a05179> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2169,7 +2169,7 @@
     schema:name "Duotherapy"@en ;
     owl:sameAs <http://yelp.com/biz/Duotherapy-Toronto> .
 
-<https://foursquare.com/v/east-york/4d1b89a3582e59416855bbe7> a schema:localBusiness ;
+<https://foursquare.com/v/east-york/4d1b89a3582e59416855bbe7> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2186,7 +2186,7 @@
     schema:name "Wall Mount Solution"@en ;
     owl:sameAs <http://yelp.com/biz/Wall-Mount-Solution-Toronto> .
 
-<https://foursquare.com/v/emerald-garden-bintaro/4faaa750e4b0557331659a05> a schema:localBusiness ;
+<https://foursquare.com/v/emerald-garden-bintaro/4faaa750e4b0557331659a05> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2218,7 +2218,7 @@
     schema:name "Nailopolis"@en ;
     owl:sameAs <http://yelp.com/biz/Nailopolis-Toronto> .
 
-<https://foursquare.com/v/forest-ridge-apartments/4bb783ec3db7b713f113209a> a schema:localBusiness ;
+<https://foursquare.com/v/forest-ridge-apartments/4bb783ec3db7b713f113209a> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2253,7 +2253,7 @@
     schema:name "French Quarter"@en ;
     owl:sameAs <http://yelp.com/biz/French-Quarter-Charlotte> .
 
-<https://foursquare.com/v/george-and-richards/4eaf71be8b81d80bd7c2b920> a schema:localBusiness ;
+<https://foursquare.com/v/george-and-richards/4eaf71be8b81d80bd7c2b920> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2270,7 +2270,7 @@
     schema:name "Cardinal Heating & Cooling"@en ;
     owl:sameAs <http://yelp.com/biz/Cardinal-Heating-and-Cooling-Phoenix> .
 
-<https://foursquare.com/v/grandmothers/4df5497052b100c2d800e61b> a schema:localBusiness ;
+<https://foursquare.com/v/grandmothers/4df5497052b100c2d800e61b> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2287,7 +2287,7 @@
     schema:name "Ja Design and Photo"@en ;
     owl:sameAs <http://yelp.com/biz/Ja-Design-and-Photo-North-Olmsted> .
 
-<https://foursquare.com/v/haus-of-koko--titters/4ebafeb95c5ce9d0de2d95c5> a schema:localBusiness ;
+<https://foursquare.com/v/haus-of-koko--titters/4ebafeb95c5ce9d0de2d95c5> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2304,7 +2304,7 @@
     schema:name "MR Bulgogi"@en ;
     owl:sameAs <http://yelp.com/biz/MR-Bulgogi-Pittsburgh> .
 
-<https://foursquare.com/v/home-suite-home/4fc33f12e4b021b6e07c2134> a schema:localBusiness ;
+<https://foursquare.com/v/home-suite-home/4fc33f12e4b021b6e07c2134> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2321,7 +2321,7 @@
     schema:name "Ugly Cakes Bakery"@en ;
     owl:sameAs <http://yelp.com/biz/Ugly-Cakes-Bakery-Glendale> .
 
-<https://foursquare.com/v/home/510339f0e4b051d6b389e450> a schema:localBusiness ;
+<https://foursquare.com/v/home/510339f0e4b051d6b389e450> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2338,7 +2338,7 @@
     schema:name "Insta Buggy"@en ;
     owl:sameAs <http://yelp.com/biz/Insta-Buggy-Toronto> .
 
-<https://foursquare.com/v/hoops/4b5660ddf964a520e20d28e3> a schema:localBusiness ;
+<https://foursquare.com/v/hoops/4b5660ddf964a520e20d28e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "SportsBar" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2376,7 +2376,7 @@
     schema:name "Ristorante Il Caviliere"@en ;
     owl:sameAs <http://yelp.com/biz/Ristorante-Il-Caviliere-Montréal> .
 
-<https://foursquare.com/v/hybschmann-home/4d463bfee198721ea5a1cd8b> a schema:localBusiness ;
+<https://foursquare.com/v/hybschmann-home/4d463bfee198721ea5a1cd8b> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2393,7 +2393,7 @@
     schema:name "Arizona Grout Restoration"@en ;
     owl:sameAs <http://yelp.com/biz/Arizona-Grout-Restoration-Phoenix> .
 
-<https://foursquare.com/v/hyland-hills-apartments/4bc74f6892b376b0ef744f3a> a schema:localBusiness ;
+<https://foursquare.com/v/hyland-hills-apartments/4bc74f6892b376b0ef744f3a> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2410,7 +2410,7 @@
     schema:name "Prime Moving Center"@en ;
     owl:sameAs <http://yelp.com/biz/Prime-Moving-Center-Pittsburgh> .
 
-<https://foursquare.com/v/inlaw-suite/4d7233864ab5224bf743bb97> a schema:localBusiness ;
+<https://foursquare.com/v/inlaw-suite/4d7233864ab5224bf743bb97> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2427,7 +2427,7 @@
     schema:name "Roto-Rooter Plumbing & Water Cleanup"@en ;
     owl:sameAs <http://yelp.com/biz/Roto-Rooter-Plumbing-and-Water-Cleanup-Cleveland> .
 
-<https://foursquare.com/v/john-domojameson-home/4f14f4ade4b0fd2951ed5d5c> a schema:localBusiness ;
+<https://foursquare.com/v/john-domojameson-home/4f14f4ade4b0fd2951ed5d5c> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2444,7 +2444,7 @@
     schema:name "Kera Catering"@en ;
     owl:sameAs <http://yelp.com/biz/Kera-Catering-Scarborough> .
 
-<https://foursquare.com/v/kris-letangs-hair/4f7f8f52e4b06d09f8636ecc> a schema:localBusiness ;
+<https://foursquare.com/v/kris-letangs-hair/4f7f8f52e4b06d09f8636ecc> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2461,7 +2461,7 @@
     schema:name "The Home Pros"@en ;
     owl:sameAs <http://yelp.com/biz/The-Home-Pros-Pittsburgh> .
 
-<https://foursquare.com/v/lambs-house/4b058820f964a52052b322e3> a schema:localBusiness ;
+<https://foursquare.com/v/lambs-house/4b058820f964a52052b322e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2478,7 +2478,7 @@
     schema:name "Leith"@en ;
     owl:sameAs <http://yelp.com/biz/Leith-Edinburgh> .
 
-<https://foursquare.com/v/le-casa-de-toronto/4e613ecd1838ad3d0e447f4a> a schema:localBusiness ;
+<https://foursquare.com/v/le-casa-de-toronto/4e613ecd1838ad3d0e447f4a> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2495,7 +2495,7 @@
     schema:name "Centro Pizza"@en ;
     owl:sameAs <http://yelp.com/biz/Centro-Pizza-Toronto> .
 
-<https://foursquare.com/v/leonards-family-restaurant/4b128f74f964a520d28a23e3> a schema:localBusiness ;
+<https://foursquare.com/v/leonards-family-restaurant/4b128f74f964a520d28a23e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "BreakfastSpot" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2515,7 +2515,7 @@
     schema:name "Leonard's Family Restaurant"@en ;
     owl:sameAs <http://yelp.com/biz/Leonards-Family-Restaurant-Toronto> .
 
-<https://foursquare.com/v/lil-vegas-jetties-spot/50eeea78e4b0793e2dfcd046> a schema:localBusiness ;
+<https://foursquare.com/v/lil-vegas-jetties-spot/50eeea78e4b0793e2dfcd046> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2532,7 +2532,7 @@
     schema:name "Auto Locksmith Cleveland Hts"@en ;
     owl:sameAs <http://yelp.com/biz/Auto-Locksmith-Cleveland-Hts-Cleveland-Heights> .
 
-<https://foursquare.com/v/mandi-wehes/50d3a910e4b01aaae2e921e0> a schema:localBusiness ;
+<https://foursquare.com/v/mandi-wehes/50d3a910e4b01aaae2e921e0> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2549,7 +2549,7 @@
     schema:name "Tiger Air Heating & Air Conditioning"@en ;
     owl:sameAs <http://yelp.com/biz/Tiger-Air-Heating-and-Air-Conditioning-Parma> .
 
-<https://foursquare.com/v/merriwood/4e83dc652c5b5929750ad8f2> a schema:localBusiness ;
+<https://foursquare.com/v/merriwood/4e83dc652c5b5929750ad8f2> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2566,7 +2566,7 @@
     schema:name "South End Pet Sitting"@en ;
     owl:sameAs <http://yelp.com/biz/South-End-Pet-Sitting-Charlotte> .
 
-<https://foursquare.com/v/morning-glory-cafe/4ae5b91ff964a520a6a121e3> a schema:localBusiness ;
+<https://foursquare.com/v/morning-glory-cafe/4ae5b91ff964a520a6a121e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "BreakfastSpot" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2586,7 +2586,7 @@
     schema:name "Morning Glory Cafe"@en ;
     owl:sameAs <http://yelp.com/biz/Morning-Glory-Cafe-Toronto> .
 
-<https://foursquare.com/v/number-twelve-grimmauld-place/51ff1f62498eeea418698d6a> a schema:localBusiness ;
+<https://foursquare.com/v/number-twelve-grimmauld-place/51ff1f62498eeea418698d6a> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2603,7 +2603,7 @@
     schema:name "Exquisite Fit Bridal"@en ;
     owl:sameAs <http://yelp.com/biz/Exquisite-Fit-Bridal-Pittsburgh> .
 
-<https://foursquare.com/v/painters-loft/4aeb8354f964a520e5c221e3> a schema:localBusiness ;
+<https://foursquare.com/v/painters-loft/4aeb8354f964a520e5c221e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2620,7 +2620,7 @@
     schema:name "Rita Abdallah"@en ;
     owl:sameAs <http://yelp.com/biz/Rita-Abdallah-Cleveland> .
 
-<https://foursquare.com/v/paris-on-penn/4e888d72775b68cb8310c2fc> a schema:localBusiness ;
+<https://foursquare.com/v/paris-on-penn/4e888d72775b68cb8310c2fc> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2637,7 +2637,7 @@
     schema:name "GoTo Guys Handyman"@en ;
     owl:sameAs <http://yelp.com/biz/GoTo-Guys-Handyman-Pittsburgh> .
 
-<https://foursquare.com/v/pattys-house/4ceec194b80da0931f292900> a schema:localBusiness ;
+<https://foursquare.com/v/pattys-house/4ceec194b80da0931f292900> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2654,7 +2654,7 @@
     schema:name "Mark Mobile Notary"@en ;
     owl:sameAs <http://yelp.com/biz/Mark-Mobile-Notary-Pittsburgh> .
 
-<https://foursquare.com/v/pep-boys-auto-parts--service/4bed92039868a593e9975d46> a schema:localBusiness ;
+<https://foursquare.com/v/pep-boys-auto-parts--service/4bed92039868a593e9975d46> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "AutomotiveShop" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2674,7 +2674,7 @@
     schema:name "Budget Truck South Blvd"@en ;
     owl:sameAs <http://yelp.com/biz/Budget-Truck-South-Blvd-Charlotte> .
 
-<https://foursquare.com/v/phoenix-food-truck-festival/4ea31c9d7beb98c09ba15b3a> a schema:localBusiness ;
+<https://foursquare.com/v/phoenix-food-truck-festival/4ea31c9d7beb98c09ba15b3a> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "FoodTruck" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2706,7 +2706,7 @@
     schema:name "Roto-Rooter Plumbing & Drain Service"@en ;
     owl:sameAs <http://yelp.com/biz/Roto-Rooter-Plumbing-and-Drain-Service-Tempe> .
 
-<https://foursquare.com/v/seans-house/4f9426a5e4b06ce858d0d3a6> a schema:localBusiness ;
+<https://foursquare.com/v/seans-house/4f9426a5e4b06ce858d0d3a6> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2741,7 +2741,7 @@
     schema:name "Sears Parts & Repair Center"@en ;
     owl:sameAs <http://yelp.com/biz/Sears-Parts-and-Repair-Center-Phoenix> .
 
-<https://foursquare.com/v/senhor-santo-cristo/4ae4b8bef964a520759d21e3> a schema:localBusiness ;
+<https://foursquare.com/v/senhor-santo-cristo/4ae4b8bef964a520759d21e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2791,7 +2791,7 @@
     schema:name "Safeway Tours"@en ;
     owl:sameAs <http://yelp.com/biz/Safeway-Tours-Toronto> .
 
-<https://foursquare.com/v/taqueria-el-fundador/4c9baa5ddb10b60cde689d6d> a schema:localBusiness ;
+<https://foursquare.com/v/taqueria-el-fundador/4c9baa5ddb10b60cde689d6d> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "MexicanRestaurant" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2811,7 +2811,7 @@
     schema:name "Taqueria El Fundador"@en ;
     owl:sameAs <http://yelp.com/biz/Taqueria-El-Fundador-Phoenix> .
 
-<https://foursquare.com/v/the-chimney-sweep-motel/50e30309e4b0f3401b4d2d72> a schema:localBusiness ;
+<https://foursquare.com/v/the-chimney-sweep-motel/50e30309e4b0f3401b4d2d72> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2828,7 +2828,7 @@
     schema:name "Frontpoint Home Security"@en ;
     owl:sameAs <http://yelp.com/biz/Frontpoint-Home-Security-Phoenix> .
 
-<https://foursquare.com/v/the-clem-castle/4d8a8ccee60c2c0f3af7c23a> a schema:localBusiness ;
+<https://foursquare.com/v/the-clem-castle/4d8a8ccee60c2c0f3af7c23a> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2860,7 +2860,7 @@
     schema:name "Theatre Charlotte"@en ;
     owl:sameAs <http://yelp.com/biz/Theatre-Charlotte-Charlotte> .
 
-<https://foursquare.com/v/tim-and-scotts-house-of-pain/4dbcccad1e72b351cabd1662> a schema:localBusiness ;
+<https://foursquare.com/v/tim-and-scotts-house-of-pain/4dbcccad1e72b351cabd1662> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2877,7 +2877,7 @@
     schema:name "Payless Plumber Charlotte"@en ;
     owl:sameAs <http://yelp.com/biz/Payless-Plumber-Charlotte-Charlotte> .
 
-<https://foursquare.com/v/todds-house/4cedfdb45de16ea852a5b996> a schema:localBusiness ;
+<https://foursquare.com/v/todds-house/4cedfdb45de16ea852a5b996> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2894,7 +2894,7 @@
     schema:name "Photography by Jake"@en ;
     owl:sameAs <http://yelp.com/biz/Photography-by-Jake-Scottsdale> .
 
-<https://foursquare.com/v/us-airways-flight-1281-cltfll/4f27f877e4b095e0c2492f9f> a schema:localBusiness ;
+<https://foursquare.com/v/us-airways-flight-1281-cltfll/4f27f877e4b095e0c2492f9f> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Plane" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2911,7 +2911,7 @@
     schema:name "Maryland Crab & Co"@en ;
     owl:sameAs <http://yelp.com/biz/Maryland-Crab-and-Co-Charlotte> .
 
-<https://foursquare.com/v/wc-keluarga-1/5000ddfce4b0ed5448fb8ba0> a schema:localBusiness ;
+<https://foursquare.com/v/wc-keluarga-1/5000ddfce4b0ed5448fb8ba0> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "OtherGreatOutdoor" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -2928,7 +2928,7 @@
     schema:name "College Place"@en ;
     owl:sameAs <http://yelp.com/biz/College-Place-Charlotte> .
 
-<https://foursquare.com/v/woodridge-manor-apartments/4bfbfce957cd9c74576ecc2b> a schema:localBusiness ;
+<https://foursquare.com/v/woodridge-manor-apartments/4bfbfce957cd9c74576ecc2b> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Home(private)" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -3554,7 +3554,7 @@
         "Sushi"@en ;
     owl:sameAs <https://foursquare.com/v/billy-tses-restaurant/4b1afebdf964a5200cf623e3> .
 
-<https://foursquare.com/v/adobemax-bash/5189aa3d498e3d5dd0b59b54> a schema:localBusiness ;
+<https://foursquare.com/v/adobemax-bash/5189aa3d498e3d5dd0b59b54> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "RockClub" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -3571,7 +3571,7 @@
     schema:name "McDonald's"@en ;
     owl:sameAs <http://yelp.com//Restaurant_Review-g32655-d4765318-Reviews-McDonald_s-Los_Angeles_California.html> .
 
-<https://foursquare.com/v/bernies-la-cafe/4c33d518452620a1ea4b240f> a schema:localBusiness ;
+<https://foursquare.com/v/bernies-la-cafe/4c33d518452620a1ea4b240f> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "LatinAmericanRestaurant" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -3588,7 +3588,7 @@
     schema:name "EAT GREEK SOUVLAKI"@en ;
     owl:sameAs <http://yelp.com//Restaurant_Review-g34439-d5603857-Reviews-EAT_GREEK_SOUVLAKI-Miami_Beach_Florida.html> .
 
-<https://foursquare.com/v/billy-tses-restaurant/4b1afebdf964a5200cf623e3> a schema:localBusiness ;
+<https://foursquare.com/v/billy-tses-restaurant/4b1afebdf964a5200cf623e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "SushiRestaurant" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -3608,7 +3608,7 @@
     schema:name "Billy Tse's Restaurant"@en ;
     owl:sameAs <http://yelp.com//Restaurant_Review-g60745-d321561-Reviews-Billy_Tse_s_Restaurant-Boston_Massachusetts.html> .
 
-<https://foursquare.com/v/boteco-copacabana/4be20f8bf07b0f47299ef443> a schema:localBusiness ;
+<https://foursquare.com/v/boteco-copacabana/4be20f8bf07b0f47299ef443> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "BrazilianRestaurant" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -3646,7 +3646,7 @@
     schema:name "Eissalon Riviera"@en ;
     owl:sameAs <http://yelp.com//Restaurant_Review-g187337-d2306134-Reviews-Eissalon_Riviera-Frankfurt_Hesse.html> .
 
-<https://foursquare.com/v/equinox-beverly-hills/4a8ec57bf964a5209d1220e3> a schema:localBusiness ;
+<https://foursquare.com/v/equinox-beverly-hills/4a8ec57bf964a5209d1220e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Gym/FitnessCenter" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -3666,7 +3666,7 @@
     schema:name "Walter's Cafe"@en ;
     owl:sameAs <http://yelp.com//Restaurant_Review-g32070-d604869-Reviews-Walter_s_2_Go-Beverly_Hills_California.html> .
 
-<https://foursquare.com/v/mandolin-aegean-bistro/4b3d581cf964a520ca9225e3> a schema:localBusiness ;
+<https://foursquare.com/v/mandolin-aegean-bistro/4b3d581cf964a520ca9225e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "MediterraneanRestaurant" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -3686,7 +3686,7 @@
     schema:name "Mandolin Aegean Bistro"@en ;
     owl:sameAs <http://yelp.com//Restaurant_Review-g34438-d1761726-Reviews-Mandolin_Aegean_Bistro-Miami_Florida.html> .
 
-<https://foursquare.com/v/roasters-n-toasters-deli/4b053e35f964a520805722e3> a schema:localBusiness ;
+<https://foursquare.com/v/roasters-n-toasters-deli/4b053e35f964a520805722e3> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "AmericanRestaurant" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -3707,7 +3707,7 @@
 - CLOSED"""@en ;
     owl:sameAs <http://yelp.com//Restaurant_Review-g34439-d493732-Reviews-Arnie_s_Richie_s_Deli-Miami_Beach_Florida.html> .
 
-<https://foursquare.com/v/vinos-in-the-grove/4f90bb99e4b07256edd992ea> a schema:localBusiness ;
+<https://foursquare.com/v/vinos-in-the-grove/4f90bb99e4b07256edd992ea> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "WineBar" ] ;
     schema:address [ a schema:PostalAddress ;
@@ -3724,7 +3724,7 @@
     schema:name "Vino's in the Grove"@en ;
     owl:sameAs <http://yelp.com//Restaurant_Review-g34438-d4562962-Reviews-Vino_s_in_the_Grove-Miami_Florida.html> .
 
-<https://foursquare.com/v/yumi/4ea2c7b4f7909c68de3e57c0> a schema:localBusiness ;
+<https://foursquare.com/v/yumi/4ea2c7b4f7909c68de3e57c0> a schema:LocalBusiness ;
     schema:additionalProperty [ schema:name "category" ;
             schema:value "Boutique" ] ;
     schema:address [ a schema:PostalAddress ;
