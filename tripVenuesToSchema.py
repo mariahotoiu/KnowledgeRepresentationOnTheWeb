@@ -46,6 +46,9 @@ for index, row in dfTripAdv.head(5).iterrows():
     geo = BNode()
     TripAdv_graph.add((venue,schema.geo,geo))
     TripAdv_graph.add((geo, RDF.type, schema.GeoCoordinates))
+    if row['Latitude'] is None or row['Longitude'] is None:
+        row['Latitude'] = 0
+        row['Longitude'] = 0
     TripAdv_graph.add((geo,schema.latitude,Literal(row['Latitude'], datatype=XSD.decimal)))
     TripAdv_graph.add((geo,schema.longitude,Literal(row['Longitude'], datatype=XSD.decimal)))
        

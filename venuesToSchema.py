@@ -84,8 +84,12 @@ g.add((address, schema.addressRegion, Literal(response[1]['State'])))
 geo = BNode()
 g.add((venue,schema.geo,geo))
 g.add((geo, RDF.type, schema.GeoCoordinates))
-g.add((geo,schema.latitude,Literal(response[1]['Latitude'], datatype=XSD.decimal)))
-g.add((geo,schema.longitude,Literal(response[1]['Longitude'], datatype=XSD.decimal)))
+if response[1]['Latitude'] == "None" or response[1]['Longitude'] == "None":
+    g.add((geo,schema.latitude,Literal(0, datatype=XSD.decimal)))
+    g.add((geo,schema.longitude,Literal(0, datatype=XSD.decimal)))
+else:
+    g.add((geo,schema.latitude,Literal(response[1]['Latitude'], datatype=XSD.decimal)))
+    g.add((geo,schema.longitude,Literal(response[1]['Longitude'], datatype=XSD.decimal)))
 
 rating = BNode()
 g.add((venue, schema.aggregateRating, rating))

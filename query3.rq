@@ -8,11 +8,11 @@ prefix xml: <http://www.w3.org/XML/1998/namespace>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
 prefix yelp: <http://yelp.com/> 
 
-select ?name ?venue {
-  ?s a ?venue.
-  ?s schema:name ?name
+select ?name ?cuisine {
+	?s schema:name ?name.
+  ?s schema:servesCuisine ?cuisine
 }
 
-Group By ?name ?venue
+Group By ?name ?cuisine
 
 limit 20

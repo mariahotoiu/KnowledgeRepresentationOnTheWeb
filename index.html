@@ -5,9 +5,50 @@
     <link href="yasgui/yasgui.min.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1 class="header">Example Data Story</h1>
-    <p>This is where I tell my story.</p>
-	<div data-query data-query-endpoint="http://localhost:5820/myDB/query" data-query-output="leaflet" data-query-sparql="query1.rq"></div>
+
+    <!-- First part -->
+    <h1 class="header">Introduction</h1>
+    <p>Triplestores are hard to come by, and if there is a triple store available most information can not be combined so easily with other triple stores. We show that it is possible to build a triple store and combine different datasets and information sources together. Behind this webpage a sample triplestore is running that has combined several datasets together. We will show you with examples how these triple stores can be accessed, and what you use you can get out of them. In the code below different features are shown with the help of sparQL queries, to showcase the dataset.
+    </p>
+    <h1 class="header">Venues</h1>
+    <p>
+      In This example triplestore multiple venue datasets are combined. We have taken data from Yelp, a review site on which people can review and score companies, such as restaurants, but also legal companies. The second dataset is tripAdvisor, a company on which people can book restaurants, hotels, as well as leave reviews about these hotels. The third dataset is FourSquare, also a review and bookingsite.
+      The hardest part of these datasets is that all three can contain information about places or venues that the other dataset does not have, but the data can also be missing or conflicting. The companies can be difficult to match going from one dataset to the other dataset.
+
+      The first query shows a subset of the different venues that are in the dataset.
+    </p>
+	<div data-query data-query-endpoint="http://localhost:5820/RDFvenues/query" data-query-output="leaflet" data-query-sparql="query1.rq"></div>
+    <script src="yasgui/yasgui.min.js?v=1"></script>
+    <script type="text/javascript">YASGUI.sparqlStories();</script>
+
+    <!-- Second part -->
+    <h1 class="header">Locations of the venues</h1>
+    <p>The dataset is not bound to any particular country. The query below shows the different regions that are in our dataset. </p>
+  <div data-query data-query-endpoint="http://localhost:5820/RDFvenues/query" data-query-output="leaflet" data-query-sparql="query2.rq"></div>
+    <script src="yasgui/yasgui.min.js?v=1"></script>
+    <script type="text/javascript">YASGUI.sparqlStories();</script>
+
+
+    <!-- Third Part -->
+    <h1 class="header">Different types of categories of venues</h1>
+    <p>As already explained the dataset does not only have restaurants or hotels, the dataset also has localbusinesses and sportingbusinesses. Not only that, the dataset also contains information about the cuisine of restaurants. This is useful information that is important to make choices for a type of restaurant. Now with the different datasets we can make use of these different cuisines matching restaurants in different datasets can generate complementary or conflicting cuisines. This can be of great help for later inference.</p>
+  <div data-query data-query-endpoint="http://localhost:5820/RDFvenues/query" data-query-output="leaflet" data-query-sparql="query3.rq"></div>
+    <script src="yasgui/yasgui.min.js?v=1"></script>
+    <script type="text/javascript">YASGUI.sparqlStories();</script>
+
+
+    <!-- Fourth part -->
+    <h1 class="header">Reviews of restaurants</h1>
+    <p>The amount of data available is massive, for some venues there are more that 100 reviews, The information in these datasets can be useful for all types of users. It is now even more useful as multiple different datasets are combined. This gives the user the ability to explore more diverse and enriched dataset. But for the administrator the cost is a lot higher, as the adminstrator has to connect different datapieces together. With the help of RDF, this is a lot easier, as multiple graphs can connect together and thus transfer their knowledge.</p>
+  <div data-query data-query-endpoint="http://localhost:5820/RDFvenues/query" data-query-output="leaflet" data-query-sparql="query4.rq"></div>
+    <script src="yasgui/yasgui.min.js?v=1"></script>
+    <script type="text/javascript">YASGUI.sparqlStories();</script>
+
+
+    <!-- Fifth Part -->
+    <h1 class="header">Example Review</h1>
+    <p>Of course the aggregation of the reviews is not the only thing that can be useful, the dataset can also give insight into the different possible reviews. For example the following query shows an example review about the car mechanic.</p>
+  <div data-query data-query-endpoint="http://localhost:5820/RDFvenues/query" data-query-output="leaflet" data-query-sparql="query5.rq"></div>
     <script src="yasgui/yasgui.min.js?v=1"></script>
     <script type="text/javascript">YASGUI.sparqlStories();</script>
   </body>
