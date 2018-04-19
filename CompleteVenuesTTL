@@ -2975,22 +2975,22 @@
         [ schema:name "category" ;
             schema:value "SportsWear" ],
         [ schema:name "category" ;
-            schema:value "Fitness/ExerciseEquipment" ],
+            schema:value "Fitness/ExerciseEquipment" ];
     schema:address [ a schema:PostalAddress ;
             schema:addressLocalitly "Charlotte"@en ;
             schema:addressRegion "NC" ;
             schema:postalCode "28216" ;
-            schema:streetAddress "6445 Northlake Mall Dr"@en ],
-        [ a schema:AggregateRating ;
+            schema:streetAddress "6445 Northlake Mall Dr"@en ];
+    schema:aggregateRating [ a schema:AggregateRating ;
             schema:author "Yelp" ;
             schema:ratingValue 3.5 ;
             schema:reviewCount 23.0 ] ;
     schema:geo [ a schema:GeoCoordinates ;
             schema:latitude 35.352596 ;
-            schema:longitude -80.852265 ],
+            schema:longitude -80.852265 ];
     schema:identifier [ a schema:PropertyValue ;
             schema:propertyID "BusinessIdYelp" ;
-            schema:value "G_JJzggeit0hNqEgvmKRzQ" ],
+            schema:value "G_JJzggeit0hNqEgvmKRzQ" ];
     schema:name "DICK'S Sporting Goods"@en ;
     owl:sameAs <https://foursquare.com/v/dicks-sporting-goods/4b2d216af964a5200ccf24e3> .
 
