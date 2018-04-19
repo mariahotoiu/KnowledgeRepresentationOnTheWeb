@@ -1,0 +1,3742 @@
+@prefix foursquare: <https://foursquare.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix yelp: <http://yelp.com/> .
+@prefix tripadvisor: <http://tripadvisor.com> .
+
+<http://yelp.com/biz/AAA-City-Plumbing-Charlotte> a schema:ProfessionalService ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "WaterHeaterInstallation/Repair" ],
+        [ schema:name "category" ;
+            schema:value "Plumbing" ],
+        [ schema:name "category" ;
+            schema:value "SepticService" ],
+        [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "LocalService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28209" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 12.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.181119 ;
+            schema:longitude -80.84885 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "SLaObsnAt2QJotQnhhbCIA" ] ;
+    schema:name "AAA City Plumbing"@en ;
+    owl:sameAs <https://foursquare.com/v/compound/4f4969cbe4b0156c2fb87673> .
+
+<http://yelp.com/biz/Alliant-Energy-Center-Madison> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "EventPlanningAndService" ],
+        [ schema:name "category" ;
+            schema:value "VenuesAndEventSpace" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Madison"@en ;
+            schema:addressRegion "WI" ;
+            schema:postalCode "53713" ;
+            schema:streetAddress "1919 Alliant Energy Center Way"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 18.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.045967 ;
+            schema:longitude -89.379213 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "eaP5nlNM-dzl9USRYlootw" ] ;
+    schema:name "Alliant Energy Center"@en ;
+    owl:sameAs <https://foursquare.com/v/dane-country-fair/518c56105a23c97bf627be29> .
+
+<http://yelp.com/biz/Arizona-Grout-Restoration-Phoenix> a schema:GeneralContractor ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Flooring" ],
+        [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "CarpetCleaning" ],
+        [ schema:name "category" ;
+            schema:value "RefinishingService" ],
+        [ schema:name "category" ;
+            schema:value "GroutService" ],
+        [ schema:name "category" ;
+            schema:value "LocalService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85051" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 13.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.565159 ;
+            schema:longitude -112.13706 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "iL5Ah9mAKXiZpkwYc5GNWA" ] ;
+    schema:name "Arizona Grout Restoration"@en ;
+    owl:sameAs <https://foursquare.com/v/hybschmann-home/4d463bfee198721ea5a1cd8b> .
+
+<http://yelp.com/biz/Auto-Locksmith-Cleveland-Hts-Cleveland-Heights> a schema:AutomotiveBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "SecuritySystem" ],
+        [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "RoadsideAssistance" ],
+        [ schema:name "category" ;
+            schema:value "GarageDoorService" ],
+        [ schema:name "category" ;
+            schema:value "KeysAndLocksmith" ],
+        [ schema:name "category" ;
+            schema:value "DoorSales/Installation" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Cleveland Heights"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44118" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.505099 ;
+            schema:longitude -81.554158 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "kNouvWHDmnUMGnKC3qqWwQ" ] ;
+    schema:name "Auto Locksmith Cleveland Hts"@en ;
+    owl:sameAs <https://foursquare.com/v/lil-vegas-jetties-spot/50eeea78e4b0793e2dfcd046> .
+
+<http://yelp.com/biz/Bagels-On-Fire-Toronto> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "BreakfastAndBrunch" ],
+        [ schema:name "category" ;
+            schema:value "CoffeeAndTea" ],
+        [ schema:name "category" ;
+            schema:value "Bagel" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M4E 1G2" ;
+            schema:streetAddress "2248 Queen Street E"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 51.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.672833 ;
+            schema:longitude -79.286728 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "jn7h4Uv-RKHflDHsAfqoDA" ] ;
+    schema:name "Bagels On Fire"@en ;
+    owl:sameAs <https://foursquare.com/v/bagels-on-fire/51e2a41f498ec07b5f39be58> .
+
+<http://yelp.com/biz/Big-House-Pizza-Toronto> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Pizza" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M4J 1L8" ;
+            schema:streetAddress "962 Danforth Avenue"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 61.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.680439 ;
+            schema:longitude -79.337982 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "u3KvUpdWnl0Jhjhp3pVg5w" ] ;
+    schema:name "Big House Pizza"@en ;
+    owl:sameAs <https://foursquare.com/v/big-house-pizza/512830e4e4b066f69d3ba5f4> .
+
+<http://yelp.com/biz/Boehmer-Heating-and-Cooling-Pittsburgh> a schema:GeneralContractor ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "HeatingAndAirConditioning/HVAC" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15226" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.5 ;
+            schema:reviewCount 26.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.39006 ;
+            schema:longitude -80.014366 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "1jPLv-vyjPSvtl2ntSfdgA" ] ;
+    schema:name "Boehmer Heating & Cooling"@en ;
+    owl:sameAs <https://foursquare.com/v/brookline-home/4cdde0d9f8a4a1433c23d3bc> .
+
+<http://yelp.com/biz/British-Airways-Lounge-Mississauga> a schema:BarOrPub ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Nightlife" ],
+        [ schema:name "category" ;
+            schema:value "AirportLounge" ],
+        [ schema:name "category" ;
+            schema:value "Airport" ],
+        [ schema:name "category" ;
+            schema:value "HotelsAndTravel" ],
+        [ schema:name "category" ;
+            schema:value "Lounge" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Mississauga"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "L5P 1B2" ;
+            schema:streetAddress "3111 Convair Drive"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 6.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.681727 ;
+            schema:longitude -79.612049 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "eD_Hek_DHD6gu6K8KazGtQ" ] ;
+    schema:name "British Airways Lounge"@en ;
+    owl:sameAs <https://foursquare.com/v/air-canada-flight-ac15/4cee58f313aea143f32f6d9f> .
+
+<http://yelp.com/biz/Budget-Truck-South-Blvd-Charlotte> a schema:AutomotiveBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "TruckRental" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28217" ;
+            schema:streetAddress "5020 South Blvd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 1.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.168704 ;
+            schema:longitude -80.876184 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "_jh61xku0Vzzkl20LY8eJg" ] ;
+    schema:name "Budget Truck South Blvd"@en ;
+    owl:sameAs <https://foursquare.com/v/pep-boys-auto-parts--service/4bed92039868a593e9975d46> .
+
+<http://yelp.com/biz/Camp-Bow-Wow-Bedford-Heights-Bedford-Heights> a schema:PetStore ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "PetService" ],
+        [ schema:name "category" ;
+            schema:value "PetSitting" ],
+        [ schema:name "category" ;
+            schema:value "PetGroomer" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Bedford Heights"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44146" ;
+            schema:streetAddress "23380 Aurora Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.5 ;
+            schema:reviewCount 13.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.416854 ;
+            schema:longitude -81.51414 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "WFWkQjfjofNUmOERWqvKpw" ] ;
+    schema:name "Camp Bow Wow Bedford Heights"@en ;
+    owl:sameAs <https://foursquare.com/v/camp-bow-wow-dog-day-care--overnight-boarding/4eeb374de3000c69e14312f8> .
+
+<http://yelp.com/biz/Cardinal-Heating-and-Cooling-Phoenix> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "HeatingAndAirConditioning/HVAC" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85017" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.514162 ;
+            schema:longitude -112.125137 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "FQn0ctVOtWNFgZy6_x00pw" ] ;
+    schema:name "Cardinal Heating & Cooling"@en ;
+    owl:sameAs <https://foursquare.com/v/george-and-richards/4eaf71be8b81d80bd7c2b920> .
+
+<http://yelp.com/biz/Carls-Jr-7081-Phoenix> a schema:FastFoodRestaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85053" ;
+            schema:streetAddress "3470 W Bell Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.0 ;
+            schema:reviewCount 14.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.639989 ;
+            schema:longitude -112.133927 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "rPY4bukI1QdfJc-1OCAwLg" ] ;
+    schema:name "Carl's Jr 7081"@en ;
+    owl:sameAs <https://foursquare.com/v/carls-jr/4b53aa8ff964a520fda627e3> .
+
+<http://yelp.com/biz/Centro-Pizza-Toronto> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Nightlife" ],
+        [ schema:name "category" ;
+            schema:value "FoodDeliveryService" ],
+        [ schema:name "category" ;
+            schema:value "ArtsAndEntertainment" ],
+        [ schema:name "category" ;
+            schema:value "MusicVenue" ],
+        [ schema:name "category" ;
+            schema:value "Pizza" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M1M" ;
+            schema:streetAddress "3408 Kingston Road"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.716316 ;
+            schema:longitude -79.239476 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "4gPnMySEGgUAslBGYsJm5w" ] ;
+    schema:name "Centro Pizza"@en ;
+    owl:sameAs <https://foursquare.com/v/le-casa-de-toronto/4e613ecd1838ad3d0e447f4a> .
+
+<http://yelp.com/biz/Circle-K-Scottsdale> a schema:FastFoodRestaurant,
+        schema:GroceryStore ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Scottsdale"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85251" ;
+            schema:streetAddress "3410 N Hayden Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 1.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.487969 ;
+            schema:longitude -111.909352 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "w4LTZaO7mNbjkNxqJmmH3Q" ] ;
+    schema:name "Circle K"@en ;
+    owl:sameAs <https://foursquare.com/v/circle-k/4fe9f3f9f470bd11dc20591e> .
+
+<http://yelp.com/biz/Cleveland-Dog-Walk-Cleveland> a schema:PetStore ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "PetSitting" ],
+        [ schema:name "category" ;
+            schema:value "PetService" ],
+        [ schema:name "category" ;
+            schema:value "DogWalker" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Cleveland"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44113" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 5.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.48571 ;
+            schema:longitude -81.696631 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "c1HfT-Rm4iYSxsAsk8eW4Q" ] ;
+    schema:name "Cleveland Dog Walk"@en ;
+    owl:sameAs <https://foursquare.com/v/seans-house/4f9426a5e4b06ce858d0d3a6> .
+
+<http://yelp.com/biz/College-Place-Charlotte> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "American(New)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28282" ;
+            schema:streetAddress "301 S College St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 8.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.224768 ;
+            schema:longitude -80.845044 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "ajW6yk5Rqo6DGOVCK77ePg" ] ;
+    schema:name "College Place"@en ;
+    owl:sameAs <https://foursquare.com/v/wc-keluarga-1/5000ddfce4b0ed5448fb8ba0> .
+
+<http://yelp.com/biz/Cramond-Island-Cramond> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "LocalFlavor" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Cramond"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH4" ;
+            schema:streetAddress "Cramond"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 7.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.964883 ;
+            schema:longitude -3.273922 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "jdkzOreBJr7qY8Gz7_dnhA" ] ;
+    schema:name "Cramond Island"@en ;
+    owl:sameAs <https://foursquare.com/v/clerwood/4f554091e4b0674c65aea69b> .
+
+<http://yelp.com/biz/Dentistry-of-the-Carolinas---Myers-Park-Charlotte> a schema:Dentist ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HealthAndMedical" ],
+        [ schema:name "category" ;
+            schema:value "PediatricDentist" ],
+        [ schema:name "category" ;
+            schema:value "Orthodontist" ],
+        [ schema:name "category" ;
+            schema:value "OralSurgeon" ],
+        [ schema:name "category" ;
+            schema:value "GeneralDentistry" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28209" ;
+            schema:streetAddress "1711 Montford Dr"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.171084 ;
+            schema:longitude -80.847959 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "bpv3YSr_yWaa8-vjbMq2Ow" ] ;
+    schema:name "Dentistry of the Carolinas - Myers Park"@en ;
+    owl:sameAs <https://foursquare.com/v/dentistry-of-the-carolinas/4d657a5e7f84f04d4a8b01b5> .
+
+<http://yelp.com/biz/Desert-Schools-Federal-Credit-Union-Glendale> a schema:AutomotiveBusiness,
+        schema:FinancialService ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "AutoLoanProvider" ],
+        [ schema:name "category" ;
+            schema:value "BanksAndCreditUnion" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Glendale"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85306" ;
+            schema:streetAddress "5690 W Thunderbird Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.5 ;
+            schema:reviewCount 7.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.611447 ;
+            schema:longitude -112.181703 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "5f0X-QHUIX-ASUpHZTrN3Q" ] ;
+    schema:name "Desert Schools Federal Credit Union"@en ;
+    owl:sameAs <https://foursquare.com/v/desert-schools-federal-credit-union/4bccf7f7b6c49c74f9c89491> .
+
+<http://yelp.com/biz/Desi-Village-Toronto> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Indian" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M3J 3T8" ;
+            schema:streetAddress "4207 Keele Street, Unit 4"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 6.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.773345 ;
+            schema:longitude -79.493015 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "hA5XQUJBdAb72yHCponG2g" ] ;
+    schema:name "Desi Village"@en ;
+    owl:sameAs <https://foursquare.com/v/hoops/4b5660ddf964a520e20d28e3> .
+
+<http://yelp.com/biz/Duotherapy-Toronto> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HealthAndMedical" ],
+        [ schema:name "category" ;
+            schema:value "MassageTherapy" ],
+        [ schema:name "category" ;
+            schema:value "PhysicalTherapy" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M1V" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.815252 ;
+            schema:longitude -79.284577 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "nHdyPc-xqJiEt8566sYhYQ" ] ;
+    schema:name "Duotherapy"@en ;
+    owl:sameAs <https://foursquare.com/v/duckys-place/4f1a12a1e4b0c7ea66a05179> .
+
+<http://yelp.com/biz/Elizabeth-Creamery-Charlotte> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "IceCreamAndFrozenYogurt" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28204" ;
+            schema:streetAddress "1535 Elizabeth Ave, Ste 100"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 99.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.214074 ;
+            schema:longitude -80.826589 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "bc3qgRXb8mln0CGgUCTdug" ] ;
+    schema:name "Elizabeth Creamery"@en ;
+    owl:sameAs <https://foursquare.com/v/carpe-diem-restaurant--caterers/4b05863af964a520515922e3> .
+
+<http://yelp.com/biz/Exquisite-Fit-Bridal-Pittsburgh> a schema:ShoppingCenter ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "EventPlanningAndService" ],
+        [ schema:name "category" ;
+            schema:value "LocalService" ],
+        [ schema:name "category" ;
+            schema:value "SewingAndAlteration" ],
+        [ schema:name "category" ;
+            schema:value "FormalWear" ],
+        [ schema:name "category" ;
+            schema:value "WeddingPlanning" ],
+        [ schema:name "category" ;
+            schema:value "Fashion" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15214" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.5 ;
+            schema:reviewCount 5.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.490944 ;
+            schema:longitude -80.014366 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "opNZqZ4v_SDGs1zC8HE90Q" ] ;
+    schema:name "Exquisite Fit Bridal"@en ;
+    owl:sameAs <https://foursquare.com/v/number-twelve-grimmauld-place/51ff1f62498eeea418698d6a> .
+
+<http://yelp.com/biz/Floriri-Village-Investments-Toronto> a schema:FinancialService,
+        schema:RealEstateAgent ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "Investing" ],
+        [ schema:name "category" ;
+            schema:value "PropertyManagement" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M1J" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 1.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.744734 ;
+            schema:longitude -79.239476 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "cBZJFFNU8tRk5ciqB7n0ig" ] ;
+    schema:name "Floriri Village Investments"@en ;
+    owl:sameAs <https://foursquare.com/v/doreens/509ee892e4b01b6886d40ddf> .
+
+<http://yelp.com/biz/Fotobot-Photo-Booth-Co.-Phoenix> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "EventPhotography" ],
+        [ schema:name "category" ;
+            schema:value "PhotoBoothRental" ],
+        [ schema:name "category" ;
+            schema:value "Photographer" ],
+        [ schema:name "category" ;
+            schema:value "EventPlanningAndService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85053" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.628995 ;
+            schema:longitude -112.13706 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "9xl0xTplFl8iV4lhvL_hBg" ] ;
+    schema:name "Fotobot Photo Booth Co."@en ;
+    owl:sameAs <https://foursquare.com/v/the-clem-castle/4d8a8ccee60c2c0f3af7c23a> .
+
+<http://yelp.com/biz/French-Quarter-Charlotte> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "French" ],
+        [ schema:name "category" ;
+            schema:value "ComfortFood" ],
+        [ schema:name "category" ;
+            schema:value "Beer" ],
+        [ schema:name "category" ;
+            schema:value "Cajun/Creole" ],
+        [ schema:name "category" ;
+            schema:value "American(New)" ],
+        [ schema:name "category" ;
+            schema:value "WineAndSpirit" ],
+        [ schema:name "category" ;
+            schema:value "American(Traditional)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28202" ;
+            schema:streetAddress "321 S Church St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 84.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.225996 ;
+            schema:longitude -80.847022 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "QeEQXdto_4wFRaNKyIygRA" ] ;
+    schema:name "French Quarter"@en ;
+    owl:sameAs <https://foursquare.com/v/french-quarter/4b05863bf964a520735922e3> .
+
+<http://yelp.com/biz/Frontpoint-Home-Security-Phoenix> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "SecuritySystem" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85006" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 10.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.463601 ;
+            schema:longitude -112.053599 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "1WtkXrbeLoS63pd9o2Hq7g" ] ;
+    schema:name "Frontpoint Home Security"@en ;
+    owl:sameAs <https://foursquare.com/v/the-chimney-sweep-motel/50e30309e4b0f3401b4d2d72> .
+
+<http://yelp.com/biz/Frontpoint-Home-Security-Pittsburgh> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "SecuritySystem" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15210" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.5 ;
+            schema:reviewCount 5.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.408304 ;
+            schema:longitude -79.992 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "wEe5dM3zXpMh9B9ns0Bp8w" ] ;
+    schema:name "Frontpoint Home Security"@en ;
+    owl:sameAs <https://foursquare.com/v/119-quincy-street/4dc89ccbfa761aaccadca218> .
+
+<http://yelp.com/biz/Garage-Doors-America-Glendale> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "DoorSales/Installation" ],
+        [ schema:name "category" ;
+            schema:value "WindowsInstallation" ],
+        [ schema:name "category" ;
+            schema:value "FencesAndGate" ],
+        [ schema:name "category" ;
+            schema:value "GarageDoorService" ],
+        [ schema:name "category" ;
+            schema:value "HomeService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Glendale"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85301" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 9.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.534925 ;
+            schema:longitude -112.184751 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "3jtgg_GXH2-GQss_y1RCEA" ] ;
+    schema:name "Garage Doors America"@en ;
+    owl:sameAs <https://foursquare.com/v/woodridge-manor-apartments/4bfbfce957cd9c74576ecc2b> .
+
+<http://yelp.com/biz/GoTo-Guys-Handyman-Pittsburgh> a schema:GeneralContractor ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "Plumbing" ],
+        [ schema:name "category" ;
+            schema:value "Handyman" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15208" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.450915 ;
+            schema:longitude -79.902478 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "cfnYxbg2O9EfOcB0Vt-cyg" ] ;
+    schema:name "GoTo Guys Handyman"@en ;
+    owl:sameAs <https://foursquare.com/v/paris-on-penn/4e888d72775b68cb8310c2fc> .
+
+<http://yelp.com/biz/Independence--Towing-Charlotte> a schema:AutomotiveBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Towing" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28212" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 5.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.195314 ;
+            schema:longitude -80.749156 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "8o-82mej2XrIxbHdy5cpsA" ] ;
+    schema:name "Independence  Towing"@en ;
+    owl:sameAs <https://foursquare.com/v/forest-ridge-apartments/4bb783ec3db7b713f113209a> .
+
+<http://yelp.com/biz/Insta-Buggy-Toronto> a schema:FastFoodRestaurant,
+        schema:GroceryStore ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "FoodDeliveryService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M2N" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 10.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.77012 ;
+            schema:longitude -79.408493 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "OKgZHH8eLu2j5zYM2fiqWw" ] ;
+    schema:name "Insta Buggy"@en ;
+    owl:sameAs <https://foursquare.com/v/home/510339f0e4b051d6b389e450> .
+
+<http://yelp.com/biz/Ja-Design-and-Photo-North-Olmsted> a schema:ProfessionalService ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Photographer" ],
+        [ schema:name "category" ;
+            schema:value "EventPlanningAndService" ],
+        [ schema:name "category" ;
+            schema:value "GraphicDesign" ],
+        [ schema:name "category" ;
+            schema:value "SessionPhotography" ],
+        [ schema:name "category" ;
+            schema:value "EventPhotography" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "North Olmsted"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44070" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 5.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.41184 ;
+            schema:longitude -81.915284 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "_dy9a7gBwx2mkC6HsbhV0Q" ] ;
+    schema:name "Ja Design and Photo"@en ;
+    owl:sameAs <https://foursquare.com/v/grandmothers/4df5497052b100c2d800e61b> .
+
+<http://yelp.com/biz/Kera-Catering-Scarborough> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "EventPlanningAndService" ],
+        [ schema:name "category" ;
+            schema:value "Caterer" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Scarborough"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M1R" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.750071 ;
+            schema:longitude -79.295849 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "n2bpjy7MOW5SgkLNA_Utzg" ] ;
+    schema:name "Kera Catering"@en ;
+    owl:sameAs <https://foursquare.com/v/john-domojameson-home/4f14f4ade4b0fd2951ed5d5c> .
+
+<http://yelp.com/biz/Leith-Edinburgh> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "LocalFlavor" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "MLN" ;
+            schema:postalCode "EH6" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 8.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.978662 ;
+            schema:longitude -3.173399 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "I9_4XyyOl69gdaS2IuS3JQ" ] ;
+    schema:name "Leith"@en ;
+    owl:sameAs <https://foursquare.com/v/lambs-house/4b058820f964a52052b322e3> .
+
+<http://yelp.com/biz/Leonards-Family-Restaurant-Toronto> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "BreakfastAndBrunch" ],
+        [ schema:name "category" ;
+            schema:value "American(Traditional)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M4G 2H4" ;
+            schema:streetAddress "220 Laird Drive"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.5 ;
+            schema:reviewCount 12.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.71233 ;
+            schema:longitude -79.364437 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "CNrbvdH2DsnWOu9vHxiKAQ" ] ;
+    schema:name "Leonard's Family Restaurant"@en ;
+    owl:sameAs <https://foursquare.com/v/leonards-family-restaurant/4b128f74f964a520d28a23e3> .
+
+<http://yelp.com/biz/MR-Bulgogi-Pittsburgh> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Korean" ],
+        [ schema:name "category" ;
+            schema:value "Barbeque" ],
+        [ schema:name "category" ;
+            schema:value "AsianFusion" ],
+        [ schema:name "category" ;
+            schema:value "StreetVendor" ],
+        [ schema:name "category" ;
+            schema:value "FoodTruck" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15206" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.472064 ;
+            schema:longitude -79.913673 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "0pi1DQ3N8gC6jhdHfDWEMA" ] ;
+    schema:name "MR Bulgogi"@en ;
+    owl:sameAs <https://foursquare.com/v/haus-of-koko--titters/4ebafeb95c5ce9d0de2d95c5> .
+
+<http://yelp.com/biz/Mark-Mobile-Notary-Pittsburgh> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "LocalService" ],
+        [ schema:name "category" ;
+            schema:value "Notarie" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15221" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.436883 ;
+            schema:longitude -79.857683 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "3lnPkEqG1DaORudXiJim7Q" ] ;
+    schema:name "Mark Mobile Notary"@en ;
+    owl:sameAs <https://foursquare.com/v/pattys-house/4ceec194b80da0931f292900> .
+
+<http://yelp.com/biz/Maryland-Crab-and-Co-Charlotte> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "FoodTruck" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 22.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.227087 ;
+            schema:longitude -80.843127 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "gWkcWbylNsPdjhKl6CUvig" ] ;
+    schema:name "Maryland Crab & Co"@en ;
+    owl:sameAs <https://foursquare.com/v/us-airways-flight-1281-cltfll/4f27f877e4b095e0c2492f9f> .
+
+<http://yelp.com/biz/Maui-Wowi-Hawaiian-Coffees-and-Smoothies-Phoenix> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "JuiceBarsAndSmoothie" ],
+        [ schema:name "category" ;
+            schema:value "CoffeeAndTea" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85018" ;
+            schema:streetAddress "3722 E Indian School Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 7.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.495397 ;
+            schema:longitude -112.001097 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "Yv8VpV7fKZqVpwC3NBDd1A" ] ;
+    schema:name "Maui Wowi Hawaiian Coffees and Smoothies"@en ;
+    owl:sameAs <https://foursquare.com/v/bosa-donuts/4dd80c0745ddced82096a377> .
+
+<http://yelp.com/biz/Mint-Skin-Care-Rocky-River> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "SkinCare" ],
+        [ schema:name "category" ;
+            schema:value "BeautyAndSpa" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Rocky River"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44116" ;
+            schema:streetAddress "19051 Lake Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.476822 ;
+            schema:longitude -81.849757 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "xdVGwjwZX9ckOUJEFoZrtg" ] ;
+    schema:name "Mint Skin Care"@en ;
+    owl:sameAs <https://foursquare.com/v/20400-detroit-road-apt-7-rocky-river-ohio-44116/50b3ca23e4b0a6153e2b822f> .
+
+<http://yelp.com/biz/Morning-Glory-Cafe-Toronto> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "BreakfastAndBrunch" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M5A 1L6" ;
+            schema:streetAddress "457 King Street E"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 69.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.653884 ;
+            schema:longitude -79.361051 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "E3X8OaMYJckk4LJGd-Wd4w" ] ;
+    schema:name "Morning Glory Cafe"@en ;
+    owl:sameAs <https://foursquare.com/v/morning-glory-cafe/4ae5b91ff964a520a6a121e3> .
+
+<http://yelp.com/biz/Nailopolis-Toronto> a schema:NailSalon ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "BeautyAndSpa" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M4S 1P1" ;
+            schema:streetAddress "609 Mount Pleasant Road"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.5 ;
+            schema:reviewCount 11.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.703984 ;
+            schema:longitude -79.388194 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "gEWZzRVz2wA0ywIb3YnKYg" ] ;
+    schema:name "Nailopolis"@en ;
+    owl:sameAs <https://foursquare.com/v/fabulous-nails/4f25afc6e4b0dc27babc8d5e> .
+
+<http://yelp.com/biz/Panini-Del-Sole-Gourmet-Food-Truck-Phoenix> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "FoodTruck" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85031" ;
+            schema:streetAddress "602 N May"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 6.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.496813 ;
+            schema:longitude -112.160906 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "ijT2-xvUp2tYBVP65QowfQ" ] ;
+    schema:name "Panini Del Sole Gourmet Food Truck"@en ;
+    owl:sameAs <https://foursquare.com/v/casa-de-la-garza/4f1eafd7e4b0c7cc917f7700> .
+
+<http://yelp.com/biz/Payless-Plumber-Charlotte-Charlotte> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Plumbing" ],
+        [ schema:name "category" ;
+            schema:value "HomeService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28210" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 5.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.127429 ;
+            schema:longitude -80.859919 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "C1gVgIbtRiFlpibpwi5yWg" ] ;
+    schema:name "Payless Plumber Charlotte"@en ;
+    owl:sameAs <https://foursquare.com/v/tim-and-scotts-house-of-pain/4dbcccad1e72b351cabd1662> .
+
+<http://yelp.com/biz/Phoenix-Food-Truck-Festival-Phoenix> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Festival" ],
+        [ schema:name "category" ;
+            schema:value "StreetVendor" ],
+        [ schema:name "category" ;
+            schema:value "ArtsAndEntertainment" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85004" ;
+            schema:streetAddress "408 E Roosevelt St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.0 ;
+            schema:reviewCount 12.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.459023 ;
+            schema:longitude -112.068175 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "xpHrwe2X-X9K81TEz_W9Cw" ] ;
+    schema:name "Phoenix Food Truck Festival"@en ;
+    owl:sameAs <https://foursquare.com/v/phoenix-food-truck-festival/4ea31c9d7beb98c09ba15b3a> .
+
+<http://yelp.com/biz/Photography-by-Jake-Scottsdale> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Photographer" ],
+        [ schema:name "category" ;
+            schema:value "SessionPhotography" ],
+        [ schema:name "category" ;
+            schema:value "EventPhotography" ],
+        [ schema:name "category" ;
+            schema:value "EventPlanningAndService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Scottsdale"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85257" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.468848 ;
+            schema:longitude -111.910516 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "CrhczedetSPk3MN81fmN9Q" ] ;
+    schema:name "Photography by Jake"@en ;
+    owl:sameAs <https://foursquare.com/v/todds-house/4cedfdb45de16ea852a5b996> .
+
+<http://yelp.com/biz/Pittsburgh-Vehicle-Pre-Purchase-Inspections-Pittsburgh> a schema:AutoRepair,
+        schema:AutomotiveBusiness,
+        schema:ProfessionalService ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "SmogCheckStation" ],
+        [ schema:name "category" ;
+            schema:value "AutoDetailing" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15229" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.513042 ;
+            schema:longitude -80.036726 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "Ha4tKamaZxmKHemTutjY4Q" ] ;
+    schema:name "Pittsburgh Vehicle Pre-Purchase Inspections"@en ;
+    owl:sameAs <https://foursquare.com/v/emerald-garden-bintaro/4faaa750e4b0557331659a05> .
+
+<http://yelp.com/biz/Prime-Moving-Center-Pittsburgh> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "PackingService" ],
+        [ schema:name "category" ;
+            schema:value "Mover" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15220" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.422284 ;
+            schema:longitude -80.036726 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "NQeskbyRmQEh6isnrIKgTQ" ] ;
+    schema:name "Prime Moving Center"@en ;
+    owl:sameAs <https://foursquare.com/v/hyland-hills-apartments/4bc74f6892b376b0ef744f3a> .
+
+<http://yelp.com/biz/Ristorante-Il-Caviliere-Montréal> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Italian" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Montréal"@en ;
+            schema:addressRegion "QC" ;
+            schema:postalCode "H2L 4X4" ;
+            schema:streetAddress "1199 Rue Berri"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 45.514048 ;
+            schema:longitude -73.557994 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "1QqnXmrWNe2IAzPag4hH5A" ] ;
+    schema:name "Ristorante Il Caviliere"@en ;
+    owl:sameAs <https://foursquare.com/v/hotel-lord-berri/4ad4c069f964a520b4f820e3> .
+
+<http://yelp.com/biz/Rita-Abdallah-Cleveland> a schema:ProfessionalService ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HealthAndMedical" ],
+        [ schema:name "category" ;
+            schema:value "ArtsAndEntertainment" ],
+        [ schema:name "category" ;
+            schema:value "SupernaturalReading" ],
+        [ schema:name "category" ;
+            schema:value "CounselingAndMentalHealth" ],
+        [ schema:name "category" ;
+            schema:value "LifeCoach" ],
+        [ schema:name "category" ;
+            schema:value "Education" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Cleveland"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44102" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.478936 ;
+            schema:longitude -81.740413 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "GmghE_tUm1OfBH0B0sPRdg" ] ;
+    schema:name "Rita Abdallah"@en ;
+    owl:sameAs <https://foursquare.com/v/painters-loft/4aeb8354f964a520e5c221e3> .
+
+<http://yelp.com/biz/Roto-Rooter-Plumbing-and-Drain-Service-Tempe> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Plumbing" ],
+        [ schema:name "category" ;
+            schema:value "HomeService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Tempe"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85281" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 1.5 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.436665 ;
+            schema:longitude -111.940325 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "oFseXpQzaAE3_Fco0fsMDQ" ] ;
+    schema:name "Roto-Rooter Plumbing & Drain Service"@en ;
+    owl:sameAs <https://foursquare.com/v/sals-pizza-inc/51c2472a698f7f29fc898e82> .
+
+<http://yelp.com/biz/Roto-Rooter-Plumbing-and-Water-Cleanup-Cleveland> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "DamageRestoration" ],
+        [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "Plumbing" ],
+        [ schema:name "category" ;
+            schema:value "WaterHeaterInstallation/Repair" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Cleveland"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44111" ;
+            schema:streetAddress "10007 Dennison Avenue"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 13.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.45226 ;
+            schema:longitude -81.78417 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "mRoCnoKlqy540taSkn1_CA" ] ;
+    schema:name "Roto-Rooter Plumbing & Water Cleanup"@en ;
+    owl:sameAs <https://foursquare.com/v/inlaw-suite/4d7233864ab5224bf743bb97> .
+
+<http://yelp.com/biz/Safeway-Tours-Toronto> a schema:TouristInformationCenter ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HotelsAndTravel" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.5 ;
+            schema:reviewCount 26.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.653226 ;
+            schema:longitude -79.383184 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "EsavKbM2kC8A7_2G5LQQwg" ] ;
+    schema:name "Safeway Tours"@en ;
+    owl:sameAs <https://foursquare.com/v/susies/4fdb929ae4b037067e464e01> .
+
+<http://yelp.com/biz/Sears-Parts-and-Repair-Center-Phoenix> a schema:HardwareStore,
+        schema:OutletStore,
+        schema:ShoppingCenter ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "LocalService" ],
+        [ schema:name "category" ;
+            schema:value "BikeRepair/Maintenance" ],
+        [ schema:name "category" ;
+            schema:value "HomeAndGarden" ],
+        [ schema:name "category" ;
+            schema:value "AppliancesAndRepair" ],
+        [ schema:name "category" ;
+            schema:value "Appliance" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85051" ;
+            schema:streetAddress "10001 N Metro Pkwy W, Metro Center Mall"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 1.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.577686 ;
+            schema:longitude -112.124616 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "fRBrNhvP9qbzx1DJfLVYYw" ] ;
+    schema:name "Sears Parts & Repair Center"@en ;
+    owl:sameAs <https://foursquare.com/v/sears/4b203a3ff964a520082f24e3> .
+
+<http://yelp.com/biz/Simper-Toronto> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "EventPlanningAndService" ],
+        [ schema:name "category" ;
+            schema:value "Photographer" ],
+        [ schema:name "category" ;
+            schema:value "SessionPhotography" ],
+        [ schema:name "category" ;
+            schema:value "EventPhotography" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M6H" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.669005 ;
+            schema:longitude -79.442259 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "Jwnz1bW8DSl21Dl7c0y9IA" ] ;
+    schema:name "Simper"@en ;
+    owl:sameAs <https://foursquare.com/v/carlas-house/4fcd9fa9e4b093adbae0194e> .
+
+<http://yelp.com/biz/South-End-Pet-Sitting-Charlotte> a schema:PetStore ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "PetSitting" ],
+        [ schema:name "category" ;
+            schema:value "PetService" ],
+        [ schema:name "category" ;
+            schema:value "DogWalker" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28203" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.5 ;
+            schema:reviewCount 7.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.214659 ;
+            schema:longitude -80.859919 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "BVA_JHTLOKdaSaqZPoKCvg" ] ;
+    schema:name "South End Pet Sitting"@en ;
+    owl:sameAs <https://foursquare.com/v/merriwood/4e83dc652c5b5929750ad8f2> .
+
+<http://yelp.com/biz/Staybridge-Suites-Madison-East-Madison> a schema:Hostel,
+        schema:Hotel ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "VenuesAndEventSpace" ],
+        [ schema:name "category" ;
+            schema:value "HotelsAndTravel" ],
+        [ schema:name "category" ;
+            schema:value "EventPlanningAndService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Madison"@en ;
+            schema:addressRegion "WI" ;
+            schema:postalCode "53718" ;
+            schema:streetAddress "3301 City View Dr"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 13.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.138502 ;
+            schema:longitude -89.288268 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "ldFnX-LMV7aPV-k31VGsCQ" ] ;
+    schema:name "Staybridge Suites Madison-East"@en ;
+    owl:sameAs <https://foursquare.com/v/staybridge-suites-madisoneast/4bc34e02dce4eee13f8a719d> .
+
+<http://yelp.com/biz/Sweet-Cocoa-Toronto> a schema:CafeOrCoffeeShop,
+        schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "CustomCake" ],
+        [ schema:name "category" ;
+            schema:value "Bakerie" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M6J" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 7.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.647927 ;
+            schema:longitude -79.41975 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "l59XW71Em8yW775nHERPXA" ] ;
+    schema:name "Sweet Cocoa"@en ;
+    owl:sameAs <https://foursquare.com/v/senhor-santo-cristo/4ae4b8bef964a520759d21e3> .
+
+<http://yelp.com/biz/Tan-On-the-Run-Toronto> a schema:ShoppingCenter ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "CosmeticsAndBeautySupply" ],
+        [ schema:name "category" ;
+            schema:value "Tanning" ],
+        [ schema:name "category" ;
+            schema:value "SkinCare" ],
+        [ schema:name "category" ;
+            schema:value "BeautyAndSpa" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M6N" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.5 ;
+            schema:reviewCount 9.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.673185 ;
+            schema:longitude -79.487262 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "a-Q6Vd7007_OuYKXhR60EA" ] ;
+    schema:name "Tan On the Run"@en ;
+    owl:sameAs <https://foursquare.com/v/chez-gouser/4e9788fa5503ce3b7e534fb8> .
+
+<http://yelp.com/biz/Taqueria-El-Fundador-Phoenix> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "EventPlanningAndService" ],
+        [ schema:name "category" ;
+            schema:value "Caterer" ],
+        [ schema:name "category" ;
+            schema:value "Mexican" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85009" ;
+            schema:streetAddress "3245 W Van Buren St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 57.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.451137 ;
+            schema:longitude -112.130043 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "fXUJ9d5R6kNXrnAouByB6g" ] ;
+    schema:name "Taqueria El Fundador"@en ;
+    owl:sameAs <https://foursquare.com/v/taqueria-el-fundador/4c9baa5ddb10b60cde689d6d> .
+
+<http://yelp.com/biz/The-Home-Pros-Pittsburgh> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "HomeInspector" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15228" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.372771 ;
+            schema:longitude -80.047904 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "4Sw949z60DupwinXF14IpA" ] ;
+    schema:name "The Home Pros"@en ;
+    owl:sameAs <https://foursquare.com/v/kris-letangs-hair/4f7f8f52e4b06d09f8636ecc> .
+
+<http://yelp.com/biz/The-Produce-Box-Charlotte> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "SpecialtyFood" ],
+        [ schema:name "category" ;
+            schema:value "CSA" ],
+        [ schema:name "category" ;
+            schema:value "FruitsAndVeggie" ],
+        [ schema:name "category" ;
+            schema:value "OrganicStore" ],
+        [ schema:name "category" ;
+            schema:value "FarmersMarket" ],
+        [ schema:name "category" ;
+            schema:value "FoodDeliveryService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28270" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.5 ;
+            schema:reviewCount 6.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.109778 ;
+            schema:longitude -80.771321 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "jvzCuhWoSchXZetEdzblbw" ] ;
+    schema:name "The Produce Box"@en ;
+    owl:sameAs <https://foursquare.com/v/colonial-grand-at-beverly-crest/4c858b4d47cc224bf958a29f> .
+
+<http://yelp.com/biz/Theatre-Charlotte-Charlotte> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "ArtsAndEntertainment" ],
+        [ schema:name "category" ;
+            schema:value "PerformingArt" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28207" ;
+            schema:streetAddress "501 Queens Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 15.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.207181 ;
+            schema:longitude -80.826847 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "Bw0o2VSuhWlxsgKC2tOsXA" ] ;
+    schema:name "Theatre Charlotte"@en ;
+    owl:sameAs <https://foursquare.com/v/theater-charlotte/4b058640f964a520585a22e3> .
+
+<http://yelp.com/biz/Tiger-Air-Heating-and-Air-Conditioning-Parma> a schema:GeneralContractor,
+        schema:ShoppingCenter ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "HomeAndGarden" ],
+        [ schema:name "category" ;
+            schema:value "HeatingAndAirConditioning/HVAC" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Parma"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44129" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.388641 ;
+            schema:longitude -81.72947 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "H9Eg3m0VjP3ut9lganquAw" ] ;
+    schema:name "Tiger Air Heating & Air Conditioning"@en ;
+    owl:sameAs <https://foursquare.com/v/mandi-wehes/50d3a910e4b01aaae2e921e0> .
+
+<http://yelp.com/biz/Ugly-Cakes-Bakery-Glendale> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Cupcake" ],
+        [ schema:name "category" ;
+            schema:value "Caterer" ],
+        [ schema:name "category" ;
+            schema:value "EventPlanningAndService" ],
+        [ schema:name "category" ;
+            schema:value "Dessert" ],
+        [ schema:name "category" ;
+            schema:value "Bakerie" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Glendale"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85304" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 16.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.59037 ;
+            schema:longitude -112.172828 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "vWVDTdYE1TFDWsby9klJ2w" ] ;
+    schema:name "Ugly Cakes Bakery"@en ;
+    owl:sameAs <https://foursquare.com/v/home-suite-home/4fc33f12e4b021b6e07c2134> .
+
+<http://yelp.com/biz/Wall-Mount-Solution-Toronto> a schema:ProfessionalService ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "TVMounting" ],
+        [ schema:name "category" ;
+            schema:value "HomeService" ],
+        [ schema:name "category" ;
+            schema:value "HomeTheatreInstallation" ],
+        [ schema:name "category" ;
+            schema:value "LocalService" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M4C" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.5 ;
+            schema:reviewCount 5.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.695344 ;
+            schema:longitude -79.318389 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "htB5ThW5fpE-y5y_R5oRDQ" ] ;
+    schema:name "Wall Mount Solution"@en ;
+    owl:sameAs <https://foursquare.com/v/east-york/4d1b89a3582e59416855bbe7> .
+
+<http://yelp.com/biz/Wok-of-Life-Pittsburgh> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Chinese" ],
+        [ schema:name "category" ;
+            schema:value "FoodTruck" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15212" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.5 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.482805 ;
+            schema:longitude -80.036726 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "bD_vqSSU_abcCT0oCzN1xA" ] ;
+    schema:name "Wok of Life"@en ;
+    owl:sameAs <https://foursquare.com/v/brighton-heights/4d1e949f8629224b87fd0387> .
+
+<http://yelp.com/biz/Ye-Olde-Orchard-Pub-and-Grill-Montréal> a schema:BarOrPub,
+        schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Irish" ],
+        [ schema:name "category" ;
+            schema:value "Nightlife" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Montréal"@en ;
+            schema:addressRegion "QC" ;
+            schema:postalCode "H4A 1E1" ;
+            schema:streetAddress "5563 Monkland Avenue"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 34.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 45.475988 ;
+            schema:longitude -73.622534 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "H8Kko51jnr0PH1mP3qpBCQ" ] ;
+    schema:name "Ye Olde Orchard Pub & Grill"@en ;
+    owl:sameAs <https://foursquare.com/v/ye-olde-orchard-pub--grill/4ad4c06bf964a52038f920e3> .
+
+<https://foursquare.com/v/119-quincy-street/4dc89ccbfa761aaccadca218> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15210" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.408304 ;
+            schema:longitude -79.992 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4dc89ccbfa761aaccadca218" ] ;
+    schema:name "Frontpoint Home Security"@en ;
+    owl:sameAs <http://yelp.com/biz/Frontpoint-Home-Security-Pittsburgh> .
+
+<https://foursquare.com/v/20400-detroit-road-apt-7-rocky-river-ohio-44116/50b3ca23e4b0a6153e2b822f> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Rocky River"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44116" ;
+            schema:streetAddress "19051 Lake Rd"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.476822 ;
+            schema:longitude -81.849757 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "50b3ca23e4b0a6153e2b822f" ] ;
+    schema:name "Mint Skin Care"@en ;
+    owl:sameAs <http://yelp.com/biz/Mint-Skin-Care-Rocky-River> .
+
+<https://foursquare.com/v/air-canada-flight-ac15/4cee58f313aea143f32f6d9f> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Plane" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Mississauga"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "L5P 1B2" ;
+            schema:streetAddress "3111 Convair Drive"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.681727 ;
+            schema:longitude -79.612049 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "5038c3dae4b0b15ca5641999" ] ;
+    schema:name "British Airways Lounge"@en ;
+    owl:sameAs <http://yelp.com/biz/British-Airways-Lounge-Mississauga> .
+
+<https://foursquare.com/v/bagels-on-fire/51e2a41f498ec07b5f39be58> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "BagelShop" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M4E 1G2" ;
+            schema:streetAddress "2248 Queen Street E"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 8.6 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.672833 ;
+            schema:longitude -79.286728 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "51e2a41f498ec07b5f39be58" ] ;
+    schema:name "Bagels On Fire"@en ;
+    owl:sameAs <http://yelp.com/biz/Bagels-On-Fire-Toronto> .
+
+<https://foursquare.com/v/big-house-pizza/512830e4e4b066f69d3ba5f4> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "PizzaPlace" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M4J 1L8" ;
+            schema:streetAddress "962 Danforth Avenue"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 6.3 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.680439 ;
+            schema:longitude -79.337982 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "512830e4e4b066f69d3ba5f4" ] ;
+    schema:name "Big House Pizza"@en ;
+    owl:sameAs <http://yelp.com/biz/Big-House-Pizza-Toronto> .
+
+<https://foursquare.com/v/bosa-donuts/4dd80c0745ddced82096a377> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "DonutShop" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85018" ;
+            schema:streetAddress "3722 E Indian School Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 9.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.495397 ;
+            schema:longitude -112.001097 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4dd80c0745ddced82096a377" ] ;
+    schema:name "Maui Wowi Hawaiian Coffees and Smoothies"@en ;
+    owl:sameAs <http://yelp.com/biz/Maui-Wowi-Hawaiian-Coffees-and-Smoothies-Phoenix> .
+
+<https://foursquare.com/v/brighton-heights/4d1e949f8629224b87fd0387> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15212" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 6.8 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.482805 ;
+            schema:longitude -80.036726 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4c3520cb213c2d7f72b8395d" ] ;
+    schema:name "Wok of Life"@en ;
+    owl:sameAs <http://yelp.com/biz/Wok-of-Life-Pittsburgh> .
+
+<https://foursquare.com/v/brookline-home/4cdde0d9f8a4a1433c23d3bc> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15226" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.39006 ;
+            schema:longitude -80.014366 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4cdde0d9f8a4a1433c23d3bc" ] ;
+    schema:name "Boehmer Heating & Cooling"@en ;
+    owl:sameAs <http://yelp.com/biz/Boehmer-Heating-and-Cooling-Pittsburgh> .
+
+<https://foursquare.com/v/camp-bow-wow-dog-day-care--overnight-boarding/4eeb374de3000c69e14312f8> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Building" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Bedford Heights"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44146" ;
+            schema:streetAddress "23380 Aurora Rd"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.416854 ;
+            schema:longitude -81.51414 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4eeb374de3000c69e14312f8" ] ;
+    schema:name "Camp Bow Wow Bedford Heights"@en ;
+    owl:sameAs <http://yelp.com/biz/Camp-Bow-Wow-Bedford-Heights-Bedford-Heights> .
+
+<https://foursquare.com/v/carlas-house/4fcd9fa9e4b093adbae0194e> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M6H" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.669005 ;
+            schema:longitude -79.442259 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4fcd9fa9e4b093adbae0194e" ] ;
+    schema:name "Simper"@en ;
+    owl:sameAs <http://yelp.com/biz/Simper-Toronto> .
+
+<https://foursquare.com/v/carls-jr/4b53aa8ff964a520fda627e3> a schema:FastFoodRestaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85053" ;
+            schema:streetAddress "3470 W Bell Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 6.6 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.639989 ;
+            schema:longitude -112.133927 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b53aa8ff964a520fda627e3" ] ;
+    schema:name "Carl's Jr 7081"@en ;
+    owl:sameAs <http://yelp.com/biz/Carls-Jr-7081-Phoenix> .
+
+<https://foursquare.com/v/carpe-diem-restaurant--caterers/4b05863af964a520515922e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "NewAmericanRestaurant" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28204" ;
+            schema:streetAddress "1535 Elizabeth Ave, Ste 100"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 8.3 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.214074 ;
+            schema:longitude -80.826589 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b05863af964a520515922e3" ] ;
+    schema:name "Elizabeth Creamery"@en ;
+    owl:sameAs <http://yelp.com/biz/Elizabeth-Creamery-Charlotte> .
+
+<https://foursquare.com/v/casa-de-la-garza/4f1eafd7e4b0c7cc917f7700> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85031" ;
+            schema:streetAddress "602 N May"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.496813 ;
+            schema:longitude -112.160906 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4f1eafd7e4b0c7cc917f7700" ] ;
+    schema:name "Panini Del Sole Gourmet Food Truck"@en ;
+    owl:sameAs <http://yelp.com/biz/Panini-Del-Sole-Gourmet-Food-Truck-Phoenix> .
+
+<https://foursquare.com/v/chez-gouser/4e9788fa5503ce3b7e534fb8> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M6N" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.673185 ;
+            schema:longitude -79.487262 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4e9788fa5503ce3b7e534fb8" ] ;
+    schema:name "Tan On the Run"@en ;
+    owl:sameAs <http://yelp.com/biz/Tan-On-the-Run-Toronto> .
+
+<https://foursquare.com/v/circle-k/4fe9f3f9f470bd11dc20591e> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "GasStation/Garage" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Scottsdale"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85251" ;
+            schema:streetAddress "3410 N Hayden Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 7.7 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.487969 ;
+            schema:longitude -111.909352 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4fe9f3f9f470bd11dc20591e" ] ;
+    schema:name "Circle K"@en ;
+    owl:sameAs <http://yelp.com/biz/Circle-K-Scottsdale> .
+
+<https://foursquare.com/v/clerwood/4f554091e4b0674c65aea69b> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Cramond"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH4" ;
+            schema:streetAddress "Cramond"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.964883 ;
+            schema:longitude -3.273922 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4f554091e4b0674c65aea69b" ] ;
+    schema:name "Cramond Island"@en ;
+    owl:sameAs <http://yelp.com/biz/Cramond-Island-Cramond> .
+
+<https://foursquare.com/v/colonial-grand-at-beverly-crest/4c858b4d47cc224bf958a29f> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28270" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.109778 ;
+            schema:longitude -80.771321 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4c858b4d47cc224bf958a29f" ] ;
+    schema:name "The Produce Box"@en ;
+    owl:sameAs <http://yelp.com/biz/The-Produce-Box-Charlotte> .
+
+<https://foursquare.com/v/compound/4f4969cbe4b0156c2fb87673> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28209" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.181119 ;
+            schema:longitude -80.84885 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4f4969cbe4b0156c2fb87673" ] ;
+    schema:name "AAA City Plumbing"@en ;
+    owl:sameAs <http://yelp.com/biz/AAA-City-Plumbing-Charlotte> .
+
+<https://foursquare.com/v/dane-country-fair/518c56105a23c97bf627be29> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Fair" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Madison"@en ;
+            schema:addressRegion "WI" ;
+            schema:postalCode "53713" ;
+            schema:streetAddress "1919 Alliant Energy Center Way"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.045967 ;
+            schema:longitude -89.379213 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "518c56105a23c97bf627be29" ] ;
+    schema:name "Alliant Energy Center"@en ;
+    owl:sameAs <http://yelp.com/biz/Alliant-Energy-Center-Madison> .
+
+<https://foursquare.com/v/dentistry-of-the-carolinas/4d657a5e7f84f04d4a8b01b5> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Dentist'sOffice" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28209" ;
+            schema:streetAddress "1711 Montford Dr"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.171084 ;
+            schema:longitude -80.847959 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4d657a5e7f84f04d4a8b01b5" ] ;
+    schema:name "Dentistry of the Carolinas - Myers Park"@en ;
+    owl:sameAs <http://yelp.com/biz/Dentistry-of-the-Carolinas---Myers-Park-Charlotte> .
+
+<https://foursquare.com/v/desert-schools-federal-credit-union/4bccf7f7b6c49c74f9c89491> a schema:BankOrCreditUnion ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Glendale"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85306" ;
+            schema:streetAddress "5690 W Thunderbird Rd"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.611447 ;
+            schema:longitude -112.181703 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4bccf7f7b6c49c74f9c89491" ] ;
+    schema:name "Desert Schools Federal Credit Union"@en ;
+    owl:sameAs <http://yelp.com/biz/Desert-Schools-Federal-Credit-Union-Glendale> .
+
+<https://foursquare.com/v/dicks-sporting-goods/4b1183b4f964a5203d7e23e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "SportingGoodsShop" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28216" ;
+            schema:streetAddress "6445 Northlake Mall Dr"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 7.9 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.352596 ;
+            schema:longitude -80.852265 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b1183b4f964a5203d7e23e3" ] ;
+    schema:name "DICK'S Sporting Goods"@en ;
+    owl:sameAs <http://yelp.com/biz/DICKS-Sporting-Goods-Charlotte> .
+
+<https://foursquare.com/v/dicks-sporting-goods/4b2d216af964a5200ccf24e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "SportingGoodsShop" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28209" ;
+            schema:streetAddress "4325 Barclay Downs Dr"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 8.2 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.153295 ;
+            schema:longitude -80.833934 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b2d216af964a5200ccf24e3" ] ;
+    schema:name "DICK'S Sporting Goods"@en ;
+    owl:sameAs <http://yelp.com/biz/DICKS-Sporting-Goods-Charlotte> .
+
+<https://foursquare.com/v/doreens/509ee892e4b01b6886d40ddf> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M1J" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.744734 ;
+            schema:longitude -79.239476 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "509ee892e4b01b6886d40ddf" ] ;
+    schema:name "Floriri Village Investments"@en ;
+    owl:sameAs <http://yelp.com/biz/Floriri-Village-Investments-Toronto> .
+
+<https://foursquare.com/v/duckys-place/4f1a12a1e4b0c7ea66a05179> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M1V" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.815252 ;
+            schema:longitude -79.284577 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4f1a12a1e4b0c7ea66a05179" ] ;
+    schema:name "Duotherapy"@en ;
+    owl:sameAs <http://yelp.com/biz/Duotherapy-Toronto> .
+
+<https://foursquare.com/v/east-york/4d1b89a3582e59416855bbe7> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M4C" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.695344 ;
+            schema:longitude -79.318389 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4d1b89a3582e59416855bbe7" ] ;
+    schema:name "Wall Mount Solution"@en ;
+    owl:sameAs <http://yelp.com/biz/Wall-Mount-Solution-Toronto> .
+
+<https://foursquare.com/v/emerald-garden-bintaro/4faaa750e4b0557331659a05> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15229" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.513042 ;
+            schema:longitude -80.036726 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4faaa750e4b0557331659a05" ] ;
+    schema:name "Pittsburgh Vehicle Pre-Purchase Inspections"@en ;
+    owl:sameAs <http://yelp.com/biz/Pittsburgh-Vehicle-Pre-Purchase-Inspections-Pittsburgh> .
+
+<https://foursquare.com/v/fabulous-nails/4f25afc6e4b0dc27babc8d5e> a schema:NailSalon ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M4S 1P1" ;
+            schema:streetAddress "609 Mount Pleasant Road"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.703984 ;
+            schema:longitude -79.388194 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4f25afc6e4b0dc27babc8d5e" ] ;
+    schema:name "Nailopolis"@en ;
+    owl:sameAs <http://yelp.com/biz/Nailopolis-Toronto> .
+
+<https://foursquare.com/v/forest-ridge-apartments/4bb783ec3db7b713f113209a> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28212" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.195314 ;
+            schema:longitude -80.749156 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4bb783ec3db7b713f113209a" ] ;
+    schema:name "Independence  Towing"@en ;
+    owl:sameAs <http://yelp.com/biz/Independence--Towing-Charlotte> .
+
+<https://foursquare.com/v/french-quarter/4b05863bf964a520735922e3> a schema:BarOrPub ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28202" ;
+            schema:streetAddress "321 S Church St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 7.2 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.225996 ;
+            schema:longitude -80.847022 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b05863bf964a520735922e3" ] ;
+    schema:name "French Quarter"@en ;
+    owl:sameAs <http://yelp.com/biz/French-Quarter-Charlotte> .
+
+<https://foursquare.com/v/george-and-richards/4eaf71be8b81d80bd7c2b920> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85017" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.514162 ;
+            schema:longitude -112.125137 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4eaf71be8b81d80bd7c2b920" ] ;
+    schema:name "Cardinal Heating & Cooling"@en ;
+    owl:sameAs <http://yelp.com/biz/Cardinal-Heating-and-Cooling-Phoenix> .
+
+<https://foursquare.com/v/grandmothers/4df5497052b100c2d800e61b> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "North Olmsted"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44070" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.41184 ;
+            schema:longitude -81.915284 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4df5497052b100c2d800e61b" ] ;
+    schema:name "Ja Design and Photo"@en ;
+    owl:sameAs <http://yelp.com/biz/Ja-Design-and-Photo-North-Olmsted> .
+
+<https://foursquare.com/v/haus-of-koko--titters/4ebafeb95c5ce9d0de2d95c5> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15206" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.472064 ;
+            schema:longitude -79.913673 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4ebafeb95c5ce9d0de2d95c5" ] ;
+    schema:name "MR Bulgogi"@en ;
+    owl:sameAs <http://yelp.com/biz/MR-Bulgogi-Pittsburgh> .
+
+<https://foursquare.com/v/home-suite-home/4fc33f12e4b021b6e07c2134> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Glendale"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85304" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.59037 ;
+            schema:longitude -112.172828 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4fc33f12e4b021b6e07c2134" ] ;
+    schema:name "Ugly Cakes Bakery"@en ;
+    owl:sameAs <http://yelp.com/biz/Ugly-Cakes-Bakery-Glendale> .
+
+<https://foursquare.com/v/home/510339f0e4b051d6b389e450> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M2N" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.77012 ;
+            schema:longitude -79.408493 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "510339f0e4b051d6b389e450" ] ;
+    schema:name "Insta Buggy"@en ;
+    owl:sameAs <http://yelp.com/biz/Insta-Buggy-Toronto> .
+
+<https://foursquare.com/v/hoops/4b5660ddf964a520e20d28e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "SportsBar" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M3J 3T8" ;
+            schema:streetAddress "4207 Keele Street, Unit 4"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 5.4 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.773345 ;
+            schema:longitude -79.493015 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b5660ddf964a520e20d28e3" ] ;
+    schema:name "Desi Village"@en ;
+    owl:sameAs <http://yelp.com/biz/Desi-Village-Toronto> .
+
+<https://foursquare.com/v/hotel-lord-berri/4ad4c069f964a520b4f820e3> a schema:Hotel ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Montréal"@en ;
+            schema:addressRegion "QC" ;
+            schema:postalCode "H2L 4X4" ;
+            schema:streetAddress "1199 Rue Berri"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 6.2 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 45.514048 ;
+            schema:longitude -73.557994 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4ad4c069f964a520b4f820e3" ] ;
+    schema:name "Ristorante Il Caviliere"@en ;
+    owl:sameAs <http://yelp.com/biz/Ristorante-Il-Caviliere-Montréal> .
+
+<https://foursquare.com/v/hybschmann-home/4d463bfee198721ea5a1cd8b> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85051" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.565159 ;
+            schema:longitude -112.13706 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4d463bfee198721ea5a1cd8b" ] ;
+    schema:name "Arizona Grout Restoration"@en ;
+    owl:sameAs <http://yelp.com/biz/Arizona-Grout-Restoration-Phoenix> .
+
+<https://foursquare.com/v/hyland-hills-apartments/4bc74f6892b376b0ef744f3a> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15220" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.422284 ;
+            schema:longitude -80.036726 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4bc74f6892b376b0ef744f3a" ] ;
+    schema:name "Prime Moving Center"@en ;
+    owl:sameAs <http://yelp.com/biz/Prime-Moving-Center-Pittsburgh> .
+
+<https://foursquare.com/v/inlaw-suite/4d7233864ab5224bf743bb97> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Cleveland"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44111" ;
+            schema:streetAddress "10007 Dennison Avenue"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.45226 ;
+            schema:longitude -81.78417 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4d7233864ab5224bf743bb97" ] ;
+    schema:name "Roto-Rooter Plumbing & Water Cleanup"@en ;
+    owl:sameAs <http://yelp.com/biz/Roto-Rooter-Plumbing-and-Water-Cleanup-Cleveland> .
+
+<https://foursquare.com/v/john-domojameson-home/4f14f4ade4b0fd2951ed5d5c> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Scarborough"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M1R" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.750071 ;
+            schema:longitude -79.295849 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4f14f4ade4b0fd2951ed5d5c" ] ;
+    schema:name "Kera Catering"@en ;
+    owl:sameAs <http://yelp.com/biz/Kera-Catering-Scarborough> .
+
+<https://foursquare.com/v/kris-letangs-hair/4f7f8f52e4b06d09f8636ecc> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15228" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.372771 ;
+            schema:longitude -80.047904 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4f7f8f52e4b06d09f8636ecc" ] ;
+    schema:name "The Home Pros"@en ;
+    owl:sameAs <http://yelp.com/biz/The-Home-Pros-Pittsburgh> .
+
+<https://foursquare.com/v/lambs-house/4b058820f964a52052b322e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "MLN" ;
+            schema:postalCode "EH6" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.978662 ;
+            schema:longitude -3.173399 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b058820f964a52052b322e3" ] ;
+    schema:name "Leith"@en ;
+    owl:sameAs <http://yelp.com/biz/Leith-Edinburgh> .
+
+<https://foursquare.com/v/le-casa-de-toronto/4e613ecd1838ad3d0e447f4a> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M1M" ;
+            schema:streetAddress "3408 Kingston Road"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.716316 ;
+            schema:longitude -79.239476 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4e613ecd1838ad3d0e447f4a" ] ;
+    schema:name "Centro Pizza"@en ;
+    owl:sameAs <http://yelp.com/biz/Centro-Pizza-Toronto> .
+
+<https://foursquare.com/v/leonards-family-restaurant/4b128f74f964a520d28a23e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "BreakfastSpot" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M4G 2H4" ;
+            schema:streetAddress "220 Laird Drive"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 5.1 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.71233 ;
+            schema:longitude -79.364437 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b128f74f964a520d28a23e3" ] ;
+    schema:name "Leonard's Family Restaurant"@en ;
+    owl:sameAs <http://yelp.com/biz/Leonards-Family-Restaurant-Toronto> .
+
+<https://foursquare.com/v/lil-vegas-jetties-spot/50eeea78e4b0793e2dfcd046> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Cleveland Heights"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44118" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.505099 ;
+            schema:longitude -81.554158 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "50eeea78e4b0793e2dfcd046" ] ;
+    schema:name "Auto Locksmith Cleveland Hts"@en ;
+    owl:sameAs <http://yelp.com/biz/Auto-Locksmith-Cleveland-Hts-Cleveland-Heights> .
+
+<https://foursquare.com/v/mandi-wehes/50d3a910e4b01aaae2e921e0> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Parma"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44129" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.388641 ;
+            schema:longitude -81.72947 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "50d3a910e4b01aaae2e921e0" ] ;
+    schema:name "Tiger Air Heating & Air Conditioning"@en ;
+    owl:sameAs <http://yelp.com/biz/Tiger-Air-Heating-and-Air-Conditioning-Parma> .
+
+<https://foursquare.com/v/merriwood/4e83dc652c5b5929750ad8f2> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28203" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.214659 ;
+            schema:longitude -80.859919 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4e83dc652c5b5929750ad8f2" ] ;
+    schema:name "South End Pet Sitting"@en ;
+    owl:sameAs <http://yelp.com/biz/South-End-Pet-Sitting-Charlotte> .
+
+<https://foursquare.com/v/morning-glory-cafe/4ae5b91ff964a520a6a121e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "BreakfastSpot" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M5A 1L6" ;
+            schema:streetAddress "457 King Street E"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 8.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.653884 ;
+            schema:longitude -79.361051 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4ae5b91ff964a520a6a121e3" ] ;
+    schema:name "Morning Glory Cafe"@en ;
+    owl:sameAs <http://yelp.com/biz/Morning-Glory-Cafe-Toronto> .
+
+<https://foursquare.com/v/number-twelve-grimmauld-place/51ff1f62498eeea418698d6a> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15214" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.490944 ;
+            schema:longitude -80.014366 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "51ff1f62498eeea418698d6a" ] ;
+    schema:name "Exquisite Fit Bridal"@en ;
+    owl:sameAs <http://yelp.com/biz/Exquisite-Fit-Bridal-Pittsburgh> .
+
+<https://foursquare.com/v/painters-loft/4aeb8354f964a520e5c221e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Cleveland"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44102" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.478936 ;
+            schema:longitude -81.740413 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4aeb8354f964a520e5c221e3" ] ;
+    schema:name "Rita Abdallah"@en ;
+    owl:sameAs <http://yelp.com/biz/Rita-Abdallah-Cleveland> .
+
+<https://foursquare.com/v/paris-on-penn/4e888d72775b68cb8310c2fc> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15208" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.450915 ;
+            schema:longitude -79.902478 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4e888d72775b68cb8310c2fc" ] ;
+    schema:name "GoTo Guys Handyman"@en ;
+    owl:sameAs <http://yelp.com/biz/GoTo-Guys-Handyman-Pittsburgh> .
+
+<https://foursquare.com/v/pattys-house/4ceec194b80da0931f292900> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Pittsburgh"@en ;
+            schema:addressRegion "PA" ;
+            schema:postalCode "15221" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 40.436883 ;
+            schema:longitude -79.857683 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4ceec194b80da0931f292900" ] ;
+    schema:name "Mark Mobile Notary"@en ;
+    owl:sameAs <http://yelp.com/biz/Mark-Mobile-Notary-Pittsburgh> .
+
+<https://foursquare.com/v/pep-boys-auto-parts--service/4bed92039868a593e9975d46> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "AutomotiveShop" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28217" ;
+            schema:streetAddress "5020 South Blvd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 6.4 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.168704 ;
+            schema:longitude -80.876184 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4bed92039868a593e9975d46" ] ;
+    schema:name "Budget Truck South Blvd"@en ;
+    owl:sameAs <http://yelp.com/biz/Budget-Truck-South-Blvd-Charlotte> .
+
+<https://foursquare.com/v/phoenix-food-truck-festival/4ea31c9d7beb98c09ba15b3a> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "FoodTruck" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85004" ;
+            schema:streetAddress "408 E Roosevelt St"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.459023 ;
+            schema:longitude -112.068175 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4ea31c9d7beb98c09ba15b3a" ] ;
+    schema:name "Phoenix Food Truck Festival"@en ;
+    owl:sameAs <http://yelp.com/biz/Phoenix-Food-Truck-Festival-Phoenix> .
+
+<https://foursquare.com/v/sals-pizza-inc/51c2472a698f7f29fc898e82> a schema:FastFoodRestaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Tempe"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85281" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.436665 ;
+            schema:longitude -111.940325 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "51c2472a698f7f29fc898e82" ] ;
+    schema:name "Roto-Rooter Plumbing & Drain Service"@en ;
+    owl:sameAs <http://yelp.com/biz/Roto-Rooter-Plumbing-and-Drain-Service-Tempe> .
+
+<https://foursquare.com/v/seans-house/4f9426a5e4b06ce858d0d3a6> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Cleveland"@en ;
+            schema:addressRegion "OH" ;
+            schema:postalCode "44113" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 41.48571 ;
+            schema:longitude -81.696631 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4f9426a5e4b06ce858d0d3a6" ] ;
+    schema:name "Cleveland Dog Walk"@en ;
+    owl:sameAs <http://yelp.com/biz/Cleveland-Dog-Walk-Cleveland> .
+
+<https://foursquare.com/v/sears/4b203a3ff964a520082f24e3> a schema:ElectronicsStore ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85051" ;
+            schema:streetAddress "10001 N Metro Pkwy W, Metro Center Mall"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 5.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.577686 ;
+            schema:longitude -112.124616 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b203a3ff964a520082f24e3" ] ;
+    schema:name "Sears Parts & Repair Center"@en ;
+    owl:sameAs <http://yelp.com/biz/Sears-Parts-and-Repair-Center-Phoenix> .
+
+<https://foursquare.com/v/senhor-santo-cristo/4ae4b8bef964a520759d21e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M6J" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.647927 ;
+            schema:longitude -79.41975 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4ae4b8bef964a520759d21e3" ] ;
+    schema:name "Sweet Cocoa"@en ;
+    owl:sameAs <http://yelp.com/biz/Sweet-Cocoa-Toronto> .
+
+<https://foursquare.com/v/staybridge-suites-madisoneast/4bc34e02dce4eee13f8a719d> a schema:Hotel ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Madison"@en ;
+            schema:addressRegion "WI" ;
+            schema:postalCode "53718" ;
+            schema:streetAddress "3301 City View Dr"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 7.6 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.138502 ;
+            schema:longitude -89.288268 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4bc34e02dce4eee13f8a719d" ] ;
+    schema:name "Staybridge Suites Madison-East"@en ;
+    owl:sameAs <http://yelp.com/biz/Staybridge-Suites-Madison-East-Madison> .
+
+<https://foursquare.com/v/susies/4fdb929ae4b037067e464e01> a schema:ConvenienceStore ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 43.653226 ;
+            schema:longitude -79.383184 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4fdb929ae4b037067e464e01" ] ;
+    schema:name "Safeway Tours"@en ;
+    owl:sameAs <http://yelp.com/biz/Safeway-Tours-Toronto> .
+
+<https://foursquare.com/v/taqueria-el-fundador/4c9baa5ddb10b60cde689d6d> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "MexicanRestaurant" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85009" ;
+            schema:streetAddress "3245 W Van Buren St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 7.2 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.451137 ;
+            schema:longitude -112.130043 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4c9baa5ddb10b60cde689d6d" ] ;
+    schema:name "Taqueria El Fundador"@en ;
+    owl:sameAs <http://yelp.com/biz/Taqueria-El-Fundador-Phoenix> .
+
+<https://foursquare.com/v/the-chimney-sweep-motel/50e30309e4b0f3401b4d2d72> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85006" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.463601 ;
+            schema:longitude -112.053599 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "50e30309e4b0f3401b4d2d72" ] ;
+    schema:name "Frontpoint Home Security"@en ;
+    owl:sameAs <http://yelp.com/biz/Frontpoint-Home-Security-Phoenix> .
+
+<https://foursquare.com/v/the-clem-castle/4d8a8ccee60c2c0f3af7c23a> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Phoenix"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85053" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.628995 ;
+            schema:longitude -112.13706 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4d8a8ccee60c2c0f3af7c23a" ] ;
+    schema:name "Fotobot Photo Booth Co."@en ;
+    owl:sameAs <http://yelp.com/biz/Fotobot-Photo-Booth-Co.-Phoenix> .
+
+<https://foursquare.com/v/theater-charlotte/4b058640f964a520585a22e3> a schema:MovieTheater ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28207" ;
+            schema:streetAddress "501 Queens Rd"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.207181 ;
+            schema:longitude -80.826847 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b058640f964a520585a22e3" ] ;
+    schema:name "Theatre Charlotte"@en ;
+    owl:sameAs <http://yelp.com/biz/Theatre-Charlotte-Charlotte> .
+
+<https://foursquare.com/v/tim-and-scotts-house-of-pain/4dbcccad1e72b351cabd1662> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28210" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.127429 ;
+            schema:longitude -80.859919 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4dbcccad1e72b351cabd1662" ] ;
+    schema:name "Payless Plumber Charlotte"@en ;
+    owl:sameAs <http://yelp.com/biz/Payless-Plumber-Charlotte-Charlotte> .
+
+<https://foursquare.com/v/todds-house/4cedfdb45de16ea852a5b996> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Scottsdale"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85257" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.468848 ;
+            schema:longitude -111.910516 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4cedfdb45de16ea852a5b996" ] ;
+    schema:name "Photography by Jake"@en ;
+    owl:sameAs <http://yelp.com/biz/Photography-by-Jake-Scottsdale> .
+
+<https://foursquare.com/v/us-airways-flight-1281-cltfll/4f27f877e4b095e0c2492f9f> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Plane" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.227087 ;
+            schema:longitude -80.843127 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4f27f877e4b095e0c2492f9f" ] ;
+    schema:name "Maryland Crab & Co"@en ;
+    owl:sameAs <http://yelp.com/biz/Maryland-Crab-and-Co-Charlotte> .
+
+<https://foursquare.com/v/wc-keluarga-1/5000ddfce4b0ed5448fb8ba0> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "OtherGreatOutdoor" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28282" ;
+            schema:streetAddress "301 S College St"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.224768 ;
+            schema:longitude -80.845044 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "5000ddfce4b0ed5448fb8ba0" ] ;
+    schema:name "College Place"@en ;
+    owl:sameAs <http://yelp.com/biz/College-Place-Charlotte> .
+
+<https://foursquare.com/v/woodridge-manor-apartments/4bfbfce957cd9c74576ecc2b> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Home(private)" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Glendale"@en ;
+            schema:addressRegion "AZ" ;
+            schema:postalCode "85301" ;
+            schema:streetAddress ""@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 33.534925 ;
+            schema:longitude -112.184751 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4bfbfce957cd9c74576ecc2b" ] ;
+    schema:name "Garage Doors America"@en ;
+    owl:sameAs <http://yelp.com/biz/Garage-Doors-America-Glendale> .
+
+<https://foursquare.com/v/ye-olde-orchard-pub--grill/4ad4c06bf964a52038f920e3> a schema:BarOrPub ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Montréal"@en ;
+            schema:addressRegion "QC" ;
+            schema:postalCode "H4A 1E1" ;
+            schema:streetAddress "5563 Monkland Avenue"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 7.5 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 45.475988 ;
+            schema:longitude -73.622534 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4ad4c06bf964a52038f920e3" ] ;
+    schema:name "Ye Olde Orchard Pub & Grill"@en ;
+    owl:sameAs <http://yelp.com/biz/Ye-Olde-Orchard-Pub-and-Grill-Montréal> .
+
+<http://yelp.com/biz/DICKS-Sporting-Goods-Charlotte> a schema:ShoeStore,
+        schema:ShoppingCenter,
+        schema:SportingGoodsStore ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Fashion" ],
+        [ schema:name "category" ;
+            schema:value "Fitness/ExerciseEquipment" ],
+        [ schema:name "category" ;
+            schema:value "OutdoorGear" ],
+        [ schema:name "category" ;
+            schema:value "SportsWear" ],
+        [ schema:name "category" ;
+            schema:value "Fitness/ExerciseEquipment" ],
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Charlotte"@en ;
+            schema:addressRegion "NC" ;
+            schema:postalCode "28216" ;
+            schema:streetAddress "6445 Northlake Mall Dr"@en ],
+        [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 23.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 35.352596 ;
+            schema:longitude -80.852265 ],
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "G_JJzggeit0hNqEgvmKRzQ" ],
+    schema:name "DICK'S Sporting Goods"@en ;
+    owl:sameAs <https://foursquare.com/v/dicks-sporting-goods/4b2d216af964a5200ccf24e3> .
+
+<http://tripadvisor.com/Restaurant_Review-g186525-d1991661-Reviews-Malvarosa-Edinburgh_Scotland.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH15 2AT" ;
+            schema:streetAddress "260 Portobello High St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 137.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.95198 ;
+            schema:longitude -3.11037 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "2895d77375254173f1fe4d50a4ce8e81" ] ;
+    schema:name "Malvarosa"@en ;
+    schema:servesCuisine " Tapas"@en,
+        " Vegetarian"@en,
+        " Yugoslavian"@en,
+        "Spanish"@en ;
+    owl:sameAs <http://yelp.com/biz/Dragonheart-Tattoo-UK-Edinburgh> .
+
+<http://tripadvisor.com/Restaurant_Review-g186525-d3932723-Reviews-Fatma_Restaurant-Edinburgh_Scotland.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH6 6LX" ;
+            schema:streetAddress "82 Commercial Street"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 188.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.97702 ;
+            schema:longitude -3.17273 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "4868d43d49e3e1874be21f88e3388058" ] ;
+    schema:name "Fatma Restaurant"@en ;
+    schema:servesCuisine " Mediterranean"@en,
+        " Middle Eastern"@en,
+        "Lebanese"@en ;
+    owl:sameAs <http://yelp.com/biz/International-Starters-Edinburgh> .
+
+<http://tripadvisor.com/Restaurant_Review-g186525-d4115691-Reviews-Belly_Buster-Edinburgh_Scotland.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH6 4AE" ;
+            schema:streetAddress "36 Ferry Road"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 7.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.97526 ;
+            schema:longitude -3.18062 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "55340eb637ec368be2beb33bf9627d19" ] ;
+    schema:name "Belly Buster"@en ;
+    schema:servesCuisine "Fast food"@en ;
+    owl:sameAs <http://yelp.com/biz/Belly-Buster-Edinburgh> .
+
+<http://tripadvisor.com/Restaurant_Review-g186525-d4368232-Reviews-Tony_Macaroni_s_Alla_Romana-Edinburgh_Scotland.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH10 4DE" ;
+            schema:streetAddress "208 Bruntsfield Place"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 17.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.93566 ;
+            schema:longitude -3.21026 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "24e4abe300900ac0528b3b06eb513c7a" ] ;
+    schema:name "Tony Macaroni's Alla Romana"@en ;
+    schema:servesCuisine "Pizza"@en ;
+    owl:sameAs <http://yelp.com/biz/Tony-Macaroni-Alla-Romana-Edinburgh> .
+
+<http://tripadvisor.com/Restaurant_Review-g186525-d6380416-Reviews-Jekyll_Hyde-Edinburgh_Scotland.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH2 1DR" ;
+            schema:streetAddress "112 Hanover Street"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 6.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.95452 ;
+            schema:longitude -3.19814 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "f2b627ec829f53dc6109e1c0129bd642" ] ;
+    schema:name "Jekyll & Hyde"@en ;
+    owl:sameAs <http://yelp.com/biz/Jekyll-and-Hyde-Edinburgh> .
+
+<http://tripadvisor.com/Restaurant_Review-g186525-d6582610-Reviews-Wildest_Drams-Edinburgh_Scotland.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH1 1PE" ;
+            schema:streetAddress "209-213 High Street"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 32.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.95027 ;
+            schema:longitude -3.18874 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "2d3eb73120a15516d91045329bf8f84a" ] ;
+    schema:name "Wildest Drams"@en ;
+    schema:servesCuisine "Scottish"@en ;
+    owl:sameAs <http://yelp.com/biz/Jackson-Restaurant-Edinburgh> .
+
+<http://tripadvisor.com/Restaurant_Review-g186525-d6602855-Reviews-Fortitude_Coffee_Merchants-Edinburgh_Scotland.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH1 3JD" ;
+            schema:streetAddress "St Mary's Cathedral York Place"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 8.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.9563 ;
+            schema:longitude -3.18844 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "cda5b3a2209fb113cd0a361c33a454dd" ] ;
+    schema:name "Fortitude Coffee Merchants"@en ;
+    schema:servesCuisine "Café"@en ;
+    owl:sameAs <http://yelp.com/biz/Cafe-Camino-Edinburgh> .
+
+<http://tripadvisor.com/Restaurant_Review-g187338-d2304354-Reviews-Bodega-Fulda_Hesse.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M5H 4G1" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 1.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude "None"^^xsd:decimal ;
+            schema:longitude "None"^^xsd:decimal ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "3aa99bc7f5b2430db6d9179b5b459dd6" ] ;
+    schema:name "Bodega"@en ;
+    owl:sameAs <http://yelp.com/biz/Bixi-Bike-Toronto> .
+
+<http://tripadvisor.com/Restaurant_Review-g198391-d6024294-Reviews-Portugisiescher_Verein_Sindelfingen-Sindelfingen_Baden_Wurttemberg.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Sindelfingen"@en ;
+            schema:addressRegion "BW" ;
+            schema:postalCode "71063" ;
+            schema:streetAddress "Lange Str. 1"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 1.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 48.7086 ;
+            schema:longitude 8.99991 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "f46db7de9ea96dde559b225d032d8fd6" ] ;
+    schema:name "Portugisiescher Verein Sindelfingen"@en ;
+    schema:servesCuisine "Portuguese"@en ;
+    owl:sameAs <http://yelp.com/biz/Come-Sempre-Salvas-Sindelfingen> .
+
+<http://yelp.com/biz/Belly-Buster-Edinburgh> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Dessert" ],
+        [ schema:name "category" ;
+            schema:value "CoffeeAndTea" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH6 4AE" ;
+            schema:streetAddress "36 Ferry Road"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 5.0 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.97526 ;
+            schema:longitude -3.18062 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "gPNr599UHlqkhFINbrqbGA" ] ;
+    schema:name "Belly Buster"@en ;
+    owl:sameAs <http://www.tripadvisor.in/Restaurant_Review-g186525-d4115691-Reviews-Belly_Buster-Edinburgh_Scotland.html> .
+
+<http://yelp.com/biz/Bixi-Bike-Toronto> a schema:BikeStore,
+        schema:ShoppingCenter,
+        schema:SportingGoodsStore ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Toronto"@en ;
+            schema:addressRegion "ON" ;
+            schema:postalCode "M5H 4G1" ;
+            schema:streetAddress ""@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 25.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude "None"^^xsd:decimal ;
+            schema:longitude "None"^^xsd:decimal ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "W1x0rlzGUrMBbK3Hq5bk2Q" ] ;
+    schema:name "Bixi Bike"@en ;
+    owl:sameAs <http://www.tripadvisor.in/Restaurant_Review-g187338-d2304354-Reviews-Bodega-Fulda_Hesse.html> .
+
+<http://yelp.com/biz/Cafe-Camino-Edinburgh> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Bakerie" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH1 3JD" ;
+            schema:streetAddress "St Mary's Cathedral York Place"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.0 ;
+            schema:reviewCount 6.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.9563 ;
+            schema:longitude -3.18844 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "BbC9hBQ7ui4E7rMa6Pca5w" ] ;
+    schema:name "Cafe Camino"@en ;
+    owl:sameAs <http://www.tripadvisor.in/Restaurant_Review-g186525-d6602855-Reviews-Fortitude_Coffee_Merchants-Edinburgh_Scotland.html> .
+
+<http://yelp.com/biz/Come-Sempre-Salvas-Sindelfingen> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Italian" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Sindelfingen"@en ;
+            schema:addressRegion "BW" ;
+            schema:postalCode "71063" ;
+            schema:streetAddress "Lange Str. 1"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 21.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 48.7086 ;
+            schema:longitude 8.99991 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "M7LycEla3delvqK4Auu0Dg" ] ;
+    schema:name "Come Sempre Salva's"@en ;
+    owl:sameAs <http://www.tripadvisor.in/Restaurant_Review-g198391-d6024294-Reviews-Portugisiescher_Verein_Sindelfingen-Sindelfingen_Baden_Wurttemberg.html> .
+
+<http://yelp.com/biz/Dragonheart-Tattoo-UK-Edinburgh> a schema:TattooParlor ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "BeautyAndSpa" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH15 2AT" ;
+            schema:streetAddress "260 Portobello High St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.5 ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.95198 ;
+            schema:longitude -3.11037 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "NgoC8QOulpoPuHDbJhGHcg" ] ;
+    schema:name "Dragonheart Tattoo UK"@en ;
+    owl:sameAs <http://www.tripadvisor.in/Restaurant_Review-g186525-d1991661-Reviews-Malvarosa-Edinburgh_Scotland.html> .
+
+<http://yelp.com/biz/International-Starters-Edinburgh> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "British" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH6 6LX" ;
+            schema:streetAddress "82 Commercial Street"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 3.5 ;
+            schema:reviewCount 18.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.97702 ;
+            schema:longitude -3.17273 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "DwoQqxPvxsskH6ay7HPP2w" ] ;
+    schema:name "International Starters"@en ;
+    owl:sameAs <http://www.tripadvisor.in/Restaurant_Review-g186525-d3932723-Reviews-Fatma_Restaurant-Edinburgh_Scotland.html> .
+
+<http://yelp.com/biz/Jackson-Restaurant-Edinburgh> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "British" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH1 1PE" ;
+            schema:streetAddress "209-213 High Street"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 2.0 ;
+            schema:reviewCount 4.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.95027 ;
+            schema:longitude -3.18874 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "OoCe0mnCGK2SW4N8fnx9NQ" ] ;
+    schema:name "Jackson Restaurant"@en ;
+    owl:sameAs <http://www.tripadvisor.in/Restaurant_Review-g186525-d6582610-Reviews-Wildest_Drams-Edinburgh_Scotland.html> .
+
+<http://yelp.com/biz/Jekyll-and-Hyde-Edinburgh> a schema:BarOrPub ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Nightlife" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH2 1DR" ;
+            schema:streetAddress "112 Hanover Street"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 59.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.95452 ;
+            schema:longitude -3.19814 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "9RsIfJvThEwSgCXdTOPieQ" ] ;
+    schema:name "Jekyll & Hyde"@en ;
+    owl:sameAs <http://www.tripadvisor.in/Restaurant_Review-g186525-d6380416-Reviews-Jekyll_Hyde-Edinburgh_Scotland.html> .
+
+<http://yelp.com/biz/Tony-Macaroni-Alla-Romana-Edinburgh> a schema:FastFoodRestaurant ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Italian" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocalitly "Edinburgh"@en ;
+            schema:addressRegion "EDH" ;
+            schema:postalCode "EH10 4DE" ;
+            schema:streetAddress "208 Bruntsfield Place"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Yelp" ;
+            schema:ratingValue 4.0 ;
+            schema:reviewCount 5.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 55.93566 ;
+            schema:longitude -3.21026 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdYelp" ;
+            schema:value "NwZDjx3sMfPdXaEVw9v4PA" ] ;
+    schema:name "Tony Macaroni Alla Romana"@en ;
+    owl:sameAs <http://www.tripadvisor.in/Restaurant_Review-g186525-d4368232-Reviews-Tony_Macaroni_s_Alla_Romana-Edinburgh_Scotland.html> .
+	
+<http://tripadvisor.com/Restaurant_Review-g186338-d5888142-Reviews-LabOrganic-London_England.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "London, GB"@en ;
+            schema:addressRegion "England"@en ;
+            schema:postalCode " London WC2H 9PA"@en ;
+            schema:streetAddress "58 Neal street"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 7.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 51.51465 ;
+            schema:longitude -0.12606 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "e25eb36bd9b1bc8dd9b1d9f1a70a9c78" ] ;
+    schema:name "LabOrganic"@en ;
+    owl:sameAs <https://foursquare.com/v/yumi/4ea2c7b4f7909c68de3e57c0> .
+
+<http://tripadvisor.com/Restaurant_Review-g187337-d2306134-Reviews-Eissalon_Riviera-Frankfurt_Hesse.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Frankfurt, DE"@en ;
+            schema:addressRegion "Hesse"@en ;
+            schema:postalCode " 60529 Frankfurt"@en ;
+            schema:streetAddress "Alt-Schwanheim 40"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 2.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 50.08395 ;
+            schema:longitude 8.58131 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "51bce422c3767e16ec7514769b1bfe10" ] ;
+    schema:name "Eissalon Riviera"@en ;
+    schema:servesCuisine "Ice cream"@en ;
+    owl:sameAs <https://foursquare.com/v/eissalon-riviera/4d7fcc8643c2cbffd2718fc9> .
+
+<http://tripadvisor.com/Restaurant_Review-g32070-d604869-Reviews-Walter_s_2_Go-Beverly_Hills_California.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Beverly Hills, US"@en ;
+            schema:addressRegion "CA"@en ;
+            schema:postalCode " Beverly Hills"@en ;
+            schema:streetAddress "153 S. Beverly Drive"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 1.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 34.06707 ;
+            schema:longitude -118.40321 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "d5c6569d06d4ec7729713f5901104ce2" ] ;
+    schema:name "Walter's Cafe"@en ;
+    owl:sameAs <https://foursquare.com/v/equinox-beverly-hills/4a8ec57bf964a5209d1220e3> .
+
+<http://tripadvisor.com/Restaurant_Review-g32655-d4765318-Reviews-McDonald_s-Los_Angeles_California.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Los Angeles, US"@en ;
+            schema:addressRegion "CA"@en ;
+            schema:postalCode " Los Angeles"@en ;
+            schema:streetAddress "1111 S Figueroa St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 2.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 34.04331 ;
+            schema:longitude -118.26556 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "f921ce7beefa42c7951d7cbfd1b39974" ] ;
+    schema:name "McDonald's"@en ;
+    owl:sameAs <https://foursquare.com/v/adobemax-bash/5189aa3d498e3d5dd0b59b54> .
+
+<http://tripadvisor.com/Restaurant_Review-g34438-d1761726-Reviews-Mandolin_Aegean_Bistro-Miami_Florida.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Miami, US"@en ;
+            schema:addressRegion "FL"@en ;
+            schema:postalCode " Miami"@en ;
+            schema:streetAddress "4312 NE 2nd Ave"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 217.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 25.81592 ;
+            schema:longitude -80.19169 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "8a6370f892d1ee1d081e52a82a421807" ] ;
+    schema:name "Mandolin Aegean Bistro"@en ;
+    schema:servesCuisine " Mediterranean"@en,
+        " Turkish"@en,
+        "Greek"@en ;
+    owl:sameAs <https://foursquare.com/v/mandolin-aegean-bistro/4b3d581cf964a520ca9225e3> .
+
+<http://tripadvisor.com/Restaurant_Review-g34438-d4562962-Reviews-Vino_s_in_the_Grove-Miami_Florida.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Miami, US"@en ;
+            schema:addressRegion "FL"@en ;
+            schema:postalCode " Miami"@en ;
+            schema:streetAddress "3409 Main Highway"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 3.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 25.72779 ;
+            schema:longitude -80.24255 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "f74d5dbd2e27389c27e58571694d76ae" ] ;
+    schema:name "Vino's in the Grove"@en ;
+    schema:servesCuisine "Wine Bar"@en ;
+    owl:sameAs <https://foursquare.com/v/vinos-in-the-grove/4f90bb99e4b07256edd992ea> .
+
+<http://tripadvisor.com/Restaurant_Review-g34439-d2474830-Reviews-Boteco_Copacabana-Miami_Beach_Florida.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Miami Beach, US"@en ;
+            schema:addressRegion "FL"@en ;
+            schema:postalCode " Miami Beach"@en ;
+            schema:streetAddress "437 Espanola Way"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 58.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 25.78691 ;
+            schema:longitude -80.13262 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "6fb1905c758bac6ff29690341cd831f8" ] ;
+    schema:name "Boteco Copacabana"@en ;
+    schema:servesCuisine "South American"@en ;
+    owl:sameAs <https://foursquare.com/v/boteco-copacabana/4be20f8bf07b0f47299ef443> .
+
+<http://tripadvisor.com/Restaurant_Review-g34439-d493732-Reviews-Arnie_s_Richie_s_Deli-Miami_Beach_Florida.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Miami Beach, US"@en ;
+            schema:addressRegion "FL"@en ;
+            schema:postalCode " Miami Beach"@en ;
+            schema:streetAddress "525 Arthur Godfrey Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 7.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 25.81409 ;
+            schema:longitude -80.12984 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "afe3fe16c149ae4b49c5d88f7510f8c7" ] ;
+    schema:name """Arnie's & Richie's Deli
+- CLOSED"""@en ;
+    schema:servesCuisine "Delicatessen"@en ;
+    owl:sameAs <https://foursquare.com/v/roasters-n-toasters-deli/4b053e35f964a520805722e3> .
+
+<http://tripadvisor.com/Restaurant_Review-g34439-d5603857-Reviews-EAT_GREEK_SOUVLAKI-Miami_Beach_Florida.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Miami Beach, US"@en ;
+            schema:addressRegion "FL"@en ;
+            schema:postalCode " Miami Beach"@en ;
+            schema:streetAddress "1570B ALTON ROAD"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 8.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 25.7887 ;
+            schema:longitude -80.14113 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "241e1f6ad5499acbb1a9b7d008700f90" ] ;
+    schema:name "EAT GREEK SOUVLAKI"@en ;
+    schema:servesCuisine " Healthy"@en,
+        " Mediterranean"@en,
+        "Greek"@en ;
+    owl:sameAs <https://foursquare.com/v/bernies-la-cafe/4c33d518452620a1ea4b240f> .
+
+<http://tripadvisor.com/Restaurant_Review-g60745-d321561-Reviews-Billy_Tse_s_Restaurant-Boston_Massachusetts.html> a schema:Restaurant ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Boston, US"@en ;
+            schema:addressRegion "MA"@en ;
+            schema:postalCode " Boston"@en ;
+            schema:streetAddress "240 Commercial St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "TripAdvisor" ;
+            schema:reviewCount 24.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 42.36385 ;
+            schema:longitude -71.05121 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdTripAdvisor" ;
+            schema:value "849ad545601ff2dfae27a9e6a9938fcc" ] ;
+    schema:name "Billy Tse's Restaurant"@en ;
+    schema:servesCuisine " Asian"@en,
+        " Chinese"@en,
+        " Japanese"@en,
+        "Sushi"@en ;
+    owl:sameAs <https://foursquare.com/v/billy-tses-restaurant/4b1afebdf964a5200cf623e3> .
+
+<https://foursquare.com/v/adobemax-bash/5189aa3d498e3d5dd0b59b54> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "RockClub" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Los Angeles, US"@en ;
+            schema:addressRegion "CA"@en ;
+            schema:postalCode " Los Angeles"@en ;
+            schema:streetAddress "1111 S Figueroa St"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 34.04331 ;
+            schema:longitude -118.26556 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "5189aa3d498e3d5dd0b59b54" ] ;
+    schema:name "McDonald's"@en ;
+    owl:sameAs <http://yelp.com//Restaurant_Review-g32655-d4765318-Reviews-McDonald_s-Los_Angeles_California.html> .
+
+<https://foursquare.com/v/bernies-la-cafe/4c33d518452620a1ea4b240f> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "LatinAmericanRestaurant" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Miami Beach, US"@en ;
+            schema:addressRegion "FL"@en ;
+            schema:postalCode " Miami Beach"@en ;
+            schema:streetAddress "1570B ALTON ROAD"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 25.7887 ;
+            schema:longitude -80.14113 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4c33d518452620a1ea4b240f" ] ;
+    schema:name "EAT GREEK SOUVLAKI"@en ;
+    owl:sameAs <http://yelp.com//Restaurant_Review-g34439-d5603857-Reviews-EAT_GREEK_SOUVLAKI-Miami_Beach_Florida.html> .
+
+<https://foursquare.com/v/billy-tses-restaurant/4b1afebdf964a5200cf623e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "SushiRestaurant" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Boston, US"@en ;
+            schema:addressRegion "MA"@en ;
+            schema:postalCode " Boston"@en ;
+            schema:streetAddress "240 Commercial St"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 6.8 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 42.36385 ;
+            schema:longitude -71.05121 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b1afebdf964a5200cf623e3" ] ;
+    schema:name "Billy Tse's Restaurant"@en ;
+    owl:sameAs <http://yelp.com//Restaurant_Review-g60745-d321561-Reviews-Billy_Tse_s_Restaurant-Boston_Massachusetts.html> .
+
+<https://foursquare.com/v/boteco-copacabana/4be20f8bf07b0f47299ef443> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "BrazilianRestaurant" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Miami Beach, US"@en ;
+            schema:addressRegion "FL"@en ;
+            schema:postalCode " Miami Beach"@en ;
+            schema:streetAddress "437 Espanola Way"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 6.5 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 25.78691 ;
+            schema:longitude -80.13262 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4be20f8bf07b0f47299ef443" ] ;
+    schema:name "Boteco Copacabana"@en ;
+    owl:sameAs <http://yelp.com//Restaurant_Review-g34439-d2474830-Reviews-Boteco_Copacabana-Miami_Beach_Florida.html> .
+
+<https://foursquare.com/v/eissalon-riviera/4d7fcc8643c2cbffd2718fc9> a schema:IceCreamShop ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Frankfurt, DE"@en ;
+            schema:addressRegion "Hesse"@en ;
+            schema:postalCode " 60529 Frankfurt"@en ;
+            schema:streetAddress "Alt-Schwanheim 40"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 8.1 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 50.08395 ;
+            schema:longitude 8.58131 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4d7fcc8643c2cbffd2718fc9" ] ;
+    schema:name "Eissalon Riviera"@en ;
+    owl:sameAs <http://yelp.com//Restaurant_Review-g187337-d2306134-Reviews-Eissalon_Riviera-Frankfurt_Hesse.html> .
+
+<https://foursquare.com/v/equinox-beverly-hills/4a8ec57bf964a5209d1220e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Gym/FitnessCenter" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Beverly Hills, US"@en ;
+            schema:addressRegion "CA"@en ;
+            schema:postalCode " Beverly Hills"@en ;
+            schema:streetAddress "153 S. Beverly Drive"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 8.2 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 34.06707 ;
+            schema:longitude -118.40321 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4a8ec57bf964a5209d1220e3" ] ;
+    schema:name "Walter's Cafe"@en ;
+    owl:sameAs <http://yelp.com//Restaurant_Review-g32070-d604869-Reviews-Walter_s_2_Go-Beverly_Hills_California.html> .
+
+<https://foursquare.com/v/mandolin-aegean-bistro/4b3d581cf964a520ca9225e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "MediterraneanRestaurant" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Miami, US"@en ;
+            schema:addressRegion "FL"@en ;
+            schema:postalCode " Miami"@en ;
+            schema:streetAddress "4312 NE 2nd Ave"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 9.5 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 25.81592 ;
+            schema:longitude -80.19169 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b3d581cf964a520ca9225e3" ] ;
+    schema:name "Mandolin Aegean Bistro"@en ;
+    owl:sameAs <http://yelp.com//Restaurant_Review-g34438-d1761726-Reviews-Mandolin_Aegean_Bistro-Miami_Florida.html> .
+
+<https://foursquare.com/v/roasters-n-toasters-deli/4b053e35f964a520805722e3> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "AmericanRestaurant" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Miami Beach, US"@en ;
+            schema:addressRegion "FL"@en ;
+            schema:postalCode " Miami Beach"@en ;
+            schema:streetAddress "525 Arthur Godfrey Rd"@en ] ;
+    schema:aggregateRating [ a schema:AggregateRating ;
+            schema:author "Foursquare" ;
+            schema:ratingValue 7.0 ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 25.81409 ;
+            schema:longitude -80.12984 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4b053e35f964a520805722e3" ] ;
+    schema:name """Arnie's & Richie's Deli
+- CLOSED"""@en ;
+    owl:sameAs <http://yelp.com//Restaurant_Review-g34439-d493732-Reviews-Arnie_s_Richie_s_Deli-Miami_Beach_Florida.html> .
+
+<https://foursquare.com/v/vinos-in-the-grove/4f90bb99e4b07256edd992ea> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "WineBar" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "Miami, US"@en ;
+            schema:addressRegion "FL"@en ;
+            schema:postalCode " Miami"@en ;
+            schema:streetAddress "3409 Main Highway"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 25.72779 ;
+            schema:longitude -80.24255 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4f90bb99e4b07256edd992ea" ] ;
+    schema:name "Vino's in the Grove"@en ;
+    owl:sameAs <http://yelp.com//Restaurant_Review-g34438-d4562962-Reviews-Vino_s_in_the_Grove-Miami_Florida.html> .
+
+<https://foursquare.com/v/yumi/4ea2c7b4f7909c68de3e57c0> a schema:localBusiness ;
+    schema:additionalProperty [ schema:name "category" ;
+            schema:value "Boutique" ] ;
+    schema:address [ a schema:PostalAddress ;
+            schema:addressLocality "London, GB"@en ;
+            schema:addressRegion "England"@en ;
+            schema:postalCode " London WC2H 9PA"@en ;
+            schema:streetAddress "58 Neal street"@en ] ;
+    schema:geo [ a schema:GeoCoordinates ;
+            schema:latitude 51.51465 ;
+            schema:longitude -0.12606 ] ;
+    schema:identifier [ a schema:PropertyValue ;
+            schema:propertyID "BusinessIdFSQ" ;
+            schema:value "4ea2c7b4f7909c68de3e57c0" ] ;
+    schema:name "LabOrganic"@en ;
+    owl:sameAs <http://yelp.com//Restaurant_Review-g186338-d5888142-Reviews-LabOrganic-London_England.html> .
