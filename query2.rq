@@ -8,10 +8,12 @@ prefix xml: <http://www.w3.org/XML/1998/namespace>
 prefix xsd: <http://www.w3.org/2001/XMLSchema#> 
 prefix yelp: <http://yelp.com/> 
 
-select ?region {
-  ?s schema:addressRegion ?region
+select ?name ?name2 {
+  ?s a ?venue.
+  ?s schema:name ?name.
+  ?s owl:sameAs ?o.
+  ?o schema:name ?name2
 }
 
-Group By ?region
 
 limit 20

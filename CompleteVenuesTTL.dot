@@ -1,0 +1,80 @@
+digraph { 
+ node [ fontname="DejaVu Sans" ] ; 
+	node0 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node5 -> node6 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:geo</font> > ] ;
+	node5 -> node8 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node9 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node12 -> node10 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node14 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:additionalProperty</font> > ] ;
+	node4 -> node2 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:additionalProperty</font> > ] ;
+	node11 -> node15 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node13 -> node16 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node3 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:additionalProperty</font> > ] ;
+	node5 -> node17 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:address</font> > ] ;
+	node17 -> node16 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node7 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:additionalProperty</font> > ] ;
+	node5 -> node18 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:additionalProperty</font> > ] ;
+	node4 -> node19 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:identifier</font> > ] ;
+	node19 -> node15 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node13 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:address</font> > ] ;
+	node4 -> node20 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:additionalProperty</font> > ] ;
+	node5 -> node11 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:identifier</font> > ] ;
+	node4 -> node21 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node5 -> node22 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:sameAs</font> > ] ;
+	node4 -> node0 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:geo</font> > ] ;
+	node6 -> node1 [ color=BLACK, label=< <font point-size='10' color='#336633'>rdf:type</font> > ] ;
+	node4 -> node9 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:aggregateRating</font> > ] ;
+	node5 -> node12 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:aggregateRating</font> > ] ;
+	node4 -> node24 [ color=BLACK, label=< <font point-size='10' color='#336633'>owl:sameAs</font> > ] ;
+	node5 -> node23 [ color=BLACK, label=< <font point-size='10' color='#336633'>schema:additionalProperty</font> > ] ;
+# ub1bL15C9 node7
+node7 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL15C9</B></td></tr><tr><td href='ub1bL15C9' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL15C9</font></td></tr><tr><td align='left'>schema:name</td><td align='left'>&quot;category&quot;</td></tr><tr><td align='left'>schema:value</td><td align='left'>&quot;SepticService&quot;</td></tr></table> > ] 
+# ub1bL17C9 node20
+node20 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL17C9</B></td></tr><tr><td href='ub1bL17C9' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL17C9</font></td></tr><tr><td align='left'>schema:name</td><td align='left'>&quot;category&quot;</td></tr><tr><td align='left'>schema:value</td><td align='left'>&quot;HomeService&quot;</td></tr></table> > ] 
+# http://schema.org/PostalAddress node16
+node16 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PostalAddress</B></td></tr><tr><td href='http://schema.org/PostalAddress' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://schema.org/PostalAddress</font></td></tr></table> > ] 
+# http://yelp.com/biz/Alliant-Energy-Center-Madison node5
+node5 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>Alliant-Energy-Center-Madison</B></td></tr><tr><td href='http://yelp.com/biz/Alliant-Energy-Center-Madison' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://yelp.com/biz/Alliant-Energy-Center-Madison</font></td></tr><tr><td align='left'>schema:name</td><td align='left'>&quot;Alliant Energy Center&quot;@en</td></tr></table> > ] 
+# ub1bL53C16 node6
+node6 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL53C16</B></td></tr><tr><td href='ub1bL53C16' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL53C16</font></td></tr><tr><td align='left'>schema:latitude</td><td align='left'>&quot;43.045967&quot;^^xsd:decimal</td></tr><tr><td align='left'>schema:longitude</td><td align='left'>&quot;-89.379213&quot;^^xsd:decimal</td></tr></table> > ] 
+# ub1bL30C16 node0
+node0 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL30C16</B></td></tr><tr><td href='ub1bL30C16' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL30C16</font></td></tr><tr><td align='left'>schema:latitude</td><td align='left'>&quot;35.181119&quot;^^xsd:decimal</td></tr><tr><td align='left'>schema:longitude</td><td align='left'>&quot;-80.84885&quot;^^xsd:decimal</td></tr></table> > ] 
+# http://schema.org/ProfessionalService node21
+node21 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ProfessionalService</B></td></tr><tr><td href='http://schema.org/ProfessionalService' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://schema.org/ProfessionalService</font></td></tr></table> > ] 
+# ub1bL49C28 node12
+node12 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL49C28</B></td></tr><tr><td href='ub1bL49C28' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL49C28</font></td></tr><tr><td align='left'>schema:author</td><td align='left'>&quot;Yelp&quot;</td></tr><tr><td align='left'>schema:ratingValue</td><td align='left'>&quot;3.0&quot;^^xsd:decimal</td></tr><tr><td align='left'>schema:reviewCount</td><td align='left'>&quot;18.0&quot;^^xsd:decimal</td></tr></table> > ] 
+# https://foursquare.com/v/dane-country-fair/518c56105a23c97bf627be29 node22
+node22 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>c56105a23c97bf627be29</B></td></tr><tr><td href='https://foursquare.com/v/dane-country-fair/518c56105a23c97bf627be29' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://foursquare.com/v/dane-country-fair/518c56105a23c97bf627be29</font></td></tr></table> > ] 
+# ub1bL19C9 node14
+node14 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL19C9</B></td></tr><tr><td href='ub1bL19C9' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL19C9</font></td></tr><tr><td align='left'>schema:name</td><td align='left'>&quot;category&quot;</td></tr><tr><td align='left'>schema:value</td><td align='left'>&quot;LocalService&quot;</td></tr></table> > ] 
+# ub1bL21C20 node13
+node13 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL21C20</B></td></tr><tr><td href='ub1bL21C20' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL21C20</font></td></tr><tr><td align='left'>schema:addressLocalitly</td><td align='left'>&quot;Charlotte&quot;@en</td></tr><tr><td align='left'>schema:addressRegion</td><td align='left'>&quot;NC&quot;</td></tr><tr><td align='left'>schema:postalCode</td><td align='left'>&quot;28209&quot;</td></tr><tr><td align='left'>schema:streetAddress</td><td align='left'>&quot;&quot;@en</td></tr></table> > ] 
+# ub1bL33C23 node19
+node19 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL33C23</B></td></tr><tr><td href='ub1bL33C23' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL33C23</font></td></tr><tr><td align='left'>schema:propertyID</td><td align='left'>&quot;BusinessIdYelp&quot;</td></tr><tr><td align='left'>schema:value</td><td align='left'>&quot;SLaObsnAt2QJotQnhhbCIA&quot;</td></tr></table> > ] 
+# ub1bL26C28 node9
+node9 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL26C28</B></td></tr><tr><td href='ub1bL26C28' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL26C28</font></td></tr><tr><td align='left'>schema:author</td><td align='left'>&quot;Yelp&quot;</td></tr><tr><td align='left'>schema:ratingValue</td><td align='left'>&quot;3.0&quot;^^xsd:decimal</td></tr><tr><td align='left'>schema:reviewCount</td><td align='left'>&quot;12.0&quot;^^xsd:decimal</td></tr></table> > ] 
+# ub1bL44C20 node17
+node17 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL44C20</B></td></tr><tr><td href='ub1bL44C20' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL44C20</font></td></tr><tr><td align='left'>schema:addressLocalitly</td><td align='left'>&quot;Madison&quot;@en</td></tr><tr><td align='left'>schema:addressRegion</td><td align='left'>&quot;WI&quot;</td></tr><tr><td align='left'>schema:postalCode</td><td align='left'>&quot;53713&quot;</td></tr><tr><td align='left'>schema:streetAddress</td><td align='left'>&quot;1919 Alliant Energy Center Way&quot;@en</td></tr></table> > ] 
+# ub1bL11C31 node3
+node3 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL11C31</B></td></tr><tr><td href='ub1bL11C31' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL11C31</font></td></tr><tr><td align='left'>schema:name</td><td align='left'>&quot;category&quot;</td></tr><tr><td align='left'>schema:value</td><td align='left'>&quot;WaterHeaterInstallation/Repair&quot;</td></tr></table> > ] 
+# ub1bL40C31 node18
+node18 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL40C31</B></td></tr><tr><td href='ub1bL40C31' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL40C31</font></td></tr><tr><td align='left'>schema:name</td><td align='left'>&quot;category&quot;</td></tr><tr><td align='left'>schema:value</td><td align='left'>&quot;EventPlanningAndService&quot;</td></tr></table> > ] 
+# ub1bL42C9 node23
+node23 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL42C9</B></td></tr><tr><td href='ub1bL42C9' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL42C9</font></td></tr><tr><td align='left'>schema:name</td><td align='left'>&quot;category&quot;</td></tr><tr><td align='left'>schema:value</td><td align='left'>&quot;VenuesAndEventSpace&quot;</td></tr></table> > ] 
+# https://foursquare.com/v/compound/4f4969cbe4b0156c2fb87673 node24
+node24 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>f4969cbe4b0156c2fb87673</B></td></tr><tr><td href='https://foursquare.com/v/compound/4f4969cbe4b0156c2fb87673' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>https://foursquare.com/v/compound/4f4969cbe4b0156c2fb87673</font></td></tr></table> > ] 
+# ub1bL13C9 node2
+node2 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL13C9</B></td></tr><tr><td href='ub1bL13C9' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL13C9</font></td></tr><tr><td align='left'>schema:name</td><td align='left'>&quot;category&quot;</td></tr><tr><td align='left'>schema:value</td><td align='left'>&quot;Plumbing&quot;</td></tr></table> > ] 
+# http://schema.org/LocalBusiness node8
+node8 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>LocalBusiness</B></td></tr><tr><td href='http://schema.org/LocalBusiness' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://schema.org/LocalBusiness</font></td></tr></table> > ] 
+# http://yelp.com/biz/AAA-City-Plumbing-Charlotte node4
+node4 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>AAA-City-Plumbing-Charlotte</B></td></tr><tr><td href='http://yelp.com/biz/AAA-City-Plumbing-Charlotte' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://yelp.com/biz/AAA-City-Plumbing-Charlotte</font></td></tr><tr><td align='left'>schema:name</td><td align='left'>&quot;AAA City Plumbing&quot;@en</td></tr></table> > ] 
+# http://schema.org/GeoCoordinates node1
+node1 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>GeoCoordinates</B></td></tr><tr><td href='http://schema.org/GeoCoordinates' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://schema.org/GeoCoordinates</font></td></tr></table> > ] 
+# http://schema.org/PropertyValue node15
+node15 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>PropertyValue</B></td></tr><tr><td href='http://schema.org/PropertyValue' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://schema.org/PropertyValue</font></td></tr></table> > ] 
+# http://schema.org/AggregateRating node10
+node10 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>AggregateRating</B></td></tr><tr><td href='http://schema.org/AggregateRating' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>http://schema.org/AggregateRating</font></td></tr></table> > ] 
+# ub1bL56C23 node11
+node11 [ shape=none, color=black label=< <table color='#666666' cellborder='0' cellspacing='0' border='1'><tr><td colspan='2' bgcolor='grey'><B>ub1bL56C23</B></td></tr><tr><td href='ub1bL56C23' bgcolor='#eeeeee' colspan='2'><font point-size='10' color='#6666ff'>ub1bL56C23</font></td></tr><tr><td align='left'>schema:propertyID</td><td align='left'>&quot;BusinessIdYelp&quot;</td></tr><tr><td align='left'>schema:value</td><td align='left'>&quot;eaP5nlNM-dzl9USRYlootw&quot;</td></tr></table> > ] 
+}
