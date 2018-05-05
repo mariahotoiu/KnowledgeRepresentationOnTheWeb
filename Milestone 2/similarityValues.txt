@@ -2,3 +2,4 @@ len(union), len(intersect), similarity values:
 -dbo:Restaurant schema:FastFoodRestaurant ->  61076, 1242, 0.0203287696569
 -dbo:Restaurant schema:LocalBusiness -> 205179, 9071, 0.0442082278946
 -acco:Accommodation schema:Hotel -> 15135, 1796, 0.118638913475
+-http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest schema:LocalBusiness -> 197126, 6918, 0.0350922759475
