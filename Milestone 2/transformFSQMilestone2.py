@@ -14,8 +14,13 @@ from rdflib import Graph, Namespace, URIRef, Literal, XSD, RDF, BNode
 root = 'D:\Cursuri Master\Knowledge Representation on the Web\FSQ'
 
 
+try:
+	venues = pd.read_csv(os.path.join(root,'venues.txt'), sep="\t", header=None)
+except:
+	root = 'D:\Users\Thomas\Documents\GitHub\dataset_TIST2015'
+	venues = pd.read_csv(os.path.join(root,'venues.txt'), sep="\t", header=None)
 
-venues = pd.read_csv(os.path.join(root,'venues.txt'), sep="\t", header=None)
+
 venues.columns = ['BusinessIdFSQ', 'Latitude', 'Longitude', 'CategoryFSQ', 'Country']
    
 venuesIT = venues[venues['Country'] == 'IT']
