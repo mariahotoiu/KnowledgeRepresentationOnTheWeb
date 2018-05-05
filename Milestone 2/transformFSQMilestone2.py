@@ -31,10 +31,10 @@ venues = pd.concat(venuesArr)
 
 
 root2 = 'D:\Cursuri Master\Knowledge Representation on the Web'
-with open(os.path.join(root2,'schemaTypes.txt'), "r") as word_list:
+with open('schemaTypes.txt', "r") as word_list:
     schemaTypes = word_list.read().split('\n')
 
-with open(os.path.join(root2,'schemaSubtypes.txt'), "r") as word_list:
+with open('schemaSubtypes.txt', "r") as word_list:
     schemaSubTypes = word_list.read().split('\n')
 
 
