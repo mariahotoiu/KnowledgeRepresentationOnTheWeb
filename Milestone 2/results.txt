@@ -1,0 +1,17 @@
+tourpedia, foursquare, len(union), len(intersect), Jaccard, correctedJacc 
+http://dbpedia.org/ontology/Restaurant, http://schema.org/FastFoodRestaurant, 61076, 1242, 0.0203353199293, 0.0203287696569
+http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation, http://schema.org/Hostel, 10923, 200, 0.0183099880985, 0.0182733314289
+http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation, http://schema.org/Motel, 10657, 22, 0.00206437083607, 0.00202648925389
+http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation, http://schema.org/Hotel, 15135, 1796, 0.118665345226, 0.118638913475
+http://purl.org/acco/ns#Accommodation, http://schema.org/Hostel, 10923, 200, 0.0183099880985, 0.0182733314289
+http://purl.org/acco/ns#Accommodation, http://schema.org/Motel, 10657, 22, 0.00206437083607, 0.00202648925389
+http://purl.org/acco/ns#Accommodation, http://schema.org/Hotel, 15135, 1796, 0.118665345226, 0.118638913475
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/NightClub, 46386, 0, 0.0, -0.0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/Casino, 44931, 0, 0.0, -0.0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/AmusementPark, 47227, 3, 6.35229847333e-05, 5.43978341994e-05
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/NightClub, 55898, 278, 0.0049733443057, 0.00496618325907
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/Casino, 54706, 15, 0.000274192958725, 0.000266780965878
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/AmusementPark, 56321, 699, 0.0124110012251, 0.0124038970452
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInteres, http://schema.org/LocalBusiness, 159283, 0, 0, 0
+http://dbpedia.org/ontology/Restaurant, http://schema.org/LocalBusiness, 205179, 9071, 0.0442101774548, 0.0442082278946
+http://purl.org/acco/ns#Accommodation, http://schema.org/LocalBusiness, 169753, 111, 0.000653891241981, 0.000651530616074
