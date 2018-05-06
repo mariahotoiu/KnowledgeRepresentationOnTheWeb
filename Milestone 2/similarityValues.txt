@@ -1,5 +1,11 @@
-len(union), len(intersect), correctedJacc, Jaccard, unionGeo, intersectGeo, JaccGeo:
--dbo:Restaurant schema:FastFoodRestaurant ->  61076, 1242, 0.0203287696569, 0.0203353199292685
--dbo:Restaurant schema:LocalBusiness -> 205179, 9071, 0.0442082278946, 0.0442101774548078
--acco:Accommodation schema:Hotel -> 15135, 1796, 0.118638913475, 0.1186653452262967, 38622, 280, 0.0072497540262
--http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest schema:LocalBusiness -> 197126, 6918, 0.0350922759475, 0.0350943051652243
+len(union), len(intersect), Jaccard, unionGeo, intersectGeo, JaccGeo:
+-dbo:Restaurant schema:FastFoodRestaurant ->  61076, 1242, 0.0203353199292685
+-dbo:Restaurant schema:LocalBusiness -> 205179, 9071, 0.0442101774548078
+-acco:Accommodation schema:Hotel -> 15135, 1796, 0.1186653452262967, 38622, 280, 0.0072497540262
+-http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest schema:LocalBusiness -> 197126, 6918, 0.0350943051652243
+-dbo:Restaurant schema:BarOrPub -> 64613, 351, 0.0054323433364803
+-gr:ProductOrService schema:BarOrPub -> 75190, 355, 0.0047213725229419
+-gr:ProductOrService schema:LocalBusiness -> 215649, 9182, 0.0425784492392731
+
+dbo:Restaurant: 54967, 158325
+gr:ProductOrService 65548, 190879
