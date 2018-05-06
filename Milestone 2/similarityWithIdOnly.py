@@ -55,14 +55,17 @@ def similarity(c1,c2):
     results = sparql.query().convert()
     subjectsFsq = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
     idsFsq = [results["results"]["bindings"][ii]["id"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
-    
+    print(len(idsFsq))
+
+    if len(idsFsq) == 0 or len(subjectsTp) == 0:
+        return len(idsFsq) + len(subjectsTp) , 0, 0, 0
     # Set the intersection and the union
     intersect = []
     union = []
-    
+
     # Loop through all values
+    idTp = 0
     for sTp, pageTp in zip(subjectsTp, pagesTp):
-            idTp = 0
             # Append the elements not yet in union
             if sTp not in union:
                 union.append(sTp)
@@ -80,8 +83,8 @@ def similarity(c1,c2):
     # Calculate the union and intersect.
     union1 = len(set(union)) + len(set(subjectsFsq))
     intersect1 = len(set(intersect))
-    print (union1,intersect1)
-    return sqrt(intersect1 * (intersect1 - 0.8)) / union1  
+    return union1, intersect1, intersect1/float(union1), sqrt(intersect1 * (intersect1 - 0.8)) / union1
 
-# Print the similarity
-print similarity('http://dbpedia.org/ontology/Restaurant', 'http://schema.org/LocalBusiness')
+# # Print the similarity
+# print similarity('http://dbpedia.org/ontology/Restaurant', 'http://schema.org/LocalBusiness')
+

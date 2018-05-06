@@ -7,7 +7,7 @@ Created on Sat May 05 15:19:51 2018
 
 from math import sin, cos, sqrt, atan2, radians
 from SPARQLWrapper import SPARQLWrapper, JSON
-
+import os
 
 def getDistance(p1, p2):
         # approximate radius of earth in km
@@ -29,24 +29,13 @@ def getDistance(p1, p2):
 
 
 def similarity(c1,c2):
-    sparql = SPARQLWrapper('https://api.demo.triply.cc/datasets/wouter/tourpedia/services/tourpedia/sparql')
-    sparql.setQuery("""PREFIX ns: <http://www.w3.org/2006/vcard/ns#>
-                    PREFIX dbo: <http://dbpedia.org/ontology/>
 
-                SELECT ?lat, ?long, ?s, ?page
-                WHERE {
-                        ?s ns:latitude ?lat . 
-                        ?s ns:longitude ?long .
-                        ?s dbo:wikiPageExternalLink ?page .
-                        ?s a <""" + c1 + """> }""") 
-    sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
-    subjectsTp = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
-    latitudesTp = [results["results"]["bindings"][ii]["lat"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
-    longitudesTp = [results["results"]["bindings"][ii]["long"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
-    pagesTp = [results["results"]["bindings"][ii]["page"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
-    
+    # locate the Foursquare database.
     sparql = SPARQLWrapper("http://localhost:5820/myDB/query")
+
+    # Check if database can be called.
+    if os.environ['USERNAME'] == "thoma":
+        sparql = SPARQLWrapper("http://localhost:5820/FSQVenues/query")
     sparql.setQuery("""   
                         PREFIX schema: <http://schema.org/>
                         SELECT ?s ?lat ?long  ?id
@@ -69,6 +58,45 @@ def similarity(c1,c2):
     union = []
     inst1={}
     inst2={}
+
+    # Locate the tourpedia database. 
+    sparql = SPARQLWrapper('http://localhost:5820/tourPedia/query')
+
+    # Check if the database can be contacted else use different location of the database.
+    if os.environ['USERNAME'] == "thoma":
+        sparql = SPARQLWrapper('http://localhost:5820/tourPedia/query')
+
+
+    # sparql.setQuery("""PREFIX ns: <http://www.w3.org/2006/vcard/ns#>
+    #                 PREFIX dbo: <http://dbpedia.org/ontology/>
+
+    #             SELECT ?lat, ?long, ?s, ?page
+    #             WHERE {
+    #                     ?s ns:latitude ?lat . 
+    #                     ?s ns:longitude ?long .
+    #                     ?s dbo:wikiPageExternalLink ?page .
+    #                     ?s a <""" + c1 + """> }""") 
+
+
+    sparql.setQuery("""PREFIX ns: <http://www.w3.org/2006/vcard/ns#>
+                    PREFIX dbo: <http://dbpedia.org/ontology/>
+
+                SELECT ?s ?page ?lat ?long
+                WHERE { ?s ns:latitude ?lat . 
+                        ?s ns:longitude ?long .
+                		?s a <""" + c1 + """> .
+                        ?s dbo:wikiPageExternalLink ?page .
+                        FILTER CONTAINS(STR(?page),'foursquare')
+                         }""") 
+
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    subjectsTp = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
+    latitudesTp = [results["results"]["bindings"][ii]["lat"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
+    longitudesTp = [results["results"]["bindings"][ii]["long"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
+    pagesTp = [results["results"]["bindings"][ii]["page"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
+    
+
         
     for sTp, latTp, longTp, pageTp in zip(subjectsTp,latitudesTp, longitudesTp,pagesTp):
             idTp = 0
@@ -102,4 +130,3 @@ def similarity(c1,c2):
     union = len(set(union))
     intersect = len(set(intersect))
     return intersect / union   
-
