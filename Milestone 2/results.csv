@@ -1,0 +1,18 @@
+tourpedia, foursquare, len(union), len(intersect), Jaccard, correctedJacc, Dice, overlap Coef, len(union) geo, len(intersect)  geo, Jaccard  geo, correctedJacc  geo , Dice geo, overlap Coef geo
+http://dbpedia.org/ontology/Restaurant, http://schema.org/Restaurant, 54967, 0, 0, 0, 0, 0, 54967, 0, 0, 0, 0, 0
+http://dbpedia.org/ontology/Restaurant, http://schema.org/FastFoodRestaurant, 61076, 1242, 0.0203353199293, 0.0203287696569, 6109, 0, 54967, 1242, 0.0225953754071, 0.0225880971413, 6109, 0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation, http://schema.org/Hostel, 10923, 200, 0.0183099880985, 0.0182733314289, 342, 0, 10581, 200, 0.0189018051224, 0.0188639636327, 342, 0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation, http://schema.org/Motel, 10657, 22, 0.00206437083607, 0.00202648925389, 76, 0, 10581, 22, 0.00207919856346, 0.00204104488977, 76, 0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation, http://schema.org/Hotel, 15135, 1796, 0.118665345226, 0.118638913475, 4554, 0, 10581, 1796, 0.169738209999, 0.169700402178, 4554, 0
+http://purl.org/acco/ns#Accommodation, http://schema.org/Hostel, 10923, 200, 0.0183099880985, 0.0182733314289, 342, 0, 10581, 200, 0.0189018051224, 0.0188639636327, 342, 0
+http://purl.org/acco/ns#Accommodation, http://schema.org/Motel, 10657, 22, 0.00206437083607, 0.00202648925389, 76, 0, 10581, 22, 0.00207919856346, 0.00204104488977, 76, 0
+http://purl.org/acco/ns#Accommodation, http://schema.org/Hotel, 15135, 1796, 0.118665345226, 0.118638913475, 4554, 0, 10581, 1796, 0.169738209999, 0.169700402178, 4554, 0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/NightClub, 46386, 0, 0.0, -0.0, 1625, 0, 44761, 0, 0.0, -0.0, 1625, 0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/Casino, 44931, 0, 0.0, -0.0, 170, 0, 44761, 0, 0.0, -0.0, 170, 0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/AmusementPark, 47227, 3, 6.35229847333e-05, 5.43978341994e-05, 2466, 0, 44761, 3, 6.70226313085e-05, 5.73947524795e-05, 2466, 0
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/NightClub, 55898, 278, 0.0049733443057, 0.00496618325907, 1347, 0, 54551, 278, 0.00509614855823, 0.00508881068753, 1347, 0
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/Casino, 54706, 15, 0.000274192958725, 0.000266780965878, 155, 0, 54551, 15, 0.000274972044509, 0.00026753899139, 155, 0
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/AmusementPark, 56321, 699, 0.0124110012251, 0.0124038970452, 1770, 0, 54551, 699, 0.0128136972741, 0.012806362587, 1770, 0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInteres, http://schema.org/LocalBusiness, 159283, 0, 0, 0, 0, 0, 159283, 0, 0, 0, 0, 0
+http://dbpedia.org/ontology/Restaurant, http://schema.org/LocalBusiness, 205179, 9071, 0.0442101774548, 0.0442082278946, 150212, 0, 54967, 9071, 0.1650262885, 0.165019011246, 150212, 0
+http://purl.org/acco/ns#Accommodation, http://schema.org/LocalBusiness, 169753, 111, 0.000653891241981, 0.000651530616074, 159172, 0, 10581, 111, 0.0104905018429, 0.0104526298715, 159172, 0
