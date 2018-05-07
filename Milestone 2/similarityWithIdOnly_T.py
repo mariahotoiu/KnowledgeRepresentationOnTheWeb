@@ -33,7 +33,6 @@ def similarity(c1,c2):
     subjectsTp = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
     pagesTp = [results["results"]["bindings"][ii]["page"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
     # Print the total amount of subjects
-    print(len(subjectsTp))
 
     # locate the Foursquare database.
     sparql = SPARQLWrapper("http://localhost:5820/myDB/query")
@@ -55,7 +54,6 @@ def similarity(c1,c2):
     results = sparql.query().convert()
     subjectsFsq = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
     idsFsq = [results["results"]["bindings"][ii]["id"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
-    print(len(idsFsq))
 
     if len(subjectsFsq) == 0 or len(subjectsTp) == 0:
         return len(subjectsFsq) + len(subjectsTp) , 0, 0, 0, 0, 0
@@ -83,7 +81,7 @@ def similarity(c1,c2):
     # Calculate the union and intersect.
     union1 = len(set(union)) + len(set(subjectsFsq))
     intersect1 = len(set(intersect))
-    return union1, intersect1, intersect1/float(union1), sqrt(intersect1 * (intersect1 - 0.8)) / union1, 2*intersect1/ (len(set(subjectsTp)) + len(set(subjectsFsq))), intersect1/min(len(subjectsFsq), len(subjectsTp))
+    return union1, intersect1, intersect1/float(union1), sqrt(intersect1 * (intersect1 - 0.8)) / union1, 2* float(intersect1)/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect1)/min(len(subjectsFsq), len(subjectsTp))
 # # Print the similarity
 # print similarity('http://dbpedia.org/ontology/Restaurant', 'http://schema.org/LocalBusiness')
 

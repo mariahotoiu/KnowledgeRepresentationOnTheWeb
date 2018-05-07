@@ -31,6 +31,7 @@ venuesFR = venues[venues['Country'] == 'FR']
 venuesAE = venues[venues['Country'] == 'AE']
 venuesES = venues[venues['Country'] == 'ES']
 
+
 venuesArr = [venuesIT, venuesDE, venuesGB, venuesFR, venuesAE, venuesES, venuesNL]
 venues = pd.concat(venuesArr)
 
