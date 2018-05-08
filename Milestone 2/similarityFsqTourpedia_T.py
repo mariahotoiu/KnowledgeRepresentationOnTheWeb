@@ -8,6 +8,7 @@ Created on Sat May 05 15:19:51 2018
 from math import sin, cos, sqrt, atan2, radians
 from SPARQLWrapper import SPARQLWrapper, JSON
 import os
+import random
 
 def getDistance(p1, p2):
         # approximate radius of earth in km
@@ -29,6 +30,34 @@ def getDistance(p1, p2):
 
 
 def similarity(c1,c2):
+
+    # Locate the tourpedia database. 
+    sparql = SPARQLWrapper('http://localhost:5820/tourPedia/query')
+
+    # Check if the database can be contacted else use different location of the database.
+    if os.environ['USERNAME'] == "thoma":
+        sparql = SPARQLWrapper('http://localhost:5820/tourPedia/query')
+
+
+
+    sparql.setQuery("""PREFIX ns: <http://www.w3.org/2006/vcard/ns#>
+                    PREFIX dbo: <http://dbpedia.org/ontology/>
+
+                SELECT ?s ?page ?lat ?long
+                WHERE { ?s ns:latitude ?lat . 
+                        ?s ns:longitude ?long .
+                        ?s a <""" + c1 + """> .
+                        ?s dbo:wikiPageExternalLink ?page .
+                        FILTER CONTAINS(STR(?page),'foursquare')
+                         }""") 
+
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    subjectsTp = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
+    latitudesTp = [results["results"]["bindings"][ii]["lat"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
+    longitudesTp = [results["results"]["bindings"][ii]["long"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
+    pagesTp = [results["results"]["bindings"][ii]["page"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
+
 
     # locate the Foursquare database.
     sparql = SPARQLWrapper("http://localhost:5820/myDB/query")
@@ -59,37 +88,11 @@ def similarity(c1,c2):
     inst1={}
     inst2={}
 
-    # Locate the tourpedia database. 
-    sparql = SPARQLWrapper('http://localhost:5820/tourPedia/query')
-
-    # Check if the database can be contacted else use different location of the database.
-    if os.environ['USERNAME'] == "thoma":
-        sparql = SPARQLWrapper('http://localhost:5820/tourPedia/query')
-
-
-
-    sparql.setQuery("""PREFIX ns: <http://www.w3.org/2006/vcard/ns#>
-                    PREFIX dbo: <http://dbpedia.org/ontology/>
-
-                SELECT ?s ?page ?lat ?long
-                WHERE { ?s ns:latitude ?lat . 
-                        ?s ns:longitude ?long .
-                        ?s a <""" + c1 + """> .
-                        ?s dbo:wikiPageExternalLink ?page .
-                        FILTER CONTAINS(STR(?page),'foursquare')
-                         }""") 
-
-    sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
-    subjectsTp = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
-    latitudesTp = [results["results"]["bindings"][ii]["lat"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
-    longitudesTp = [results["results"]["bindings"][ii]["long"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
-    pagesTp = [results["results"]["bindings"][ii]["page"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
 
 
     
     if len(subjectsFsq) == 0 or len(subjectsTp) == 0:
-        return len(subjectsFsq) + len(subjectsTp) , 0, 0, 0, 0, 0
+        return len(set(subjectsTp)) , len(set(subjectsFsq)),len(subjectsFsq) + len(subjectsTp) , 0, 0, 0, 0, 0, []
 
         
     for sTp, latTp, longTp, pageTp in zip(subjectsTp,latitudesTp, longitudesTp,pagesTp):
@@ -121,11 +124,37 @@ def similarity(c1,c2):
                                 if d <= 0.05:
                                     intersect.append(sTp)
                                                     
-    union = len(set(union))
     intersect = len(set(intersect))
-    return union , intersect, intersect / float(union), sqrt(intersect * (intersect - 0.8)) / union, 2*float(intersect)/ len(set(subjectsTp)) + len(set(subjectsFsq)), float(intersect)/min(len(set(subjectsFsq)), len(set(subjectsTp)))
+    union = len(set(subjectsFsq)) + len(set(subjectsTp)) - intersect
+    return len(set(subjectsTp)),  len(set(subjectsFsq)), union , intersect, intersect / float(union), sqrt(intersect * (intersect - 0.8)) / union, (2* float(intersect))/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect)/min(len(set(subjectsFsq)), len(set(subjectsTp)))
 
 def similarity_geo_only(c1,c2):
+
+    # Locate the tourpedia database. 
+    sparql = SPARQLWrapper('http://localhost:5820/tourPedia/query')
+
+    # Check if the database can be contacted else use different location of the database.
+    if os.environ['USERNAME'] == "thoma":
+        sparql = SPARQLWrapper('http://localhost:5820/tourPedia/query')
+
+
+
+    sparql.setQuery("""PREFIX ns: <http://www.w3.org/2006/vcard/ns#>
+                    PREFIX dbo: <http://dbpedia.org/ontology/>
+
+                SELECT ?s ?page ?lat ?long
+                WHERE { ?s ns:latitude ?lat . 
+                        ?s ns:longitude ?long .
+                        ?s a <""" + c1 + """> .
+                        ?s dbo:wikiPageExternalLink ?page .
+                         }""") 
+
+    sparql.setReturnFormat(JSON)
+    results = sparql.query().convert()
+    subjectsTp = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
+    latitudesTp = [results["results"]["bindings"][ii]["lat"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
+    longitudesTp = [results["results"]["bindings"][ii]["long"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
+    pagesTp = [results["results"]["bindings"][ii]["page"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
 
     # locate the Foursquare database.
     sparql = SPARQLWrapper("http://localhost:5820/myDB/query")
@@ -156,49 +185,22 @@ def similarity_geo_only(c1,c2):
     inst1={}
     inst2={}
 
-    # Locate the tourpedia database. 
-    sparql = SPARQLWrapper('http://localhost:5820/tourPedia/query')
 
-    # Check if the database can be contacted else use different location of the database.
-    if os.environ['USERNAME'] == "thoma":
-        sparql = SPARQLWrapper('http://localhost:5820/tourPedia/query')
-
-
-
-    sparql.setQuery("""PREFIX ns: <http://www.w3.org/2006/vcard/ns#>
-                    PREFIX dbo: <http://dbpedia.org/ontology/>
-
-                SELECT ?s ?page ?lat ?long
-                WHERE { ?s ns:latitude ?lat . 
-                        ?s ns:longitude ?long .
-                        ?s a <""" + c1 + """> .
-                        ?s dbo:wikiPageExternalLink ?page .
-                        FILTER CONTAINS(STR(?page),'foursquare')
-                         }""") 
-
-    sparql.setReturnFormat(JSON)
-    results = sparql.query().convert()
-    subjectsTp = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
-    latitudesTp = [results["results"]["bindings"][ii]["lat"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
-    longitudesTp = [results["results"]["bindings"][ii]["long"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
-    pagesTp = [results["results"]["bindings"][ii]["page"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
 
 
     
     if len(subjectsFsq) == 0 or len(subjectsTp) == 0:
-        return len(subjectsFsq) + len(subjectsTp) , 0, 0, 0, 0, 0
+        return len(set(subjectsTp)) , len(set(subjectsFsq)), len(subjectsFsq) + len(subjectsTp) , 0, 0, 0, 0, 0, []
 
-    union += subjectsTp
-    union += subjectsFsq
+    list_of_matches = []
     
-    print(len(subjectsTp))
-
+    max_value = len(subjectsTp)
     i = 1.0
-    for sTp, latTp, longTp, pageTp in zip(subjectsTp,latitudesTp, longitudesTp,pagesTp):
-        if i % 100 == 0:
-            print(i/len(subjectsTp))
-        i+= 1      
-        for sFsq, latFsq, longFsq in zip(subjectsFsq, latitudesFsq, longitudesFsq):
+    for sTp, latTp, longTp, page in zip(subjectsTp, latitudesTp, longitudesTp, pagesTp):
+        if i % 5000 == 0:
+            print(i/max_value)
+        i+= 1
+        for sFsq, latFsq, longFsq, ids in zip(subjectsFsq, latitudesFsq, longitudesFsq, idsFsq):
             
             if round(float(latFsq),3) == round(float(latTp),3) and round(float(longFsq),3) == round(float(longTp),3):
                 inst1=dict(zip(['latitude','longitude'],[latFsq,longFsq]))
@@ -206,12 +208,14 @@ def similarity_geo_only(c1,c2):
                 d = getDistance(inst1,inst2)
                 if d <= 0.05:
                     intersect.append(sTp)
+                    list_of_matches.append(["TourPedia:", page, "Foursquare:", ids])
                     break
 
 
 
 
 
-    union = len(set(union))
+    
     intersect = len(set(intersect))
-    return union , intersect, intersect / float(union), sqrt(intersect * (intersect - 0.8)) / union, 2* float(intersect)/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect)/min(len(set(subjectsFsq)), len(set(subjectsTp)))
+    union = len(set(subjectsFsq)) + len(set(subjectsTp)) - intersect
+    return len(set(subjectsTp)),  len(set(subjectsFsq)), union , intersect, intersect / float(union), sqrt(intersect * (intersect - 0.8)) / union, (2* float(intersect))/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect)/min(len(set(subjectsFsq)), len(set(subjectsTp))), list_of_matches

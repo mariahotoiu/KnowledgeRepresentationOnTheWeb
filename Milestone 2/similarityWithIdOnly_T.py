@@ -56,13 +56,15 @@ def similarity(c1,c2):
     idsFsq = [results["results"]["bindings"][ii]["id"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
 
     if len(subjectsFsq) == 0 or len(subjectsTp) == 0:
-        return len(subjectsFsq) + len(subjectsTp) , 0, 0, 0, 0, 0
+        return len(set(subjectsTp)) , len(set(subjectsFsq)),len(subjectsFsq) + len(subjectsTp) , 0, 0, 0, 0, 0, []
     # Set the intersection and the union
     intersect = []
     union = []
 
     # Loop through all values
     idTp = 0
+
+    list_of_matches = []
     for sTp, pageTp in zip(subjectsTp, pagesTp):
             # Append the elements not yet in union
             if sTp not in union:
@@ -75,13 +77,13 @@ def similarity(c1,c2):
             if idTp in idsFsq:
                     intersect.append(sTp)
                     index = idsFsq.index(idTp)
+                    list_of_matches.append(["TourPedia:", pageTp, "Foursquare:", idsFsq[index]])
                     idsFsq.remove(idsFsq[index])
                     subjectsFsq.remove(subjectsFsq[index])                    
         
     # Calculate the union and intersect.
-    union1 = len(set(union)) + len(set(subjectsFsq))
     intersect1 = len(set(intersect))
-    return union1, intersect1, intersect1/float(union1), sqrt(intersect1 * (intersect1 - 0.8)) / union1, 2* float(intersect1)/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect1)/min(len(subjectsFsq), len(subjectsTp))
-# # Print the similarity
-# print similarity('http://dbpedia.org/ontology/Restaurant', 'http://schema.org/LocalBusiness')
+    union1 = len(set(subjectsFsq)) + len(set(subjectsTp)) - intersect1
+    return len(set(subjectsTp)),  len(set(subjectsFsq)), union1, intersect1, intersect1/float(union1), sqrt(intersect1 * (intersect1 - 0.8)) / union1, (2* float(intersect1))/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect1)/min(len(subjectsFsq), len(subjectsTp)), list_of_matches
+
 
