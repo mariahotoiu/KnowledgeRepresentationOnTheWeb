@@ -58,6 +58,7 @@ def similarity(c1,c2):
     longitudesTp = [results["results"]["bindings"][ii]["long"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
     pagesTp = [results["results"]["bindings"][ii]["page"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
 
+    c1_length = len(set(subjectsTp)) 
 
     # locate the Foursquare database.
     sparql = SPARQLWrapper("http://localhost:5820/myDB/query")
@@ -88,7 +89,7 @@ def similarity(c1,c2):
     inst1={}
     inst2={}
 
-
+    c2_length = len(set(subjectsFsq)) 
 
     
     if len(subjectsFsq) == 0 or len(subjectsTp) == 0:
@@ -126,7 +127,7 @@ def similarity(c1,c2):
                                                     
     intersect = len(set(intersect))
     union = len(set(subjectsFsq)) + len(set(subjectsTp)) - intersect
-    return len(set(subjectsTp)),  len(set(subjectsFsq)), union , intersect, intersect / float(union), sqrt(intersect * (intersect - 0.8)) / union, (2* float(intersect))/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect)/min(len(set(subjectsFsq)), len(set(subjectsTp)))
+    return c1_length,  c2_length, union , intersect, intersect / float(union), sqrt(intersect * (intersect - 0.8)) / union, (2* float(intersect))/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect)/min(c1_length, c2_length)
 
 def similarity_geo_only(c1,c2):
 
@@ -173,7 +174,8 @@ def similarity_geo_only(c1,c2):
                                 ?s schema:identifier ?ident .
                                 ?ident schema:value ?id
                                 }""")
-                        
+
+                  
     sparql.setReturnFormat(JSON)
     results = sparql.query().convert()
     subjectsFsq = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
@@ -185,21 +187,20 @@ def similarity_geo_only(c1,c2):
     inst1={}
     inst2={}
 
-
-
+    c1_length = len(set(subjectsTp)) 
+    c2_length = len(set(subjectsFsq))      
 
     
     if len(subjectsFsq) == 0 or len(subjectsTp) == 0:
         return len(set(subjectsTp)) , len(set(subjectsFsq)), len(subjectsFsq) + len(subjectsTp) , 0, 0, 0, 0, 0, []
 
     list_of_matches = []
-    
-    max_value = len(subjectsTp)
-    i = 1.0
+    print(c1_length)
+    i = 0.0
     for sTp, latTp, longTp, page in zip(subjectsTp, latitudesTp, longitudesTp, pagesTp):
-        if i % 5000 == 0:
-            print(i/max_value)
-        i+= 1
+        i += 1
+        print(i/c1_length)
+
         for sFsq, latFsq, longFsq, ids in zip(subjectsFsq, latitudesFsq, longitudesFsq, idsFsq):
             
             if round(float(latFsq),3) == round(float(latTp),3) and round(float(longFsq),3) == round(float(longTp),3):
@@ -209,6 +210,9 @@ def similarity_geo_only(c1,c2):
                 if d <= 0.05:
                     intersect.append(sTp)
                     list_of_matches.append(["TourPedia:", page, "Foursquare:", ids])
+                    index = idsFsq.index(ids)
+                    idsFsq.remove(idsFsq[index])
+                    subjectsFsq.remove(subjectsFsq[index])         
                     break
 
 
@@ -217,5 +221,5 @@ def similarity_geo_only(c1,c2):
 
     
     intersect = len(set(intersect))
-    union = len(set(subjectsFsq)) + len(set(subjectsTp)) - intersect
-    return len(set(subjectsTp)),  len(set(subjectsFsq)), union , intersect, intersect / float(union), sqrt(intersect * (intersect - 0.8)) / union, (2* float(intersect))/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect)/min(len(set(subjectsFsq)), len(set(subjectsTp))), list_of_matches
+    union = len(set(subjectsFsq)) + len(set(subjectsTp))
+    return c1_length, c2_length, union, intersect, intersect / float(union), sqrt(intersect * (intersect - 0.8)) / union, (2* float(intersect))/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect)/min(c1_length, c2_length), list_of_matches

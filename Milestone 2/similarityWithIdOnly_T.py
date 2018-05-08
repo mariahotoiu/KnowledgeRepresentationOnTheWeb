@@ -32,6 +32,7 @@ def similarity(c1,c2):
     results = sparql.query().convert()
     subjectsTp = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
     pagesTp = [results["results"]["bindings"][ii]["page"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
+    c1_length = len(set(subjectsTp)) 
     # Print the total amount of subjects
 
     # locate the Foursquare database.
@@ -54,6 +55,7 @@ def similarity(c1,c2):
     results = sparql.query().convert()
     subjectsFsq = [results["results"]["bindings"][ii]["s"]["value"] for ii in range(0,len(results["results"]["bindings"]))] 
     idsFsq = [results["results"]["bindings"][ii]["id"]["value"] for ii in range(0,len(results["results"]["bindings"]))]
+    c2_length = len(set(subjectsFsq)) 
 
     if len(subjectsFsq) == 0 or len(subjectsTp) == 0:
         return len(set(subjectsTp)) , len(set(subjectsFsq)),len(subjectsFsq) + len(subjectsTp) , 0, 0, 0, 0, 0, []
@@ -83,7 +85,7 @@ def similarity(c1,c2):
         
     # Calculate the union and intersect.
     intersect1 = len(set(intersect))
-    union1 = len(set(subjectsFsq)) + len(set(subjectsTp)) - intersect1
-    return len(set(subjectsTp)),  len(set(subjectsFsq)), union1, intersect1, intersect1/float(union1), sqrt(intersect1 * (intersect1 - 0.8)) / union1, (2* float(intersect1))/ (len(set(subjectsTp)) + len(set(subjectsFsq))), float(intersect1)/min(len(subjectsFsq), len(subjectsTp)), list_of_matches
+    union1 = len(set(subjectsFsq)) + len(set(subjectsTp))
+    return c1_length,  c2_length, union1, intersect1, intersect1/float(union1), sqrt(intersect1 * (intersect1 - 0.8)) / union1, (2* float(intersect1))/ (len(set(subjectsTp)) + len(set(subjectsFsq))),float(intersect1)/min(c1_length, c2_length), list_of_matches
 
 

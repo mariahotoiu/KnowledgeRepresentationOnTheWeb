@@ -1,0 +1,21 @@
+tourpedia, foursquare, setsize(tourpedia), setsize(FourSquare), len(union), len(intersect), Jaccard, correctedJacc, Dice, overlap Coef 
+http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation, http://schema.org/Hostel, 10581, 542, 10923, 200, 0.0183099880985, 0.0182733314289, 0.036619976197, 0.369003690037
+http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation, http://schema.org/Motel, 10581, 98, 10657, 22, 0.00206437083607, 0.00202648925389, 0.00412874167214, 0.224489795918
+http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation, http://schema.org/Hotel, 10581, 6350, 15135, 1796, 0.118665345226, 0.118638913475, 0.237330690453, 0.282834645669
+http://dbpedia.org/ontology/Restaurant, http://schema.org/Restaurant, 54967, 0, 54967, 0, 0, 0, 0, 0
+http://dbpedia.org/ontology/Restaurant, http://schema.org/FastFoodRestaurant, 54967, 7351, 61076, 1242, 0.0203353199293, 0.0203287696569, 0.0406706398585, 0.168956604544
+http://dbpedia.org/ontology/Restaurant, http://schema.org/CafeOrCoffeeShop, 54967, 3058, 57043, 982, 0.0172150833582, 0.0172080696755, 0.0344301667163, 0.321124918247
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/NightClub, 44761, 1625, 46386, 0, 0.0, -0.0, 0.0, 0.0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/Casino, 44761, 170, 44931, 0, 0.0, -0.0, 0.0, 0.0
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/AmusementPark, 44761, 2469, 47227, 3, 6.35229847333e-05, 5.43978341994e-05, 0.000127045969467, 0.00121506682868
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/Hospital, 44761, 1215, 45655, 321, 0.00703099331946, 0.00702222649146, 0.0140619866389, 0.264197530864
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/BarOrPub, 44761, 9997, 54758, 0, 0.0, -0.0, 0.0, 0.0
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/NightClub, 54551, 1625, 55898, 278, 0.0049733443057, 0.00496618325907, 0.0099466886114, 0.171076923077
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/Casino, 54551, 170, 54706, 15, 0.000274192958725, 0.000266780965878, 0.00054838591745, 0.0882352941176
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/AmusementPark, 54551, 2469, 56321, 699, 0.0124110012251, 0.0124038970452, 0.0248220024502, 0.283110571081
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/Hospital, 54551, 1215, 55766, 0, 0.0, -0.0, 0.0, 0.0
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/BarOrPub, 54551, 9997, 62499, 2049, 0.0327845245524, 0.0327781238252, 0.0655690491048, 0.204961488447
+http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest, http://schema.org/LocalBusiness, 44761, 159283, 197126, 6918, 0.0350943051652, 0.0350922759475, 0.0701886103304, 0.154554187797
+http://dbpedia.org/ontology/Restaurant, http://schema.org/LocalBusiness, 54967, 159283, 205179, 9071, 0.0442101774548, 0.0442082278946, 0.0884203549096, 0.1650262885
+http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/LocalBusiness, 54551, 159283, 207813, 6021, 0.0289731633728, 0.0289712385015, 0.0579463267457, 0.110373778666
+http://purl.org/goodrelations/v1#ProductOrService, http://schema.org/LocalBusiness, 65548, 159283, 215649, 9182, 0.0425784492393, 0.0425765943329, 0.0851568984785, 0.140080551657

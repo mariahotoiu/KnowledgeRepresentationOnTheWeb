@@ -15,29 +15,23 @@ print(args.geouser)
 
 
 
-
 if int(args.geouser) == 1:
 
     entire_list_matches = []
     print("Geo Only")
-    with open("results_geo.csv", "w") as results:
-        result = simGEO.similarity_geo_only("http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing","http://schema.org/AmusementPark")
-        linestr = "http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing, http://schema.org/AmusementPark"+ ", " + str(result[0]) + ", "+ str(result[1])+ ", "+ str(result[2])+ ", "+ str(result[3]) + ", "+ str(result[4]) + ", "+ str(result[5]) + ", "+ str(result[6]) + ", "+ str(result[7]) + "\n"
+    with open("results_geo_2.csv", "w") as results:
+
+        c1 = "http://dbpedia.org/ontology/Restaurant"
+        c2 = "http://schema.org/CafeOrCoffeeShop"
+        result = simGEO.similarity_geo_only(c1,c2)
+        linestr = c1+", " + c2 + ", " + str(result[0]) + ", "+ str(result[1])+ ", "+ str(result[2])+ ", "+ str(result[3]) + ", "+ str(result[4]) + ", "+ str(result[5]) + ", "+ str(result[6]) + ", "+ str(result[7]) + "\n"
         entire_list_matches.append(result[8])
         print(linestr)
         results.write(linestr)
-        result = simGEO.similarity_geo_only("http://dbpedia.org/ontology/Restaurant","http://schema.org/FastFoodRestaurant")
-        linestr = "http://dbpedia.org/ontology/Restaurant, http://schema.org/FastFoodRestaurant" + ", " + str(result[0]) + ", "+ str(result[1])+ ", "+ str(result[2])+ ", "+ str(result[3]) + ", "+ str(result[4]) + ", "+ str(result[5]) + ", "+ str(result[6]) + ", "+ str(result[7]) + "\n"
-        entire_list_matches.append(result[8])
-        print(linestr)
-        results.write(linestr)
-        result = simGEO.similarity_geo_only("http://dbpedia.org/ontology/Restaurant","http://schema.org/LocalBusiness")
-        linestr = "http://dbpedia.org/ontology/Restaurant, http://schema.org/LocalBusiness" + ", " + str(result[0]) + ", "+ str(result[1])+ ", "+ str(result[2])+ ", "+ str(result[3]) + ", "+ str(result[4]) + ", "+ str(result[5]) + ", "+ str(result[6]) + ", "+ str(result[7]) + "\n"
-        entire_list_matches.append(result[8])
-        print(linestr)
-        results.write(linestr)
-        result = simGEO.similarity_geo_only("http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation","http://schema.org/Hotel")
-        linestr = "http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation, http://schema.org/Hotel"+ ", " + str(result[0]) + ", "+ str(result[1])+ ", "+ str(result[2])+ ", "+ str(result[3]) + ", "+ str(result[4]) + ", "+ str(result[5]) + ", "+ str(result[6]) + ", "+ str(result[7]) + "\n"
+        c1 = "http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest"
+        c2 = "http://schema.org/Hospital"
+        result = simGEO.similarity_geo_only(c1,c2)
+        linestr = c1+", " + c2 + ", " + str(result[0]) + ", "+ str(result[1])+ ", "+ str(result[2])+ ", "+ str(result[3]) + ", "+ str(result[4]) + ", "+ str(result[5]) + ", "+ str(result[6]) + ", "+ str(result[7]) + "\n"
         entire_list_matches.append(result[8])
         print(linestr)
         results.write(linestr)
@@ -50,18 +44,18 @@ if int(args.geouser) == 1:
 
 else:
     print("ID and geo")
-    simIDonly = False
+    simIDonly = True
 
     entire_list_matches = []
     results_list = []
 
-    schema_types_fsq_food = ["http://schema.org/Restaurant", "http://schema.org/FastFoodRestaurant"]
+    schema_types_fsq_food = ["http://schema.org/Restaurant", "http://schema.org/FastFoodRestaurant","http://schema.org/CafeOrCoffeeShop"]
     schema_types_tourpedia_food = ["http://dbpedia.org/ontology/Restaurant"]
 
     schema_types_fsq_acc = ["http://schema.org/Hostel", "http://schema.org/Motel", "http://schema.org/Hotel" ]
     schema_types_tourpedia_acc = ["http://wafi.iit.cnr.it/angelica/Hontology.owl#Accommodation"]
 
-    schema_types_fsq_sight = ["http://schema.org/NightClub" , "http://schema.org/Casino", "http://schema.org/AmusementPark"]
+    schema_types_fsq_sight = ["http://schema.org/NightClub" , "http://schema.org/Casino", "http://schema.org/AmusementPark","http://schema.org/Hospital","http://schema.org/BarOrPub"]
     schema_types_tourpedia_sight = ["http://wafi.iit.cnr.it/angelica/Hontology.owl#PointsOfInterest","http://protege.cim3.net/file/pub/ontologies/travel/travel.owl#Sightseeing"]
 
     schema_types_fsq_loc = ["http://schema.org/LocalBusiness"]
